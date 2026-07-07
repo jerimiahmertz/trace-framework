@@ -1,6 +1,17 @@
 {
   "cases": 400,
   "events": 3096,
+  "open_cases_excluded": 0,
+  "data_quality": {
+    "rows": 3096,
+    "blank_case_rows": 0,
+    "duplicate_rows": 0,
+    "granularity": {
+      "second": 3096
+    },
+    "tied_pairs": 0,
+    "sequenced_pairs": 2696
+  },
   "activities": {
     "Referral Received": 400,
     "Insurance Verification": 486,
@@ -36,7 +47,8 @@
       ],
       "cases": 139,
       "share": 0.3475,
-      "median_cycle_seconds": 1432500.0
+      "median_cycle_seconds": 1432500.0,
+      "small_n": false
     },
     {
       "path": [
@@ -53,7 +65,8 @@
       ],
       "cases": 53,
       "share": 0.1325,
-      "median_cycle_seconds": 1733760.0
+      "median_cycle_seconds": 1733760.0,
+      "small_n": false
     },
     {
       "path": [
@@ -66,7 +79,8 @@
       ],
       "cases": 51,
       "share": 0.1275,
-      "median_cycle_seconds": 255600.0
+      "median_cycle_seconds": 255600.0,
+      "small_n": false
     },
     {
       "path": [
@@ -82,7 +96,8 @@
       ],
       "cases": 44,
       "share": 0.11,
-      "median_cycle_seconds": 1850520.0
+      "median_cycle_seconds": 1850520.0,
+      "small_n": false
     },
     {
       "path": [
@@ -92,7 +107,8 @@
       ],
       "cases": 25,
       "share": 0.0625,
-      "median_cycle_seconds": 578040.0
+      "median_cycle_seconds": 578040.0,
+      "small_n": false
     },
     {
       "path": [
@@ -106,7 +122,8 @@
       ],
       "cases": 24,
       "share": 0.06,
-      "median_cycle_seconds": 1473060.0
+      "median_cycle_seconds": 1473060.0,
+      "small_n": false
     },
     {
       "path": [
@@ -121,7 +138,8 @@
       ],
       "cases": 11,
       "share": 0.0275,
-      "median_cycle_seconds": 1874760.0
+      "median_cycle_seconds": 1874760.0,
+      "small_n": false
     },
     {
       "path": [
@@ -138,7 +156,8 @@
       ],
       "cases": 10,
       "share": 0.025,
-      "median_cycle_seconds": 1596060.0
+      "median_cycle_seconds": 1467660.0,
+      "small_n": false
     },
     {
       "path": [
@@ -157,7 +176,8 @@
       ],
       "cases": 9,
       "share": 0.0225,
-      "median_cycle_seconds": 2004240.0
+      "median_cycle_seconds": 2004240.0,
+      "small_n": false
     },
     {
       "path": [
@@ -175,7 +195,8 @@
       ],
       "cases": 7,
       "share": 0.0175,
-      "median_cycle_seconds": 2335500.0
+      "median_cycle_seconds": 2335500.0,
+      "small_n": true
     },
     {
       "path": [
@@ -192,7 +213,8 @@
       ],
       "cases": 6,
       "share": 0.015,
-      "median_cycle_seconds": 2025240.0
+      "median_cycle_seconds": 1928520.0,
+      "small_n": true
     },
     {
       "path": [
@@ -205,7 +227,8 @@
       ],
       "cases": 4,
       "share": 0.01,
-      "median_cycle_seconds": 840420.0
+      "median_cycle_seconds": 840420.0,
+      "small_n": true
     },
     {
       "path": [
@@ -225,7 +248,8 @@
       ],
       "cases": 3,
       "share": 0.0075,
-      "median_cycle_seconds": 2531460.0
+      "median_cycle_seconds": 2531460.0,
+      "small_n": true
     },
     {
       "path": [
@@ -243,7 +267,8 @@
       ],
       "cases": 3,
       "share": 0.0075,
-      "median_cycle_seconds": 1593840.0
+      "median_cycle_seconds": 1593840.0,
+      "small_n": true
     },
     {
       "path": [
@@ -259,7 +284,8 @@
       ],
       "cases": 3,
       "share": 0.0075,
-      "median_cycle_seconds": 2025960.0
+      "median_cycle_seconds": 2025960.0,
+      "small_n": true
     },
     {
       "path": [
@@ -277,7 +303,8 @@
       ],
       "cases": 2,
       "share": 0.005,
-      "median_cycle_seconds": 1825200.0
+      "median_cycle_seconds": 1631340.0,
+      "small_n": true
     },
     {
       "path": [
@@ -295,7 +322,8 @@
       ],
       "cases": 2,
       "share": 0.005,
-      "median_cycle_seconds": 2611440.0
+      "median_cycle_seconds": 1745880.0,
+      "small_n": true
     },
     {
       "path": [
@@ -312,7 +340,8 @@
       ],
       "cases": 1,
       "share": 0.0025,
-      "median_cycle_seconds": 1872840.0
+      "median_cycle_seconds": 1872840.0,
+      "small_n": true
     },
     {
       "path": [
@@ -333,7 +362,8 @@
       ],
       "cases": 1,
       "share": 0.0025,
-      "median_cycle_seconds": 2278260.0
+      "median_cycle_seconds": 2278260.0,
+      "small_n": true
     },
     {
       "path": [
@@ -352,7 +382,8 @@
       ],
       "cases": 1,
       "share": 0.0025,
-      "median_cycle_seconds": 2260800.0
+      "median_cycle_seconds": 2260800.0,
+      "small_n": true
     },
     {
       "path": [
@@ -371,7 +402,8 @@
       ],
       "cases": 1,
       "share": 0.0025,
-      "median_cycle_seconds": 3342540.0
+      "median_cycle_seconds": 3342540.0,
+      "small_n": true
     }
   ],
   "rework": {
@@ -415,7 +447,7 @@
       "from": "Prior Auth Submitted",
       "to": "Prior Auth Approved",
       "count": 242,
-      "median_wait_seconds": 406800.0
+      "median_wait_seconds": 403200.0
     },
     {
       "from": "Prior Auth Denied",
@@ -433,7 +465,7 @@
       "from": "Info Request to Referrer",
       "to": "Info Received",
       "count": 86,
-      "median_wait_seconds": 237600.0
+      "median_wait_seconds": 234000.0
     },
     {
       "from": "Info Received",
@@ -445,13 +477,13 @@
       "from": "Prior Auth Submitted",
       "to": "Prior Auth Denied",
       "count": 78,
-      "median_wait_seconds": 385200.0
+      "median_wait_seconds": 381600.0
     },
     {
       "from": "Prior Auth Resubmitted",
       "to": "Prior Auth Approved",
       "count": 78,
-      "median_wait_seconds": 385200.0
+      "median_wait_seconds": 381600.0
     },
     {
       "from": "Insurance Verification",

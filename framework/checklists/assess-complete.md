@@ -9,5 +9,7 @@
 - [ ] Addressable vs. structural friction split applied
 - [ ] Staffed-hours reconciliation performed
 - [ ] Top estimate triangulated against an independent second basis
+- [ ] Friction Ledger entries tagged to variants; ledger and concentration-table totals reconcile (one ledger, two views — dollars banked once)
 - [ ] Top 3 assumptions stated with bias direction
+- [ ] Process Evidence Pack produced from the template — the consolidated T-A record
 - [ ] `docs/economics/` artifacts exist and are complete

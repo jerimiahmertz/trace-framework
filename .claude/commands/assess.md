@@ -11,6 +11,8 @@ Rules of engagement:
 - Every rate needs a named source; every volume comes from the log. Ranges beat points; conservative beats impressive.
 - Keep touch time and elapsed time separate in every table, and split addressable from structural friction explicitly.
 - Run the staffed-hours reconciliation and the independent triangulation of the top estimate before presenting anything.
+- Tag Friction Ledger entries to their variants and reconcile the two totals — one ledger, two views, dollars banked once.
+- Close the phase by producing the consolidated Process Evidence Pack from @templates/process-evidence-pack.md.
 - Write outputs to `docs/economics/` and check the gate in @framework/checklists/assess-complete.md; report which items pass.
 - End by recommending `/classify`.
 

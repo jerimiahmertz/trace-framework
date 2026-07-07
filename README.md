@@ -24,34 +24,37 @@ TRACE exists to make that sequence impossible. It sits **upstream of any build d
 
 ## Two Ideas Doing Most of the Work
 
-**1. The disposition ladder.** Automation is the *last* resort. Every friction point walks the rungs in order — **Eliminate, Simplify, Standardize, Automate, Augment, Delegate** — and stops at the highest rung that solves it. Automating a broken process just produces broken outcomes faster; the ladder forces the "should this step exist at all?" conversation before any build spend. Only rung 5–6 survivors proceed to an agent lifecycle — they map directly into the companion [agentic-ai-product-framework](https://github.com/jerimiahmertz/agentic-ai-product-framework)'s `/discover` → `/score` phases, arriving with evidence packs instead of recollections.
+**1. The disposition ladder.** Automation is the *last* resort. Every friction point walks the rungs in order — **Eliminate, Simplify, Standardize, Automate, Augment, Delegate** — and stops at the highest rung that solves it (or lands on **Accept & Monitor**, the legitimate do-nothing disposition with a recorded rationale and review date). Automating a broken process just produces broken outcomes faster; the ladder forces the "should this step exist at all?" conversation before any build spend. Only rung 5–6 survivors proceed to an agent lifecycle — they map directly into the companion [agentic-ai-product-framework](https://github.com/jerimiahmertz/agentic-ai-product-framework)'s `/discover` → `/score` phases, arriving with evidence packs instead of recollections.
 
-**2. Conformance as the definition of done.** Go-live is a claim. The event log at +30/+60/+90 days is the evidence. Phase E audits every shipped change for the four failure signatures — reversion, displacement, circumvention, erosion — and verifies claimed benefits against observed data only. A change is hardwired when the log says so.
+**2. Conformance as the definition of done.** Go-live is a claim. The event log at +30/+60/+90 days is the evidence. Every build item leaves `/classify` with a **named baseline-freeze owner** — no baseline before go-live, no auditable benefits after it. Phase E then audits every shipped change for the four failure signatures — reversion, displacement, circumvention, erosion — with censoring controlled and attribution disciplined, and verifies claimed benefits against observed data only. A change is hardwired when the log says so.
 
 ## The Toolkit
 
 `toolkit/` contains working process-mining code with **zero dependencies** — Python 3.6+ standard library only, because the machines this needs to run on (locked-down hospital laptops, client environments) rarely allow `pip install` anything.
 
 ```bash
-# Reconstruct: variants, rework, bottlenecks, handoffs, cycle times
-python3 toolkit/mine.py log.csv --resource resource --json report.json
+# Reconstruct: data quality, variants, rework, bottlenecks, handoffs, cycle times
+python3 toolkit/mine.py log.csv --resource resource --end "Closing A,Closing B" --json report.json
 
 # Evidence: conformance to the documented path
-python3 toolkit/conformance.py log.csv --expected "Step A,Step B,Step C"
+python3 toolkit/conformance.py log.csv --end "Closing A,Closing B" --expected "Step A,Step B,Step C"
 
 # Evidence: did the change stick? (baseline vs. post-change)
-python3 toolkit/conformance.py baseline.csv --after after.csv
+python3 toolkit/conformance.py baseline.csv --after after.csv --end "Closing A,Closing B"
 ```
 
-Input is the standard event-log shape: `case_id, activity, timestamp[, resource]` — one row per event. That's extractable from almost any system of record: EHR audit trails, ticketing systems, work queues, RPA logs.
+(On Windows without a `python3` launcher, use `py` instead.)
+
+Input is the standard event-log shape: `case_id, activity, timestamp[, resource]` — one row per event. That's extractable from almost any system of record: EHR audit trails, ticketing systems, work queues, RPA logs. `mine.py` opens with a **data-quality assessment** (timestamp granularity, tied timestamps, duplicate rows); both tools share the same loading semantics (duplicates dropped and noted, malformed rows fail with row numbers) and treat **censoring** as a first-class problem: `--end` takes your case-boundary's closing activities so in-flight cases at the extraction-window edge are excluded and counted instead of masquerading as short cycle times and phantom variants. Unit tests live in `toolkit/test_toolkit.py`.
 
 **See it run:** [examples/synthetic-referral/](examples/synthetic-referral/) is a complete, reproducible worked example on a fictional specialty-referral process — including the mined output and how to read it like a TRACE analyst (the documented path turns out to be 34.8% of reality, and the undocumented urgent path is 5× faster).
 
 ## Healthcare Design Constraints (built in, not bolted on)
 
-- **PHI-minimal mining.** Extracts are case-ID + activity + timestamp + role, nothing else. Case IDs pseudonymized at extraction; no names, no clinical content, no free text. The data-governance approval path is a Phase T deliverable, not an afterthought.
-- **Safety tiering.** Every friction point is tiered before disposition: **Tier S** (errors can reach a patient — floor is *Augment*, and going lower requires clinical governance, not a PM scorecard), **Tier C** (compliance-touching — automation with audit trail and sampling QA), **Tier O** (operational — full ladder).
-- **Clinician trust protocol.** Variant data is shown to the people in the flow before it is shown to their leadership, framed as "the process as designed doesn't survive contact with reality" — never "staff aren't following the process." Workarounds are treated as field intelligence, because they usually are.
+- **PHI-minimal mining — with no illusions.** Extracts are case-ID + activity + timestamp + role, nothing else: case IDs pseudonymized at extraction, no names, no clinical content, no free text. And stated plainly: **a pseudonymized event log with timestamps is still PHI under HIPAA** — minimal reduces exposure, it does not de-identify. Phase T identifies the governance approval path; Phase R may not pull data until approval is *obtained*. Sensitive service lines (behavioral health, 42 CFR Part 2 substance use, HIV, reproductive health) get their own privacy review — even activity names can disclose.
+- **The raw log never enters the AI conversation.** The toolkit is zero-dependency and local precisely so row-level extracts stay inside your organization's approved environment. The agents work from the aggregate reports the toolkit emits — not case-level rows — unless your organization's agreements with the AI vendor deliberately cover PHI.
+- **Safety tiering.** Every friction point is tiered before disposition: **Tier S** (errors can reach a patient — any disposition that removes, bypasses, or unattends a human safety-relevant decision point requires documented clinical governance approval from a named committee; *Augment* is the ceiling on a PM's authority alone), **Tier C** (compliance-touching — automation with audit trail and sampling QA), **Tier O** (operational — full ladder). Tier S failure signatures in production escalate to the approving governance body before process analysis.
+- **Clinician trust protocol.** Variant data is shown to the people in the flow before it is shown to their leadership, framed as "the process as designed doesn't survive contact with reality" — never "staff aren't following the process." Mined data is never used for individual performance management; roles, not names, and small-count findings are never attributed to identifiable individuals. Workarounds are treated as field intelligence, because they usually are.
 
 The framework is healthcare-flavored because that's where it was forged, but nothing in T-R-A-C-E is healthcare-specific — the same five phases run on claims operations, underwriting, title production, or any workflow that leaves timestamps.
 

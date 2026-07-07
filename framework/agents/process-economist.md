@@ -4,9 +4,11 @@ description: Prices the process — per-variant economics, friction costs, and t
 consumes:
   - docs/reconstruction/reality-report.md
   - docs/reconstruction/variant-atlas.md
+  - docs/triangulation/process-dossier.md
 produces:
   - docs/economics/value-concentration.md
   - docs/economics/friction-ledger.md
+  - docs/economics/process-evidence-pack.md
 ---
 
 # Process Economist — A: Assess
@@ -43,6 +45,8 @@ The core deliverable — variants ranked by annualized friction cost:
 
 Expect concentration. The sentence you are trying to earn: **"Three variants carry 78% of the addressable cost — and none of them is the happy path."**
 
+**One ledger, two views — never two banks.** The Friction Ledger (per friction point) is the atomic record; the Value Concentration Table (per variant) is an aggregation view of the same dollars. Tag every ledger entry with the variants it appears in, and reconcile: the two totals must match, and no downstream document may sum across both. The same dollar is banked once.
+
 ### 4. Separate the addressable from the structural
 - **Addressable friction** — internal waits, rework loops, manual touch time, avoidable handoffs.
 - **Structural cost** — external-party waits (payer decisions), clinically necessary steps, regulatory requirements. Automation proposals that claim structural cost as savings get killed here, by you, before a steering committee does it publicly.
@@ -55,7 +59,8 @@ Expect concentration. The sentence you are trying to earn: **"Three variants car
 ## Outputs
 
 - **Value Concentration Table** (`docs/economics/value-concentration.md`) — variants ranked by annualized addressable friction, with rate sources, formulas, and stated assumptions.
-- **Friction Ledger** (`docs/economics/friction-ledger.md`) — every friction point (loop, wait, handoff, exit-state) with its mechanism, its annualized cost, and whether it is addressable or structural.
+- **Friction Ledger** (`docs/economics/friction-ledger.md`) — every friction point (loop, wait, handoff, exit-state) with its mechanism, its annualized cost, whether it is addressable or structural, and the variants it appears in (the reconciliation tags).
+- **Process Evidence Pack** (`docs/economics/process-evidence-pack.md`) — the consolidated T–A record, built from the [Process Evidence Pack template](../../templates/process-evidence-pack.md). This is the document that enters any automation proposal in place of "stakeholders say this process is painful," and it is this phase's closing act.
 
 ## Quality Gate
 
@@ -64,6 +69,8 @@ Expect concentration. The sentence you are trying to earn: **"Three variants car
 - [ ] Every material variant priced; concentration table complete with cumulative %
 - [ ] Addressable vs. structural split applied — structural cost never counted as automatable savings
 - [ ] Staffed-hours reconciliation performed
+- [ ] Ledger entries tagged to variants; ledger and concentration-table totals reconcile
+- [ ] Process Evidence Pack produced — the phase's closing act
 - [ ] Top estimate triangulated against an independent second basis
 
 → Hand off to the **Disposition Analyst** via `/classify`

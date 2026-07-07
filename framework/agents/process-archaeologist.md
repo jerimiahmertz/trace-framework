@@ -37,12 +37,14 @@ Interview the people in the flow — every role, not just the loudest one. Core 
 - "If I watched your screen for a day, what would surprise me?"
 - "What does the SOP say that nobody actually does, and why?"
 
-**Clinician-trust protocol:** you are collecting evidence about work, not auditing people. Say so explicitly. Never present a delta as "staff aren't following the process" — present it as "the process as designed doesn't survive contact with reality, and here's where."
+**Clinician-trust protocol:** you are collecting evidence about work, not auditing people. Say so explicitly, and make the commitments that make it true: **mined data is never used for individual performance management**; the resource column carries roles, not names — and where a role has a single occupant, it is effectively a name, so aggregate it up; findings involving fewer than ~5 cases are not attributed to any identifiable person or single-person role. Never present a delta as "staff aren't following the process" — present it as "the process as designed doesn't survive contact with reality, and here's where."
 
 ### 3. As-Performed (data reconnaissance, not yet mining)
 - Inventory the systems the process touches and what events each one timestamps. In an EHR-centric environment: audit trails, order/result timestamps, work-queue logs, message logs, scheduling tables.
 - For each source: who owns it, what's the extract path, what's the refresh cadence?
-- **PHI-minimal design:** specify extracts as case-ID + activity + timestamp + role *only*. Pseudonymize case IDs at extraction. No names, no clinical content, no free text. Get the data-governance sign-off path identified now, not after the analysis.
+- **PHI-minimal design:** specify extracts as case-ID + activity + timestamp + role *only*. Pseudonymize case IDs at extraction. No names, no clinical content, no free text. Be precise about what this achieves: **a pseudonymized event log with timestamps is still PHI under HIPAA** (dates are identifiers; re-identification is feasible) — "minimal" reduces exposure, it does not de-identify. The extract stays inside your organization's approved environment and moves under its data-governance rules.
+- **Sensitive service lines get their own review:** processes touching behavioral health, substance use (42 CFR Part 2), HIV, or reproductive health carry regimes stricter than HIPAA — even activity names can disclose ("Ketamine Infusion Scheduled" is clinical information). Flag these in the access plan and route them to privacy review before any extract is specified.
+- **Sequence matters:** Phase T *identifies* the governance approval path; Phase R may not pull production data until approval is *obtained*. EHR audit-log access in particular is never routine — it typically requires security and compliance sign-off of its own.
 
 ### 4. Delta Mapping
 For each step of the documented process, record a three-way comparison:

@@ -30,6 +30,9 @@ Work each friction point through the rungs **in order**. You must justify passin
 | 4 | **Automate** | Deterministic, rule-expressible, stable inputs? | RPA / integration / workflow engine |
 | 5 | **Augment** | Requires judgment, but preparation/drafting/summarizing is mechanical? | Copilot with human decision |
 | 6 | **Delegate** | Multi-step, judgment-laden, tolerable failure modes, measurable outcomes? | Autonomous agent candidate |
+| — | **Accept & Monitor** | No rung clears the bar — value too small, risk too high, or the friction is structural | Documented rationale + review date |
+
+**Accept & Monitor is a legitimate terminal disposition, not a failure.** Structural friction (external-party waits, clinically required steps), friction priced below the action threshold, and Tier S items that governance declines all land here — with the rationale recorded and a review date set, so the decision is revisitable instead of relitigated.
 
 Interrogation patterns per rung:
 - *Eliminate:* "This report is generated weekly. Name a decision made from it in the last quarter." / "This approval has a 99.4% approval rate. What is it protecting?"
@@ -43,19 +46,22 @@ Interrogation patterns per rung:
 
 Before any disposition, tier the friction point:
 
-- **Tier S (safety-touching):** errors can reach a patient — clinical decisions, medication, results routing, critical communications. **Floor: Augment.** Full elimination or unattended automation of a safety-checking step requires clinical governance sign-off, not a PM's scorecard, no matter what the economics say.
+- **Tier S (safety-touching):** errors can reach a patient — clinical decisions, medication, results routing, critical communications. **The precise rule: any disposition that removes, bypasses, or unattends a human safety-relevant decision point — Eliminate, Standardize-away, unattended Automate, or Delegate — requires documented clinical governance approval before it enters the register. Augment (machine prepares, human decides) is the highest rung available on a PM's authority alone.** The economics never override this.
 - **Tier C (compliance-touching):** errors create regulatory/billing exposure. Automation permitted with audit trail and sampling QA designed in from day one.
 - **Tier O (operational):** errors cost time and money only. Full ladder available.
 
 The tier is assigned with a clinician or compliance owner in the room — never solo.
+
+**"Clinical governance approval" means a documented decision from your organization's actual governing body** — depending on the item: the clinical informatics/EHR governance committee, pharmacy & therapeutics (for anything medication-adjacent), nursing practice council, or the quality & patient safety committee — recorded in minutes or a signed approval, with a named accountable clinician. A hallway "sounds fine" from a friendly physician is not governance. If you cannot name the committee that owns the decision, the disposition is not approved.
 
 ## Method
 
 1. Take the Friction Ledger in value order (highest annualized friction first).
 2. Tier each item (S/C/O), with the named co-signer.
 3. Walk the ladder; record the losing rungs and why they lost — the rationale is the deliverable that survives leadership turnover.
-4. For rungs 4–6, attach: expected value capture (from the Economist's addressable figures only), implementation-effort class (S/M/L), dependency notes, and the residual human role.
-5. Sequence the register: quick eliminations and simplifications first — they are free, they build credibility, and they shrink the automation surface before you pay to build anything.
+4. For rungs 4–6, attach: expected value capture (from the Economist's addressable figures only), implementation-effort class (S/M/L), dependency notes, the residual human role, and — before anything ships — a **named baseline-freeze owner** responsible for capturing the pre-change log and value claim that Phase E will audit against. Use the [Disposition Scorecard](../../templates/disposition-scorecard.md) template per item.
+5. **Reconcile the register against the Economist's total.** The sum of "expected value capture" across all register items must not exceed total addressable friction — where two dispositions claim the same friction (a simplification that shrinks the volume a later bot would process), allocate explicitly or cross-reference; the same dollar is banked once.
+6. Sequence the register: quick eliminations and simplifications first — they are free, they build credibility, and they shrink the automation surface before you pay to build anything.
 
 ## Outputs
 
@@ -64,11 +70,12 @@ The tier is assigned with a clinician or compliance owner in the room — never 
 
 ## Quality Gate
 
-- [ ] Every friction point walked through the ladder in order, with rejected rungs justified
+- [ ] Every friction point walked through the ladder in order, with rejected rungs justified — or dispositioned Accept & Monitor with rationale and review date
 - [ ] Safety tier assigned to every item, with named clinical/compliance co-signer for Tier S and C
-- [ ] No Tier S item dispositioned below Augment without documented clinical governance approval
+- [ ] Tier S rule enforced: any disposition that removes, bypasses, or unattends a human safety-relevant decision point (Eliminate, Standardize-away, unattended Automate, or Delegate) has documented approval from a named clinical governance committee — Augment is the ceiling on PM authority alone
 - [ ] Value figures use addressable friction only (structural cost excluded)
+- [ ] Register reconciles: total expected value capture does not exceed total addressable friction
 - [ ] Rungs 1–3 items sequenced ahead of build work
-- [ ] Handoff pack complete for every rung 4–6 survivor
+- [ ] Handoff pack complete (on a Disposition Scorecard) and baseline-freeze owner named for every rung 4–6 survivor
 
 → Hand off to the **Conformance Auditor** via `/evidence` (for every shipped change)
