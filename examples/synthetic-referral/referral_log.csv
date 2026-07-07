@@ -1,0 +1,3097 @@
+case_id,activity,timestamp,resource
+REF-0001,Referral Received,2026-02-28 21:07:00,intake_clerk
+REF-0001,Insurance Verification,2026-02-28 22:02:00,intake_clerk
+REF-0001,Urgent Override,2026-02-28 22:27:00,clinic_manager
+REF-0001,Scheduling Call,2026-02-28 23:54:00,scheduler
+REF-0001,Appointment Scheduled,2026-03-01 00:03:00,scheduler
+REF-0001,Visit Completed,2026-03-02 13:03:00,clinic_ma
+REF-0002,Referral Received,2026-03-04 01:47:00,intake_clerk
+REF-0002,Insurance Verification,2026-03-04 02:29:00,intake_clerk
+REF-0002,Prior Auth Submitted,2026-03-04 03:15:00,auth_specialist
+REF-0002,Prior Auth Denied,2026-03-07 06:15:00,auth_specialist
+REF-0002,Prior Auth Resubmitted,2026-03-08 19:15:00,auth_specialist
+REF-0002,Prior Auth Approved,2026-03-10 22:15:00,auth_specialist
+REF-0002,Scheduling Call,2026-03-12 13:15:00,scheduler
+REF-0002,Appointment Scheduled,2026-03-12 13:33:00,scheduler
+REF-0002,Visit Completed,2026-03-28 02:33:00,clinic_ma
+REF-0003,Referral Received,2026-01-29 01:51:00,intake_clerk
+REF-0003,Insurance Verification,2026-01-29 02:51:00,intake_clerk
+REF-0003,Prior Auth Submitted,2026-01-29 06:15:00,auth_specialist
+REF-0003,Prior Auth Approved,2026-02-01 09:15:00,auth_specialist
+REF-0003,Scheduling Call,2026-02-02 10:15:00,scheduler
+REF-0003,Appointment Scheduled,2026-02-02 10:32:00,scheduler
+REF-0003,Visit Completed,2026-02-12 18:32:00,clinic_ma
+REF-0004,Referral Received,2026-02-25 20:16:00,intake_clerk
+REF-0004,Insurance Verification,2026-02-25 22:33:00,intake_clerk
+REF-0004,Prior Auth Submitted,2026-02-26 02:16:00,auth_specialist
+REF-0004,Prior Auth Denied,2026-03-01 15:16:00,auth_specialist
+REF-0004,Prior Auth Resubmitted,2026-03-03 21:16:00,auth_specialist
+REF-0004,Prior Auth Approved,2026-03-09 15:16:00,auth_specialist
+REF-0004,Scheduling Call,2026-03-09 23:16:00,scheduler
+REF-0004,Scheduling Call,2026-03-11 13:16:00,scheduler
+REF-0004,Appointment Scheduled,2026-03-11 13:30:00,scheduler
+REF-0004,Case Closed - No Show,2026-03-19 12:30:00,scheduler
+REF-0005,Referral Received,2026-03-20 06:06:00,intake_clerk
+REF-0005,Insurance Verification,2026-03-20 08:22:00,intake_clerk
+REF-0005,Prior Auth Submitted,2026-03-20 11:58:00,auth_specialist
+REF-0005,Prior Auth Denied,2026-03-24 08:58:00,auth_specialist
+REF-0005,Prior Auth Resubmitted,2026-03-25 18:58:00,auth_specialist
+REF-0005,Prior Auth Approved,2026-03-31 11:58:00,auth_specialist
+REF-0005,Scheduling Call,2026-04-02 10:58:00,scheduler
+REF-0005,Appointment Scheduled,2026-04-02 11:08:00,scheduler
+REF-0005,Visit Completed,2026-04-10 16:08:00,clinic_ma
+REF-0006,Referral Received,2026-01-19 06:29:00,intake_clerk
+REF-0006,Insurance Verification,2026-01-19 09:11:00,intake_clerk
+REF-0006,Prior Auth Submitted,2026-01-19 12:27:00,auth_specialist
+REF-0006,Prior Auth Approved,2026-01-25 15:27:00,auth_specialist
+REF-0006,Scheduling Call,2026-01-25 22:27:00,scheduler
+REF-0006,Appointment Scheduled,2026-01-25 22:33:00,scheduler
+REF-0006,Visit Completed,2026-02-06 11:33:00,clinic_ma
+REF-0007,Referral Received,2026-01-28 04:04:00,intake_clerk
+REF-0007,Insurance Verification,2026-01-28 05:36:00,intake_clerk
+REF-0007,Info Request to Referrer,2026-01-28 06:14:00,intake_clerk
+REF-0007,Info Received,2026-02-02 01:14:00,intake_clerk
+REF-0007,Insurance Verification,2026-02-02 01:49:00,intake_clerk
+REF-0007,Prior Auth Submitted,2026-02-02 06:34:00,auth_specialist
+REF-0007,Prior Auth Approved,2026-02-09 03:34:00,auth_specialist
+REF-0007,Scheduling Call,2026-02-11 00:34:00,scheduler
+REF-0007,Appointment Scheduled,2026-02-11 00:47:00,scheduler
+REF-0007,Visit Completed,2026-02-25 23:47:00,clinic_ma
+REF-0008,Referral Received,2026-02-20 07:16:00,intake_clerk
+REF-0008,Insurance Verification,2026-02-20 09:25:00,intake_clerk
+REF-0008,Prior Auth Submitted,2026-02-20 13:19:00,auth_specialist
+REF-0008,Prior Auth Approved,2026-02-23 06:19:00,auth_specialist
+REF-0008,Scheduling Call,2026-02-24 18:19:00,scheduler
+REF-0008,Appointment Scheduled,2026-02-24 18:25:00,scheduler
+REF-0008,Case Closed - No Show,2026-03-03 00:25:00,scheduler
+REF-0009,Referral Received,2026-02-27 21:10:00,intake_clerk
+REF-0009,Insurance Verification,2026-02-27 23:18:00,intake_clerk
+REF-0009,Prior Auth Submitted,2026-02-28 03:05:00,auth_specialist
+REF-0009,Prior Auth Approved,2026-03-04 14:05:00,auth_specialist
+REF-0009,Scheduling Call,2026-03-06 03:05:00,scheduler
+REF-0009,Appointment Scheduled,2026-03-06 03:10:00,scheduler
+REF-0009,Visit Completed,2026-03-11 13:10:00,clinic_ma
+REF-0010,Referral Received,2026-03-04 12:56:00,intake_clerk
+REF-0010,Insurance Verification,2026-03-04 14:24:00,intake_clerk
+REF-0010,Prior Auth Submitted,2026-03-04 17:48:00,auth_specialist
+REF-0010,Prior Auth Denied,2026-03-09 00:48:00,auth_specialist
+REF-0010,Prior Auth Resubmitted,2026-03-10 04:48:00,auth_specialist
+REF-0010,Prior Auth Approved,2026-03-16 00:48:00,auth_specialist
+REF-0010,Scheduling Call,2026-03-16 20:48:00,scheduler
+REF-0010,Appointment Scheduled,2026-03-16 20:58:00,scheduler
+REF-0010,Visit Completed,2026-03-22 02:58:00,clinic_ma
+REF-0011,Referral Received,2026-03-20 14:40:00,intake_clerk
+REF-0011,Insurance Verification,2026-03-20 16:21:00,intake_clerk
+REF-0011,Info Request to Referrer,2026-03-20 16:47:00,intake_clerk
+REF-0011,Info Received,2026-03-24 21:47:00,intake_clerk
+REF-0011,Insurance Verification,2026-03-24 22:14:00,intake_clerk
+REF-0011,Prior Auth Submitted,2026-03-25 00:06:00,auth_specialist
+REF-0011,Prior Auth Approved,2026-03-31 03:06:00,auth_specialist
+REF-0011,Scheduling Call,2026-04-01 16:06:00,scheduler
+REF-0011,Appointment Scheduled,2026-04-01 16:21:00,scheduler
+REF-0011,Visit Completed,2026-04-07 01:21:00,clinic_ma
+REF-0012,Referral Received,2026-03-25 14:23:00,intake_clerk
+REF-0012,Insurance Verification,2026-03-25 16:01:00,intake_clerk
+REF-0012,Prior Auth Submitted,2026-03-25 18:34:00,auth_specialist
+REF-0012,Prior Auth Approved,2026-03-28 04:34:00,auth_specialist
+REF-0012,Scheduling Call,2026-03-28 13:34:00,scheduler
+REF-0012,Appointment Scheduled,2026-03-28 13:41:00,scheduler
+REF-0012,Case Closed - No Show,2026-04-11 21:41:00,scheduler
+REF-0013,Referral Received,2026-03-11 16:08:00,intake_clerk
+REF-0013,Insurance Verification,2026-03-11 17:28:00,intake_clerk
+REF-0013,Info Request to Referrer,2026-03-11 18:08:00,intake_clerk
+REF-0013,Info Received,2026-03-15 16:08:00,intake_clerk
+REF-0013,Insurance Verification,2026-03-15 16:33:00,intake_clerk
+REF-0013,Prior Auth Submitted,2026-03-15 20:39:00,auth_specialist
+REF-0013,Prior Auth Approved,2026-03-22 18:39:00,auth_specialist
+REF-0013,Scheduling Call,2026-03-24 08:39:00,scheduler
+REF-0013,Appointment Scheduled,2026-03-24 08:50:00,scheduler
+REF-0013,Visit Completed,2026-04-04 20:50:00,clinic_ma
+REF-0014,Referral Received,2026-03-03 15:41:00,intake_clerk
+REF-0014,Insurance Verification,2026-03-03 18:13:00,intake_clerk
+REF-0014,Prior Auth Submitted,2026-03-03 20:49:00,auth_specialist
+REF-0014,Prior Auth Denied,2026-03-07 15:49:00,auth_specialist
+REF-0014,Prior Auth Resubmitted,2026-03-08 01:49:00,auth_specialist
+REF-0014,Prior Auth Approved,2026-03-11 06:49:00,auth_specialist
+REF-0014,Scheduling Call,2026-03-12 23:49:00,scheduler
+REF-0014,Appointment Scheduled,2026-03-12 23:56:00,scheduler
+REF-0014,Visit Completed,2026-03-17 05:56:00,clinic_ma
+REF-0015,Referral Received,2026-01-24 20:04:00,intake_clerk
+REF-0015,Insurance Verification,2026-01-24 21:48:00,intake_clerk
+REF-0015,Case Closed - Abandoned,2026-01-30 09:48:00,intake_clerk
+REF-0016,Referral Received,2026-01-29 02:42:00,intake_clerk
+REF-0016,Insurance Verification,2026-01-29 05:20:00,intake_clerk
+REF-0016,Prior Auth Submitted,2026-01-29 09:52:00,auth_specialist
+REF-0016,Prior Auth Denied,2026-02-02 21:52:00,auth_specialist
+REF-0016,Prior Auth Resubmitted,2026-02-05 09:52:00,auth_specialist
+REF-0016,Prior Auth Denied,2026-02-07 21:52:00,auth_specialist
+REF-0016,Prior Auth Resubmitted,2026-02-10 12:52:00,auth_specialist
+REF-0016,Prior Auth Approved,2026-02-14 09:52:00,auth_specialist
+REF-0016,Scheduling Call,2026-02-15 16:52:00,scheduler
+REF-0016,Appointment Scheduled,2026-02-15 16:58:00,scheduler
+REF-0016,Visit Completed,2026-02-20 18:58:00,clinic_ma
+REF-0017,Referral Received,2026-01-10 12:25:00,intake_clerk
+REF-0017,Insurance Verification,2026-01-10 13:12:00,intake_clerk
+REF-0017,Prior Auth Submitted,2026-01-10 15:19:00,auth_specialist
+REF-0017,Prior Auth Approved,2026-01-13 08:19:00,auth_specialist
+REF-0017,Scheduling Call,2026-01-14 15:19:00,scheduler
+REF-0017,Appointment Scheduled,2026-01-14 15:38:00,scheduler
+REF-0017,Visit Completed,2026-01-19 05:38:00,clinic_ma
+REF-0018,Referral Received,2026-02-12 03:51:00,intake_clerk
+REF-0018,Insurance Verification,2026-02-12 06:31:00,intake_clerk
+REF-0018,Prior Auth Submitted,2026-02-12 07:08:00,auth_specialist
+REF-0018,Prior Auth Approved,2026-02-19 05:08:00,auth_specialist
+REF-0018,Scheduling Call,2026-02-20 00:08:00,scheduler
+REF-0018,Appointment Scheduled,2026-02-20 00:28:00,scheduler
+REF-0018,Visit Completed,2026-03-03 13:28:00,clinic_ma
+REF-0019,Referral Received,2026-03-23 08:03:00,intake_clerk
+REF-0019,Insurance Verification,2026-03-23 08:23:00,intake_clerk
+REF-0019,Info Request to Referrer,2026-03-23 08:45:00,intake_clerk
+REF-0019,Info Received,2026-03-25 17:45:00,intake_clerk
+REF-0019,Insurance Verification,2026-03-25 18:29:00,intake_clerk
+REF-0019,Prior Auth Submitted,2026-03-25 23:08:00,auth_specialist
+REF-0019,Prior Auth Denied,2026-03-29 12:08:00,auth_specialist
+REF-0019,Prior Auth Resubmitted,2026-03-30 23:08:00,auth_specialist
+REF-0019,Prior Auth Approved,2026-04-05 01:08:00,auth_specialist
+REF-0019,Scheduling Call,2026-04-06 15:08:00,scheduler
+REF-0019,Scheduling Call,2026-04-08 11:08:00,scheduler
+REF-0019,Appointment Scheduled,2026-04-08 11:14:00,scheduler
+REF-0019,Visit Completed,2026-04-21 15:14:00,clinic_ma
+REF-0020,Referral Received,2026-02-17 05:58:00,intake_clerk
+REF-0020,Insurance Verification,2026-02-17 06:58:00,intake_clerk
+REF-0020,Case Closed - Abandoned,2026-02-25 16:58:00,intake_clerk
+REF-0021,Referral Received,2026-01-12 04:54:00,intake_clerk
+REF-0021,Insurance Verification,2026-01-12 06:30:00,intake_clerk
+REF-0021,Info Request to Referrer,2026-01-12 06:42:00,intake_clerk
+REF-0021,Info Received,2026-01-16 20:42:00,intake_clerk
+REF-0021,Insurance Verification,2026-01-16 21:12:00,intake_clerk
+REF-0021,Prior Auth Submitted,2026-01-16 23:48:00,auth_specialist
+REF-0021,Prior Auth Approved,2026-01-19 04:48:00,auth_specialist
+REF-0021,Scheduling Call,2026-01-20 23:48:00,scheduler
+REF-0021,Scheduling Call,2026-01-23 17:48:00,scheduler
+REF-0021,Appointment Scheduled,2026-01-23 18:03:00,scheduler
+REF-0021,Case Closed - No Show,2026-01-31 02:03:00,scheduler
+REF-0022,Referral Received,2026-03-03 11:45:00,intake_clerk
+REF-0022,Insurance Verification,2026-03-03 12:38:00,intake_clerk
+REF-0022,Info Request to Referrer,2026-03-03 13:00:00,intake_clerk
+REF-0022,Info Received,2026-03-05 05:00:00,intake_clerk
+REF-0022,Insurance Verification,2026-03-05 05:57:00,intake_clerk
+REF-0022,Prior Auth Submitted,2026-03-05 10:21:00,auth_specialist
+REF-0022,Prior Auth Approved,2026-03-11 10:21:00,auth_specialist
+REF-0022,Scheduling Call,2026-03-11 18:21:00,scheduler
+REF-0022,Scheduling Call,2026-03-14 09:21:00,scheduler
+REF-0022,Appointment Scheduled,2026-03-14 09:29:00,scheduler
+REF-0022,Visit Completed,2026-03-21 22:29:00,clinic_ma
+REF-0023,Referral Received,2026-02-17 12:16:00,intake_clerk
+REF-0023,Insurance Verification,2026-02-17 13:20:00,intake_clerk
+REF-0023,Info Request to Referrer,2026-02-17 13:58:00,intake_clerk
+REF-0023,Info Received,2026-02-18 21:58:00,intake_clerk
+REF-0023,Insurance Verification,2026-02-18 22:28:00,intake_clerk
+REF-0023,Prior Auth Submitted,2026-02-19 00:18:00,auth_specialist
+REF-0023,Prior Auth Approved,2026-02-23 21:18:00,auth_specialist
+REF-0023,Scheduling Call,2026-02-24 20:18:00,scheduler
+REF-0023,Appointment Scheduled,2026-02-24 20:23:00,scheduler
+REF-0023,Visit Completed,2026-03-11 15:23:00,clinic_ma
+REF-0024,Referral Received,2026-01-30 21:59:00,intake_clerk
+REF-0024,Insurance Verification,2026-01-30 22:53:00,intake_clerk
+REF-0024,Prior Auth Submitted,2026-01-31 00:17:00,auth_specialist
+REF-0024,Prior Auth Approved,2026-02-02 19:17:00,auth_specialist
+REF-0024,Scheduling Call,2026-02-03 16:17:00,scheduler
+REF-0024,Appointment Scheduled,2026-02-03 16:28:00,scheduler
+REF-0024,Visit Completed,2026-02-11 00:28:00,clinic_ma
+REF-0025,Referral Received,2026-03-04 23:40:00,intake_clerk
+REF-0025,Insurance Verification,2026-03-05 02:09:00,intake_clerk
+REF-0025,Prior Auth Submitted,2026-03-05 03:05:00,auth_specialist
+REF-0025,Prior Auth Denied,2026-03-09 09:05:00,auth_specialist
+REF-0025,Prior Auth Resubmitted,2026-03-11 04:05:00,auth_specialist
+REF-0025,Prior Auth Denied,2026-03-14 22:05:00,auth_specialist
+REF-0025,Prior Auth Resubmitted,2026-03-15 22:05:00,auth_specialist
+REF-0025,Prior Auth Approved,2026-03-21 07:05:00,auth_specialist
+REF-0025,Scheduling Call,2026-03-22 03:05:00,scheduler
+REF-0025,Appointment Scheduled,2026-03-22 03:24:00,scheduler
+REF-0025,Visit Completed,2026-04-03 05:24:00,clinic_ma
+REF-0026,Referral Received,2026-02-22 04:00:00,intake_clerk
+REF-0026,Insurance Verification,2026-02-22 05:48:00,intake_clerk
+REF-0026,Urgent Override,2026-02-22 06:07:00,clinic_manager
+REF-0026,Scheduling Call,2026-02-22 08:56:00,scheduler
+REF-0026,Appointment Scheduled,2026-02-22 09:02:00,scheduler
+REF-0026,Visit Completed,2026-02-25 08:02:00,clinic_ma
+REF-0027,Referral Received,2026-02-24 00:35:00,intake_clerk
+REF-0027,Insurance Verification,2026-02-24 01:11:00,intake_clerk
+REF-0027,Info Request to Referrer,2026-02-24 01:22:00,intake_clerk
+REF-0027,Info Received,2026-02-26 16:22:00,intake_clerk
+REF-0027,Insurance Verification,2026-02-26 17:00:00,intake_clerk
+REF-0027,Prior Auth Submitted,2026-02-26 17:50:00,auth_specialist
+REF-0027,Prior Auth Approved,2026-03-01 19:50:00,auth_specialist
+REF-0027,Scheduling Call,2026-03-03 18:50:00,scheduler
+REF-0027,Appointment Scheduled,2026-03-03 18:58:00,scheduler
+REF-0027,Visit Completed,2026-03-18 16:58:00,clinic_ma
+REF-0028,Referral Received,2026-03-21 18:55:00,intake_clerk
+REF-0028,Insurance Verification,2026-03-21 21:53:00,intake_clerk
+REF-0028,Prior Auth Submitted,2026-03-22 00:24:00,auth_specialist
+REF-0028,Prior Auth Approved,2026-03-28 06:24:00,auth_specialist
+REF-0028,Scheduling Call,2026-03-28 21:24:00,scheduler
+REF-0028,Appointment Scheduled,2026-03-28 21:29:00,scheduler
+REF-0028,Visit Completed,2026-04-07 23:29:00,clinic_ma
+REF-0029,Referral Received,2026-03-13 02:59:00,intake_clerk
+REF-0029,Insurance Verification,2026-03-13 04:22:00,intake_clerk
+REF-0029,Prior Auth Submitted,2026-03-13 05:47:00,auth_specialist
+REF-0029,Prior Auth Approved,2026-03-15 09:47:00,auth_specialist
+REF-0029,Scheduling Call,2026-03-16 19:47:00,scheduler
+REF-0029,Appointment Scheduled,2026-03-16 20:06:00,scheduler
+REF-0029,Visit Completed,2026-03-24 16:06:00,clinic_ma
+REF-0030,Referral Received,2026-01-24 08:01:00,intake_clerk
+REF-0030,Insurance Verification,2026-01-24 10:03:00,intake_clerk
+REF-0030,Prior Auth Submitted,2026-01-24 11:08:00,auth_specialist
+REF-0030,Prior Auth Approved,2026-01-27 22:08:00,auth_specialist
+REF-0030,Scheduling Call,2026-01-29 00:08:00,scheduler
+REF-0030,Appointment Scheduled,2026-01-29 00:25:00,scheduler
+REF-0030,Visit Completed,2026-02-12 10:25:00,clinic_ma
+REF-0031,Referral Received,2026-02-02 14:01:00,intake_clerk
+REF-0031,Insurance Verification,2026-02-02 14:54:00,intake_clerk
+REF-0031,Urgent Override,2026-02-02 15:15:00,clinic_manager
+REF-0031,Scheduling Call,2026-02-02 18:13:00,scheduler
+REF-0031,Appointment Scheduled,2026-02-02 18:26:00,scheduler
+REF-0031,Visit Completed,2026-02-03 22:26:00,clinic_ma
+REF-0032,Referral Received,2026-01-14 14:38:00,intake_clerk
+REF-0032,Insurance Verification,2026-01-14 16:18:00,intake_clerk
+REF-0032,Prior Auth Submitted,2026-01-14 21:09:00,auth_specialist
+REF-0032,Prior Auth Denied,2026-01-21 16:09:00,auth_specialist
+REF-0032,Prior Auth Resubmitted,2026-01-23 00:09:00,auth_specialist
+REF-0032,Prior Auth Approved,2026-01-28 18:09:00,auth_specialist
+REF-0032,Scheduling Call,2026-01-30 01:09:00,scheduler
+REF-0032,Scheduling Call,2026-02-01 11:09:00,scheduler
+REF-0032,Appointment Scheduled,2026-02-01 11:20:00,scheduler
+REF-0032,Visit Completed,2026-02-05 22:20:00,clinic_ma
+REF-0033,Referral Received,2026-03-27 07:42:00,intake_clerk
+REF-0033,Insurance Verification,2026-03-27 10:41:00,intake_clerk
+REF-0033,Prior Auth Submitted,2026-03-27 12:14:00,auth_specialist
+REF-0033,Prior Auth Approved,2026-03-31 02:14:00,auth_specialist
+REF-0033,Scheduling Call,2026-04-01 14:14:00,scheduler
+REF-0033,Appointment Scheduled,2026-04-01 14:32:00,scheduler
+REF-0033,Visit Completed,2026-04-10 21:32:00,clinic_ma
+REF-0034,Referral Received,2026-02-21 15:08:00,intake_clerk
+REF-0034,Insurance Verification,2026-02-21 16:53:00,intake_clerk
+REF-0034,Info Request to Referrer,2026-02-21 17:33:00,intake_clerk
+REF-0034,Info Received,2026-02-24 17:33:00,intake_clerk
+REF-0034,Insurance Verification,2026-02-24 18:31:00,intake_clerk
+REF-0034,Prior Auth Submitted,2026-02-24 20:30:00,auth_specialist
+REF-0034,Prior Auth Approved,2026-02-28 10:30:00,auth_specialist
+REF-0034,Scheduling Call,2026-03-01 15:30:00,scheduler
+REF-0034,Appointment Scheduled,2026-03-01 15:35:00,scheduler
+REF-0034,Visit Completed,2026-03-09 02:35:00,clinic_ma
+REF-0035,Referral Received,2026-02-11 00:50:00,intake_clerk
+REF-0035,Insurance Verification,2026-02-11 02:32:00,intake_clerk
+REF-0035,Prior Auth Submitted,2026-02-11 06:48:00,auth_specialist
+REF-0035,Prior Auth Approved,2026-02-15 23:48:00,auth_specialist
+REF-0035,Scheduling Call,2026-02-17 09:48:00,scheduler
+REF-0035,Appointment Scheduled,2026-02-17 09:58:00,scheduler
+REF-0035,Visit Completed,2026-02-26 10:58:00,clinic_ma
+REF-0036,Referral Received,2026-02-18 07:42:00,intake_clerk
+REF-0036,Insurance Verification,2026-02-18 09:27:00,intake_clerk
+REF-0036,Prior Auth Submitted,2026-02-18 11:57:00,auth_specialist
+REF-0036,Prior Auth Approved,2026-02-21 15:57:00,auth_specialist
+REF-0036,Scheduling Call,2026-02-22 07:57:00,scheduler
+REF-0036,Appointment Scheduled,2026-02-22 08:03:00,scheduler
+REF-0036,Visit Completed,2026-03-07 11:03:00,clinic_ma
+REF-0037,Referral Received,2026-02-26 11:54:00,intake_clerk
+REF-0037,Insurance Verification,2026-02-26 14:10:00,intake_clerk
+REF-0037,Prior Auth Submitted,2026-02-26 16:19:00,auth_specialist
+REF-0037,Prior Auth Approved,2026-03-02 17:19:00,auth_specialist
+REF-0037,Scheduling Call,2026-03-04 04:19:00,scheduler
+REF-0037,Appointment Scheduled,2026-03-04 04:28:00,scheduler
+REF-0037,Visit Completed,2026-03-07 06:28:00,clinic_ma
+REF-0038,Referral Received,2026-03-22 12:48:00,intake_clerk
+REF-0038,Insurance Verification,2026-03-22 13:35:00,intake_clerk
+REF-0038,Prior Auth Submitted,2026-03-22 15:57:00,auth_specialist
+REF-0038,Prior Auth Denied,2026-03-28 08:57:00,auth_specialist
+REF-0038,Prior Auth Resubmitted,2026-03-31 03:57:00,auth_specialist
+REF-0038,Prior Auth Denied,2026-04-03 10:57:00,auth_specialist
+REF-0038,Prior Auth Resubmitted,2026-04-04 09:57:00,auth_specialist
+REF-0038,Prior Auth Approved,2026-04-08 19:57:00,auth_specialist
+REF-0038,Scheduling Call,2026-04-09 07:57:00,scheduler
+REF-0038,Appointment Scheduled,2026-04-09 08:12:00,scheduler
+REF-0038,Case Closed - No Show,2026-04-21 18:12:00,scheduler
+REF-0039,Referral Received,2026-02-26 14:52:00,intake_clerk
+REF-0039,Insurance Verification,2026-02-26 17:21:00,intake_clerk
+REF-0039,Prior Auth Submitted,2026-02-26 21:39:00,auth_specialist
+REF-0039,Prior Auth Approved,2026-03-04 20:39:00,auth_specialist
+REF-0039,Scheduling Call,2026-03-06 06:39:00,scheduler
+REF-0039,Appointment Scheduled,2026-03-06 06:51:00,scheduler
+REF-0039,Visit Completed,2026-03-15 03:51:00,clinic_ma
+REF-0040,Referral Received,2026-03-11 16:49:00,intake_clerk
+REF-0040,Insurance Verification,2026-03-11 19:49:00,intake_clerk
+REF-0040,Prior Auth Submitted,2026-03-12 00:04:00,auth_specialist
+REF-0040,Prior Auth Denied,2026-03-15 12:04:00,auth_specialist
+REF-0040,Prior Auth Resubmitted,2026-03-17 02:04:00,auth_specialist
+REF-0040,Prior Auth Approved,2026-03-20 18:04:00,auth_specialist
+REF-0040,Scheduling Call,2026-03-22 08:04:00,scheduler
+REF-0040,Scheduling Call,2026-03-23 17:04:00,scheduler
+REF-0040,Appointment Scheduled,2026-03-23 17:16:00,scheduler
+REF-0040,Visit Completed,2026-03-29 23:16:00,clinic_ma
+REF-0041,Referral Received,2026-03-06 14:13:00,intake_clerk
+REF-0041,Insurance Verification,2026-03-06 15:25:00,intake_clerk
+REF-0041,Urgent Override,2026-03-06 15:56:00,clinic_manager
+REF-0041,Scheduling Call,2026-03-06 18:44:00,scheduler
+REF-0041,Appointment Scheduled,2026-03-06 19:03:00,scheduler
+REF-0041,Visit Completed,2026-03-10 00:03:00,clinic_ma
+REF-0042,Referral Received,2026-01-10 15:13:00,intake_clerk
+REF-0042,Insurance Verification,2026-01-10 17:12:00,intake_clerk
+REF-0042,Prior Auth Submitted,2026-01-10 17:52:00,auth_specialist
+REF-0042,Prior Auth Approved,2026-01-16 18:52:00,auth_specialist
+REF-0042,Scheduling Call,2026-01-18 10:52:00,scheduler
+REF-0042,Appointment Scheduled,2026-01-18 10:57:00,scheduler
+REF-0042,Case Closed - No Show,2026-01-27 18:57:00,scheduler
+REF-0043,Referral Received,2026-03-10 15:24:00,intake_clerk
+REF-0043,Insurance Verification,2026-03-10 17:31:00,intake_clerk
+REF-0043,Prior Auth Submitted,2026-03-10 19:53:00,auth_specialist
+REF-0043,Prior Auth Approved,2026-03-14 05:53:00,auth_specialist
+REF-0043,Scheduling Call,2026-03-15 12:53:00,scheduler
+REF-0043,Appointment Scheduled,2026-03-15 13:10:00,scheduler
+REF-0043,Visit Completed,2026-03-27 04:10:00,clinic_ma
+REF-0044,Referral Received,2026-03-08 03:10:00,intake_clerk
+REF-0044,Insurance Verification,2026-03-08 04:02:00,intake_clerk
+REF-0044,Prior Auth Submitted,2026-03-08 04:45:00,auth_specialist
+REF-0044,Prior Auth Approved,2026-03-13 07:45:00,auth_specialist
+REF-0044,Scheduling Call,2026-03-14 23:45:00,scheduler
+REF-0044,Appointment Scheduled,2026-03-14 23:52:00,scheduler
+REF-0044,Visit Completed,2026-03-20 20:52:00,clinic_ma
+REF-0045,Referral Received,2026-03-20 07:29:00,intake_clerk
+REF-0045,Insurance Verification,2026-03-20 08:22:00,intake_clerk
+REF-0045,Info Request to Referrer,2026-03-20 08:44:00,intake_clerk
+REF-0045,Info Received,2026-03-23 01:44:00,intake_clerk
+REF-0045,Insurance Verification,2026-03-23 02:12:00,intake_clerk
+REF-0045,Prior Auth Submitted,2026-03-23 05:34:00,auth_specialist
+REF-0045,Prior Auth Approved,2026-03-27 05:34:00,auth_specialist
+REF-0045,Scheduling Call,2026-03-28 02:34:00,scheduler
+REF-0045,Appointment Scheduled,2026-03-28 02:52:00,scheduler
+REF-0045,Visit Completed,2026-04-01 19:52:00,clinic_ma
+REF-0046,Referral Received,2026-02-14 11:01:00,intake_clerk
+REF-0046,Insurance Verification,2026-02-14 11:34:00,intake_clerk
+REF-0046,Prior Auth Submitted,2026-02-14 15:03:00,auth_specialist
+REF-0046,Prior Auth Denied,2026-02-16 23:03:00,auth_specialist
+REF-0046,Prior Auth Resubmitted,2026-02-17 12:03:00,auth_specialist
+REF-0046,Prior Auth Approved,2026-02-20 19:03:00,auth_specialist
+REF-0046,Scheduling Call,2026-02-21 11:03:00,scheduler
+REF-0046,Appointment Scheduled,2026-02-21 11:12:00,scheduler
+REF-0046,Visit Completed,2026-03-06 13:12:00,clinic_ma
+REF-0047,Referral Received,2026-03-03 11:07:00,intake_clerk
+REF-0047,Insurance Verification,2026-03-03 12:22:00,intake_clerk
+REF-0047,Prior Auth Submitted,2026-03-03 15:03:00,auth_specialist
+REF-0047,Prior Auth Approved,2026-03-06 12:03:00,auth_specialist
+REF-0047,Scheduling Call,2026-03-08 06:03:00,scheduler
+REF-0047,Appointment Scheduled,2026-03-08 06:11:00,scheduler
+REF-0047,Visit Completed,2026-03-14 17:11:00,clinic_ma
+REF-0048,Referral Received,2026-03-28 15:19:00,intake_clerk
+REF-0048,Insurance Verification,2026-03-28 15:42:00,intake_clerk
+REF-0048,Urgent Override,2026-03-28 16:11:00,clinic_manager
+REF-0048,Scheduling Call,2026-03-28 19:08:00,scheduler
+REF-0048,Appointment Scheduled,2026-03-28 19:25:00,scheduler
+REF-0048,Visit Completed,2026-03-31 21:25:00,clinic_ma
+REF-0049,Referral Received,2026-03-26 16:45:00,intake_clerk
+REF-0049,Insurance Verification,2026-03-26 18:20:00,intake_clerk
+REF-0049,Info Request to Referrer,2026-03-26 18:52:00,intake_clerk
+REF-0049,Info Received,2026-03-31 02:52:00,intake_clerk
+REF-0049,Insurance Verification,2026-03-31 03:22:00,intake_clerk
+REF-0049,Prior Auth Submitted,2026-03-31 06:26:00,auth_specialist
+REF-0049,Prior Auth Approved,2026-04-05 10:26:00,auth_specialist
+REF-0049,Scheduling Call,2026-04-05 21:26:00,scheduler
+REF-0049,Appointment Scheduled,2026-04-05 21:32:00,scheduler
+REF-0049,Visit Completed,2026-04-18 00:32:00,clinic_ma
+REF-0050,Referral Received,2026-03-02 18:23:00,intake_clerk
+REF-0050,Insurance Verification,2026-03-02 20:05:00,intake_clerk
+REF-0050,Urgent Override,2026-03-02 20:36:00,clinic_manager
+REF-0050,Scheduling Call,2026-03-02 21:09:00,scheduler
+REF-0050,Appointment Scheduled,2026-03-02 21:27:00,scheduler
+REF-0050,Visit Completed,2026-03-06 11:27:00,clinic_ma
+REF-0051,Referral Received,2026-01-14 08:27:00,intake_clerk
+REF-0051,Insurance Verification,2026-01-14 10:44:00,intake_clerk
+REF-0051,Prior Auth Submitted,2026-01-14 14:56:00,auth_specialist
+REF-0051,Prior Auth Denied,2026-01-19 08:56:00,auth_specialist
+REF-0051,Prior Auth Resubmitted,2026-01-21 02:56:00,auth_specialist
+REF-0051,Prior Auth Approved,2026-01-27 23:56:00,auth_specialist
+REF-0051,Scheduling Call,2026-01-29 13:56:00,scheduler
+REF-0051,Appointment Scheduled,2026-01-29 14:15:00,scheduler
+REF-0051,Visit Completed,2026-02-14 05:15:00,clinic_ma
+REF-0052,Referral Received,2026-01-28 05:20:00,intake_clerk
+REF-0052,Insurance Verification,2026-01-28 06:02:00,intake_clerk
+REF-0052,Prior Auth Submitted,2026-01-28 10:22:00,auth_specialist
+REF-0052,Prior Auth Denied,2026-02-01 21:22:00,auth_specialist
+REF-0052,Prior Auth Resubmitted,2026-02-04 05:22:00,auth_specialist
+REF-0052,Prior Auth Approved,2026-02-08 20:22:00,auth_specialist
+REF-0052,Scheduling Call,2026-02-09 20:22:00,scheduler
+REF-0052,Appointment Scheduled,2026-02-09 20:33:00,scheduler
+REF-0052,Visit Completed,2026-02-18 08:33:00,clinic_ma
+REF-0053,Referral Received,2026-02-03 09:17:00,intake_clerk
+REF-0053,Insurance Verification,2026-02-03 10:47:00,intake_clerk
+REF-0053,Prior Auth Submitted,2026-02-03 15:41:00,auth_specialist
+REF-0053,Prior Auth Approved,2026-02-06 01:41:00,auth_specialist
+REF-0053,Scheduling Call,2026-02-06 20:41:00,scheduler
+REF-0053,Appointment Scheduled,2026-02-06 21:01:00,scheduler
+REF-0053,Visit Completed,2026-02-15 00:01:00,clinic_ma
+REF-0054,Referral Received,2026-03-05 06:30:00,intake_clerk
+REF-0054,Insurance Verification,2026-03-05 08:55:00,intake_clerk
+REF-0054,Prior Auth Submitted,2026-03-05 09:33:00,auth_specialist
+REF-0054,Prior Auth Denied,2026-03-08 13:33:00,auth_specialist
+REF-0054,Prior Auth Resubmitted,2026-03-11 00:33:00,auth_specialist
+REF-0054,Prior Auth Approved,2026-03-14 15:33:00,auth_specialist
+REF-0054,Scheduling Call,2026-03-16 13:33:00,scheduler
+REF-0054,Appointment Scheduled,2026-03-16 13:53:00,scheduler
+REF-0054,Visit Completed,2026-03-26 21:53:00,clinic_ma
+REF-0055,Referral Received,2026-02-10 15:47:00,intake_clerk
+REF-0055,Insurance Verification,2026-02-10 17:37:00,intake_clerk
+REF-0055,Prior Auth Submitted,2026-02-10 20:25:00,auth_specialist
+REF-0055,Prior Auth Approved,2026-02-14 01:25:00,auth_specialist
+REF-0055,Scheduling Call,2026-02-14 12:25:00,scheduler
+REF-0055,Appointment Scheduled,2026-02-14 12:40:00,scheduler
+REF-0055,Visit Completed,2026-02-28 22:40:00,clinic_ma
+REF-0056,Referral Received,2026-03-27 11:48:00,intake_clerk
+REF-0056,Insurance Verification,2026-03-27 12:57:00,intake_clerk
+REF-0056,Prior Auth Submitted,2026-03-27 17:34:00,auth_specialist
+REF-0056,Prior Auth Approved,2026-04-01 20:34:00,auth_specialist
+REF-0056,Scheduling Call,2026-04-03 09:34:00,scheduler
+REF-0056,Appointment Scheduled,2026-04-03 09:42:00,scheduler
+REF-0056,Visit Completed,2026-04-12 16:42:00,clinic_ma
+REF-0057,Referral Received,2026-01-24 17:23:00,intake_clerk
+REF-0057,Insurance Verification,2026-01-24 17:44:00,intake_clerk
+REF-0057,Info Request to Referrer,2026-01-24 18:16:00,intake_clerk
+REF-0057,Info Received,2026-01-28 14:16:00,intake_clerk
+REF-0057,Insurance Verification,2026-01-28 14:39:00,intake_clerk
+REF-0057,Prior Auth Submitted,2026-01-28 15:36:00,auth_specialist
+REF-0057,Prior Auth Approved,2026-02-03 08:36:00,auth_specialist
+REF-0057,Scheduling Call,2026-02-03 20:36:00,scheduler
+REF-0057,Appointment Scheduled,2026-02-03 20:56:00,scheduler
+REF-0057,Visit Completed,2026-02-07 02:56:00,clinic_ma
+REF-0058,Referral Received,2026-02-23 07:18:00,intake_clerk
+REF-0058,Insurance Verification,2026-02-23 09:30:00,intake_clerk
+REF-0058,Prior Auth Submitted,2026-02-23 10:26:00,auth_specialist
+REF-0058,Prior Auth Approved,2026-03-02 00:26:00,auth_specialist
+REF-0058,Scheduling Call,2026-03-03 10:26:00,scheduler
+REF-0058,Appointment Scheduled,2026-03-03 10:33:00,scheduler
+REF-0058,Visit Completed,2026-03-07 23:33:00,clinic_ma
+REF-0059,Referral Received,2026-02-23 13:40:00,intake_clerk
+REF-0059,Insurance Verification,2026-02-23 14:38:00,intake_clerk
+REF-0059,Prior Auth Submitted,2026-02-23 17:43:00,auth_specialist
+REF-0059,Prior Auth Denied,2026-02-27 00:43:00,auth_specialist
+REF-0059,Prior Auth Resubmitted,2026-02-27 23:43:00,auth_specialist
+REF-0059,Prior Auth Approved,2026-03-04 04:43:00,auth_specialist
+REF-0059,Scheduling Call,2026-03-05 22:43:00,scheduler
+REF-0059,Appointment Scheduled,2026-03-05 22:55:00,scheduler
+REF-0059,Visit Completed,2026-03-17 00:55:00,clinic_ma
+REF-0060,Referral Received,2026-02-12 18:58:00,intake_clerk
+REF-0060,Insurance Verification,2026-02-12 21:48:00,intake_clerk
+REF-0060,Prior Auth Submitted,2026-02-13 00:54:00,auth_specialist
+REF-0060,Prior Auth Approved,2026-02-15 07:54:00,auth_specialist
+REF-0060,Scheduling Call,2026-02-17 02:54:00,scheduler
+REF-0060,Appointment Scheduled,2026-02-17 03:02:00,scheduler
+REF-0060,Case Closed - No Show,2026-02-24 13:02:00,scheduler
+REF-0061,Referral Received,2026-02-27 17:13:00,intake_clerk
+REF-0061,Insurance Verification,2026-02-27 17:43:00,intake_clerk
+REF-0061,Info Request to Referrer,2026-02-27 17:58:00,intake_clerk
+REF-0061,Info Received,2026-03-01 23:58:00,intake_clerk
+REF-0061,Insurance Verification,2026-03-02 00:24:00,intake_clerk
+REF-0061,Prior Auth Submitted,2026-03-02 02:14:00,auth_specialist
+REF-0061,Prior Auth Denied,2026-03-06 11:14:00,auth_specialist
+REF-0061,Prior Auth Resubmitted,2026-03-09 07:14:00,auth_specialist
+REF-0061,Prior Auth Approved,2026-03-12 12:14:00,auth_specialist
+REF-0061,Scheduling Call,2026-03-13 10:14:00,scheduler
+REF-0061,Appointment Scheduled,2026-03-13 10:33:00,scheduler
+REF-0061,Visit Completed,2026-03-21 09:33:00,clinic_ma
+REF-0062,Referral Received,2026-03-25 04:16:00,intake_clerk
+REF-0062,Insurance Verification,2026-03-25 07:16:00,intake_clerk
+REF-0062,Prior Auth Submitted,2026-03-25 09:27:00,auth_specialist
+REF-0062,Prior Auth Approved,2026-03-30 06:27:00,auth_specialist
+REF-0062,Scheduling Call,2026-03-31 00:27:00,scheduler
+REF-0062,Appointment Scheduled,2026-03-31 00:40:00,scheduler
+REF-0062,Visit Completed,2026-04-04 12:40:00,clinic_ma
+REF-0063,Referral Received,2026-01-10 10:10:00,intake_clerk
+REF-0063,Insurance Verification,2026-01-10 13:02:00,intake_clerk
+REF-0063,Prior Auth Submitted,2026-01-10 15:59:00,auth_specialist
+REF-0063,Prior Auth Approved,2026-01-15 02:59:00,auth_specialist
+REF-0063,Scheduling Call,2026-01-17 02:59:00,scheduler
+REF-0063,Appointment Scheduled,2026-01-17 03:16:00,scheduler
+REF-0063,Case Closed - No Show,2026-01-30 19:16:00,scheduler
+REF-0064,Referral Received,2026-02-20 09:31:00,intake_clerk
+REF-0064,Insurance Verification,2026-02-20 12:24:00,intake_clerk
+REF-0064,Case Closed - Abandoned,2026-02-28 02:24:00,intake_clerk
+REF-0065,Referral Received,2026-03-09 00:20:00,intake_clerk
+REF-0065,Insurance Verification,2026-03-09 00:46:00,intake_clerk
+REF-0065,Prior Auth Submitted,2026-03-09 01:26:00,auth_specialist
+REF-0065,Prior Auth Approved,2026-03-14 15:26:00,auth_specialist
+REF-0065,Scheduling Call,2026-03-15 12:26:00,scheduler
+REF-0065,Appointment Scheduled,2026-03-15 12:36:00,scheduler
+REF-0065,Visit Completed,2026-03-27 22:36:00,clinic_ma
+REF-0066,Referral Received,2026-03-24 12:17:00,intake_clerk
+REF-0066,Insurance Verification,2026-03-24 13:51:00,intake_clerk
+REF-0066,Info Request to Referrer,2026-03-24 14:14:00,intake_clerk
+REF-0066,Info Received,2026-03-28 23:14:00,intake_clerk
+REF-0066,Insurance Verification,2026-03-29 00:00:00,intake_clerk
+REF-0066,Prior Auth Submitted,2026-03-29 04:30:00,auth_specialist
+REF-0066,Prior Auth Approved,2026-04-01 22:30:00,auth_specialist
+REF-0066,Scheduling Call,2026-04-02 22:30:00,scheduler
+REF-0066,Appointment Scheduled,2026-04-02 22:40:00,scheduler
+REF-0066,Visit Completed,2026-04-16 11:40:00,clinic_ma
+REF-0067,Referral Received,2026-01-29 22:42:00,intake_clerk
+REF-0067,Insurance Verification,2026-01-30 01:22:00,intake_clerk
+REF-0067,Case Closed - Abandoned,2026-02-02 23:22:00,intake_clerk
+REF-0068,Referral Received,2026-02-01 04:16:00,intake_clerk
+REF-0068,Insurance Verification,2026-02-01 06:14:00,intake_clerk
+REF-0068,Info Request to Referrer,2026-02-01 06:36:00,intake_clerk
+REF-0068,Info Received,2026-02-04 23:36:00,intake_clerk
+REF-0068,Insurance Verification,2026-02-04 23:51:00,intake_clerk
+REF-0068,Prior Auth Submitted,2026-02-05 04:17:00,auth_specialist
+REF-0068,Prior Auth Approved,2026-02-08 04:17:00,auth_specialist
+REF-0068,Scheduling Call,2026-02-09 17:17:00,scheduler
+REF-0068,Appointment Scheduled,2026-02-09 17:37:00,scheduler
+REF-0068,Visit Completed,2026-02-13 19:37:00,clinic_ma
+REF-0069,Referral Received,2026-01-22 16:17:00,intake_clerk
+REF-0069,Insurance Verification,2026-01-22 17:50:00,intake_clerk
+REF-0069,Prior Auth Submitted,2026-01-22 22:28:00,auth_specialist
+REF-0069,Prior Auth Denied,2026-01-28 06:28:00,auth_specialist
+REF-0069,Prior Auth Resubmitted,2026-01-29 20:28:00,auth_specialist
+REF-0069,Prior Auth Approved,2026-02-02 11:28:00,auth_specialist
+REF-0069,Scheduling Call,2026-02-04 02:28:00,scheduler
+REF-0069,Scheduling Call,2026-02-06 04:28:00,scheduler
+REF-0069,Appointment Scheduled,2026-02-06 04:35:00,scheduler
+REF-0069,Visit Completed,2026-02-11 14:35:00,clinic_ma
+REF-0070,Referral Received,2026-02-13 17:07:00,intake_clerk
+REF-0070,Insurance Verification,2026-02-13 18:06:00,intake_clerk
+REF-0070,Prior Auth Submitted,2026-02-13 21:05:00,auth_specialist
+REF-0070,Prior Auth Approved,2026-02-17 07:05:00,auth_specialist
+REF-0070,Scheduling Call,2026-02-18 13:05:00,scheduler
+REF-0070,Appointment Scheduled,2026-02-18 13:25:00,scheduler
+REF-0070,Visit Completed,2026-03-05 07:25:00,clinic_ma
+REF-0071,Referral Received,2026-01-17 16:24:00,intake_clerk
+REF-0071,Insurance Verification,2026-01-17 18:00:00,intake_clerk
+REF-0071,Info Request to Referrer,2026-01-17 18:26:00,intake_clerk
+REF-0071,Info Received,2026-01-22 17:26:00,intake_clerk
+REF-0071,Insurance Verification,2026-01-22 17:49:00,intake_clerk
+REF-0071,Prior Auth Submitted,2026-01-22 20:40:00,auth_specialist
+REF-0071,Prior Auth Approved,2026-01-29 09:40:00,auth_specialist
+REF-0071,Scheduling Call,2026-01-30 15:40:00,scheduler
+REF-0071,Appointment Scheduled,2026-01-30 15:53:00,scheduler
+REF-0071,Visit Completed,2026-02-08 15:53:00,clinic_ma
+REF-0072,Referral Received,2026-03-08 06:19:00,intake_clerk
+REF-0072,Insurance Verification,2026-03-08 09:07:00,intake_clerk
+REF-0072,Prior Auth Submitted,2026-03-08 13:47:00,auth_specialist
+REF-0072,Prior Auth Approved,2026-03-12 22:47:00,auth_specialist
+REF-0072,Scheduling Call,2026-03-14 12:47:00,scheduler
+REF-0072,Appointment Scheduled,2026-03-14 13:02:00,scheduler
+REF-0072,Visit Completed,2026-03-29 03:02:00,clinic_ma
+REF-0073,Referral Received,2026-02-06 12:29:00,intake_clerk
+REF-0073,Insurance Verification,2026-02-06 13:37:00,intake_clerk
+REF-0073,Prior Auth Submitted,2026-02-06 16:09:00,auth_specialist
+REF-0073,Prior Auth Approved,2026-02-09 21:09:00,auth_specialist
+REF-0073,Scheduling Call,2026-02-11 03:09:00,scheduler
+REF-0073,Scheduling Call,2026-02-14 02:09:00,scheduler
+REF-0073,Appointment Scheduled,2026-02-14 02:29:00,scheduler
+REF-0073,Visit Completed,2026-02-25 05:29:00,clinic_ma
+REF-0074,Referral Received,2026-02-07 06:42:00,intake_clerk
+REF-0074,Insurance Verification,2026-02-07 07:40:00,intake_clerk
+REF-0074,Prior Auth Submitted,2026-02-07 08:28:00,auth_specialist
+REF-0074,Prior Auth Denied,2026-02-12 11:28:00,auth_specialist
+REF-0074,Prior Auth Resubmitted,2026-02-14 13:28:00,auth_specialist
+REF-0074,Prior Auth Approved,2026-02-21 04:28:00,auth_specialist
+REF-0074,Scheduling Call,2026-02-22 12:28:00,scheduler
+REF-0074,Scheduling Call,2026-02-24 17:28:00,scheduler
+REF-0074,Appointment Scheduled,2026-02-24 17:33:00,scheduler
+REF-0074,Visit Completed,2026-03-08 10:33:00,clinic_ma
+REF-0075,Referral Received,2026-03-20 15:41:00,intake_clerk
+REF-0075,Insurance Verification,2026-03-20 16:20:00,intake_clerk
+REF-0075,Prior Auth Submitted,2026-03-20 19:05:00,auth_specialist
+REF-0075,Prior Auth Approved,2026-03-26 11:05:00,auth_specialist
+REF-0075,Scheduling Call,2026-03-27 16:05:00,scheduler
+REF-0075,Appointment Scheduled,2026-03-27 16:20:00,scheduler
+REF-0075,Case Closed - No Show,2026-04-11 01:20:00,scheduler
+REF-0076,Referral Received,2026-02-06 18:20:00,intake_clerk
+REF-0076,Insurance Verification,2026-02-06 20:44:00,intake_clerk
+REF-0076,Prior Auth Submitted,2026-02-06 21:32:00,auth_specialist
+REF-0076,Prior Auth Approved,2026-02-10 03:32:00,auth_specialist
+REF-0076,Scheduling Call,2026-02-11 23:32:00,scheduler
+REF-0076,Appointment Scheduled,2026-02-11 23:46:00,scheduler
+REF-0076,Case Closed - No Show,2026-02-16 21:46:00,scheduler
+REF-0077,Referral Received,2026-02-11 08:06:00,intake_clerk
+REF-0077,Insurance Verification,2026-02-11 08:51:00,intake_clerk
+REF-0077,Prior Auth Submitted,2026-02-11 11:54:00,auth_specialist
+REF-0077,Prior Auth Approved,2026-02-13 16:54:00,auth_specialist
+REF-0077,Scheduling Call,2026-02-14 16:54:00,scheduler
+REF-0077,Appointment Scheduled,2026-02-14 17:08:00,scheduler
+REF-0077,Visit Completed,2026-02-26 21:08:00,clinic_ma
+REF-0078,Referral Received,2026-01-17 18:15:00,intake_clerk
+REF-0078,Insurance Verification,2026-01-17 20:59:00,intake_clerk
+REF-0078,Prior Auth Submitted,2026-01-17 23:01:00,auth_specialist
+REF-0078,Prior Auth Denied,2026-01-20 09:01:00,auth_specialist
+REF-0078,Prior Auth Resubmitted,2026-01-22 17:01:00,auth_specialist
+REF-0078,Prior Auth Approved,2026-01-25 23:01:00,auth_specialist
+REF-0078,Scheduling Call,2026-01-27 10:01:00,scheduler
+REF-0078,Appointment Scheduled,2026-01-27 10:10:00,scheduler
+REF-0078,Visit Completed,2026-02-13 00:10:00,clinic_ma
+REF-0079,Referral Received,2026-01-27 00:29:00,intake_clerk
+REF-0079,Insurance Verification,2026-01-27 00:50:00,intake_clerk
+REF-0079,Info Request to Referrer,2026-01-27 01:28:00,intake_clerk
+REF-0079,Info Received,2026-01-30 12:28:00,intake_clerk
+REF-0079,Insurance Verification,2026-01-30 13:01:00,intake_clerk
+REF-0079,Prior Auth Submitted,2026-01-30 14:51:00,auth_specialist
+REF-0079,Prior Auth Denied,2026-02-06 14:51:00,auth_specialist
+REF-0079,Prior Auth Resubmitted,2026-02-08 18:51:00,auth_specialist
+REF-0079,Prior Auth Approved,2026-02-12 08:51:00,auth_specialist
+REF-0079,Scheduling Call,2026-02-14 04:51:00,scheduler
+REF-0079,Appointment Scheduled,2026-02-14 05:04:00,scheduler
+REF-0079,Visit Completed,2026-02-23 15:04:00,clinic_ma
+REF-0080,Referral Received,2026-01-22 07:24:00,intake_clerk
+REF-0080,Insurance Verification,2026-01-22 08:11:00,intake_clerk
+REF-0080,Prior Auth Submitted,2026-01-22 11:44:00,auth_specialist
+REF-0080,Prior Auth Approved,2026-01-28 04:44:00,auth_specialist
+REF-0080,Scheduling Call,2026-01-29 02:44:00,scheduler
+REF-0080,Scheduling Call,2026-01-31 20:44:00,scheduler
+REF-0080,Appointment Scheduled,2026-01-31 21:01:00,scheduler
+REF-0080,Visit Completed,2026-02-15 22:01:00,clinic_ma
+REF-0081,Referral Received,2026-03-20 03:43:00,intake_clerk
+REF-0081,Insurance Verification,2026-03-20 04:15:00,intake_clerk
+REF-0081,Prior Auth Submitted,2026-03-20 08:59:00,auth_specialist
+REF-0081,Prior Auth Approved,2026-03-27 03:59:00,auth_specialist
+REF-0081,Scheduling Call,2026-03-28 01:59:00,scheduler
+REF-0081,Appointment Scheduled,2026-03-28 02:11:00,scheduler
+REF-0081,Visit Completed,2026-04-07 14:11:00,clinic_ma
+REF-0082,Referral Received,2026-01-24 00:40:00,intake_clerk
+REF-0082,Insurance Verification,2026-01-24 01:32:00,intake_clerk
+REF-0082,Info Request to Referrer,2026-01-24 02:03:00,intake_clerk
+REF-0082,Info Received,2026-01-29 02:03:00,intake_clerk
+REF-0082,Insurance Verification,2026-01-29 03:00:00,intake_clerk
+REF-0082,Prior Auth Submitted,2026-01-29 04:40:00,auth_specialist
+REF-0082,Prior Auth Approved,2026-02-04 23:40:00,auth_specialist
+REF-0082,Scheduling Call,2026-02-06 19:40:00,scheduler
+REF-0082,Appointment Scheduled,2026-02-06 19:54:00,scheduler
+REF-0082,Visit Completed,2026-02-10 12:54:00,clinic_ma
+REF-0083,Referral Received,2026-02-23 18:23:00,intake_clerk
+REF-0083,Insurance Verification,2026-02-23 19:06:00,intake_clerk
+REF-0083,Prior Auth Submitted,2026-02-23 22:23:00,auth_specialist
+REF-0083,Prior Auth Approved,2026-02-26 20:23:00,auth_specialist
+REF-0083,Scheduling Call,2026-02-27 12:23:00,scheduler
+REF-0083,Appointment Scheduled,2026-02-27 12:39:00,scheduler
+REF-0083,Visit Completed,2026-03-08 07:39:00,clinic_ma
+REF-0084,Referral Received,2026-03-17 04:10:00,intake_clerk
+REF-0084,Insurance Verification,2026-03-17 05:31:00,intake_clerk
+REF-0084,Info Request to Referrer,2026-03-17 06:11:00,intake_clerk
+REF-0084,Info Received,2026-03-19 19:11:00,intake_clerk
+REF-0084,Insurance Verification,2026-03-19 19:47:00,intake_clerk
+REF-0084,Prior Auth Submitted,2026-03-20 00:16:00,auth_specialist
+REF-0084,Prior Auth Approved,2026-03-22 18:16:00,auth_specialist
+REF-0084,Scheduling Call,2026-03-23 12:16:00,scheduler
+REF-0084,Appointment Scheduled,2026-03-23 12:33:00,scheduler
+REF-0084,Case Closed - No Show,2026-04-07 09:33:00,scheduler
+REF-0085,Referral Received,2026-02-05 13:05:00,intake_clerk
+REF-0085,Insurance Verification,2026-02-05 13:28:00,intake_clerk
+REF-0085,Prior Auth Submitted,2026-02-05 15:01:00,auth_specialist
+REF-0085,Prior Auth Approved,2026-02-11 05:01:00,auth_specialist
+REF-0085,Scheduling Call,2026-02-13 04:01:00,scheduler
+REF-0085,Appointment Scheduled,2026-02-13 04:18:00,scheduler
+REF-0085,Visit Completed,2026-02-24 02:18:00,clinic_ma
+REF-0086,Referral Received,2026-01-14 13:43:00,intake_clerk
+REF-0086,Insurance Verification,2026-01-14 14:06:00,intake_clerk
+REF-0086,Info Request to Referrer,2026-01-14 14:35:00,intake_clerk
+REF-0086,Info Received,2026-01-18 13:35:00,intake_clerk
+REF-0086,Insurance Verification,2026-01-18 14:10:00,intake_clerk
+REF-0086,Prior Auth Submitted,2026-01-18 16:33:00,auth_specialist
+REF-0086,Prior Auth Approved,2026-01-24 01:33:00,auth_specialist
+REF-0086,Scheduling Call,2026-01-25 10:33:00,scheduler
+REF-0086,Appointment Scheduled,2026-01-25 10:47:00,scheduler
+REF-0086,Visit Completed,2026-01-30 21:47:00,clinic_ma
+REF-0087,Referral Received,2026-01-17 06:02:00,intake_clerk
+REF-0087,Insurance Verification,2026-01-17 07:39:00,intake_clerk
+REF-0087,Prior Auth Submitted,2026-01-17 09:08:00,auth_specialist
+REF-0087,Prior Auth Denied,2026-01-24 02:08:00,auth_specialist
+REF-0087,Prior Auth Resubmitted,2026-01-25 03:08:00,auth_specialist
+REF-0087,Prior Auth Approved,2026-01-29 02:08:00,auth_specialist
+REF-0087,Scheduling Call,2026-01-31 00:08:00,scheduler
+REF-0087,Appointment Scheduled,2026-01-31 00:26:00,scheduler
+REF-0087,Visit Completed,2026-02-06 07:26:00,clinic_ma
+REF-0088,Referral Received,2026-03-21 21:26:00,intake_clerk
+REF-0088,Insurance Verification,2026-03-21 23:51:00,intake_clerk
+REF-0088,Prior Auth Submitted,2026-03-22 02:44:00,auth_specialist
+REF-0088,Prior Auth Denied,2026-03-26 01:44:00,auth_specialist
+REF-0088,Prior Auth Resubmitted,2026-03-27 12:44:00,auth_specialist
+REF-0088,Prior Auth Approved,2026-03-30 18:44:00,auth_specialist
+REF-0088,Scheduling Call,2026-03-31 21:44:00,scheduler
+REF-0088,Scheduling Call,2026-04-03 16:44:00,scheduler
+REF-0088,Appointment Scheduled,2026-04-03 17:00:00,scheduler
+REF-0088,Visit Completed,2026-04-14 08:00:00,clinic_ma
+REF-0089,Referral Received,2026-01-10 12:25:00,intake_clerk
+REF-0089,Insurance Verification,2026-01-10 13:00:00,intake_clerk
+REF-0089,Info Request to Referrer,2026-01-10 13:40:00,intake_clerk
+REF-0089,Info Received,2026-01-13 23:40:00,intake_clerk
+REF-0089,Insurance Verification,2026-01-14 00:00:00,intake_clerk
+REF-0089,Prior Auth Submitted,2026-01-14 00:40:00,auth_specialist
+REF-0089,Prior Auth Denied,2026-01-17 18:40:00,auth_specialist
+REF-0089,Prior Auth Resubmitted,2026-01-19 09:40:00,auth_specialist
+REF-0089,Prior Auth Approved,2026-01-25 13:40:00,auth_specialist
+REF-0089,Scheduling Call,2026-01-27 05:40:00,scheduler
+REF-0089,Appointment Scheduled,2026-01-27 05:51:00,scheduler
+REF-0089,Visit Completed,2026-02-04 04:51:00,clinic_ma
+REF-0090,Referral Received,2026-02-02 08:49:00,intake_clerk
+REF-0090,Insurance Verification,2026-02-02 10:25:00,intake_clerk
+REF-0090,Info Request to Referrer,2026-02-02 10:35:00,intake_clerk
+REF-0090,Info Received,2026-02-04 21:35:00,intake_clerk
+REF-0090,Insurance Verification,2026-02-04 21:59:00,intake_clerk
+REF-0090,Prior Auth Submitted,2026-02-05 00:37:00,auth_specialist
+REF-0090,Prior Auth Approved,2026-02-07 14:37:00,auth_specialist
+REF-0090,Scheduling Call,2026-02-09 12:37:00,scheduler
+REF-0090,Appointment Scheduled,2026-02-09 12:46:00,scheduler
+REF-0090,Visit Completed,2026-02-17 13:46:00,clinic_ma
+REF-0091,Referral Received,2026-02-24 13:20:00,intake_clerk
+REF-0091,Insurance Verification,2026-02-24 14:13:00,intake_clerk
+REF-0091,Urgent Override,2026-02-24 14:26:00,clinic_manager
+REF-0091,Scheduling Call,2026-02-24 15:28:00,scheduler
+REF-0091,Appointment Scheduled,2026-02-24 15:46:00,scheduler
+REF-0091,Visit Completed,2026-02-28 10:46:00,clinic_ma
+REF-0092,Referral Received,2026-01-15 00:47:00,intake_clerk
+REF-0092,Insurance Verification,2026-01-15 02:04:00,intake_clerk
+REF-0092,Urgent Override,2026-01-15 03:03:00,clinic_manager
+REF-0092,Scheduling Call,2026-01-15 05:05:00,scheduler
+REF-0092,Appointment Scheduled,2026-01-15 05:13:00,scheduler
+REF-0092,Visit Completed,2026-01-18 14:13:00,clinic_ma
+REF-0093,Referral Received,2026-02-17 07:14:00,intake_clerk
+REF-0093,Insurance Verification,2026-02-17 07:45:00,intake_clerk
+REF-0093,Prior Auth Submitted,2026-02-17 12:41:00,auth_specialist
+REF-0093,Prior Auth Approved,2026-02-22 22:41:00,auth_specialist
+REF-0093,Scheduling Call,2026-02-23 03:41:00,scheduler
+REF-0093,Scheduling Call,2026-02-25 09:41:00,scheduler
+REF-0093,Appointment Scheduled,2026-02-25 09:58:00,scheduler
+REF-0093,Visit Completed,2026-03-02 16:58:00,clinic_ma
+REF-0094,Referral Received,2026-02-16 04:45:00,intake_clerk
+REF-0094,Insurance Verification,2026-02-16 05:23:00,intake_clerk
+REF-0094,Prior Auth Submitted,2026-02-16 08:37:00,auth_specialist
+REF-0094,Prior Auth Approved,2026-02-18 16:37:00,auth_specialist
+REF-0094,Scheduling Call,2026-02-19 04:37:00,scheduler
+REF-0094,Appointment Scheduled,2026-02-19 04:52:00,scheduler
+REF-0094,Visit Completed,2026-03-06 21:52:00,clinic_ma
+REF-0095,Referral Received,2026-02-19 14:18:00,intake_clerk
+REF-0095,Insurance Verification,2026-02-19 17:12:00,intake_clerk
+REF-0095,Prior Auth Submitted,2026-02-19 18:40:00,auth_specialist
+REF-0095,Prior Auth Approved,2026-02-25 05:40:00,auth_specialist
+REF-0095,Scheduling Call,2026-02-26 20:40:00,scheduler
+REF-0095,Appointment Scheduled,2026-02-26 20:51:00,scheduler
+REF-0095,Visit Completed,2026-03-06 16:51:00,clinic_ma
+REF-0096,Referral Received,2026-02-09 15:21:00,intake_clerk
+REF-0096,Insurance Verification,2026-02-09 17:23:00,intake_clerk
+REF-0096,Prior Auth Submitted,2026-02-09 18:41:00,auth_specialist
+REF-0096,Prior Auth Approved,2026-02-13 10:41:00,auth_specialist
+REF-0096,Scheduling Call,2026-02-15 08:41:00,scheduler
+REF-0096,Appointment Scheduled,2026-02-15 08:50:00,scheduler
+REF-0096,Visit Completed,2026-02-28 10:50:00,clinic_ma
+REF-0097,Referral Received,2026-01-11 01:05:00,intake_clerk
+REF-0097,Insurance Verification,2026-01-11 01:48:00,intake_clerk
+REF-0097,Prior Auth Submitted,2026-01-11 05:28:00,auth_specialist
+REF-0097,Prior Auth Approved,2026-01-16 04:28:00,auth_specialist
+REF-0097,Scheduling Call,2026-01-16 11:28:00,scheduler
+REF-0097,Appointment Scheduled,2026-01-16 11:43:00,scheduler
+REF-0097,Visit Completed,2026-01-28 05:43:00,clinic_ma
+REF-0098,Referral Received,2026-02-04 12:55:00,intake_clerk
+REF-0098,Insurance Verification,2026-02-04 15:03:00,intake_clerk
+REF-0098,Prior Auth Submitted,2026-02-04 15:59:00,auth_specialist
+REF-0098,Prior Auth Approved,2026-02-09 19:59:00,auth_specialist
+REF-0098,Scheduling Call,2026-02-10 18:59:00,scheduler
+REF-0098,Appointment Scheduled,2026-02-10 19:10:00,scheduler
+REF-0098,Visit Completed,2026-02-24 01:10:00,clinic_ma
+REF-0099,Referral Received,2026-01-24 11:54:00,intake_clerk
+REF-0099,Insurance Verification,2026-01-24 13:25:00,intake_clerk
+REF-0099,Urgent Override,2026-01-24 13:58:00,clinic_manager
+REF-0099,Scheduling Call,2026-01-24 14:57:00,scheduler
+REF-0099,Appointment Scheduled,2026-01-24 15:10:00,scheduler
+REF-0099,Visit Completed,2026-01-26 19:10:00,clinic_ma
+REF-0100,Referral Received,2026-03-15 05:27:00,intake_clerk
+REF-0100,Insurance Verification,2026-03-15 08:26:00,intake_clerk
+REF-0100,Prior Auth Submitted,2026-03-15 09:09:00,auth_specialist
+REF-0100,Prior Auth Approved,2026-03-20 21:09:00,auth_specialist
+REF-0100,Scheduling Call,2026-03-22 21:09:00,scheduler
+REF-0100,Appointment Scheduled,2026-03-22 21:19:00,scheduler
+REF-0100,Visit Completed,2026-04-01 11:19:00,clinic_ma
+REF-0101,Referral Received,2026-03-24 23:21:00,intake_clerk
+REF-0101,Insurance Verification,2026-03-25 00:27:00,intake_clerk
+REF-0101,Prior Auth Submitted,2026-03-25 04:22:00,auth_specialist
+REF-0101,Prior Auth Denied,2026-03-31 02:22:00,auth_specialist
+REF-0101,Prior Auth Resubmitted,2026-03-31 13:22:00,auth_specialist
+REF-0101,Prior Auth Denied,2026-04-05 08:22:00,auth_specialist
+REF-0101,Prior Auth Resubmitted,2026-04-06 19:22:00,auth_specialist
+REF-0101,Prior Auth Approved,2026-04-10 19:22:00,auth_specialist
+REF-0101,Scheduling Call,2026-04-12 01:22:00,scheduler
+REF-0101,Appointment Scheduled,2026-04-12 01:32:00,scheduler
+REF-0101,Visit Completed,2026-04-21 23:32:00,clinic_ma
+REF-0102,Referral Received,2026-03-12 14:36:00,intake_clerk
+REF-0102,Insurance Verification,2026-03-12 15:09:00,intake_clerk
+REF-0102,Prior Auth Submitted,2026-03-12 16:04:00,auth_specialist
+REF-0102,Prior Auth Approved,2026-03-16 02:04:00,auth_specialist
+REF-0102,Scheduling Call,2026-03-17 10:04:00,scheduler
+REF-0102,Appointment Scheduled,2026-03-17 10:24:00,scheduler
+REF-0102,Visit Completed,2026-03-29 06:24:00,clinic_ma
+REF-0103,Referral Received,2026-01-28 15:13:00,intake_clerk
+REF-0103,Insurance Verification,2026-01-28 16:02:00,intake_clerk
+REF-0103,Prior Auth Submitted,2026-01-28 17:28:00,auth_specialist
+REF-0103,Prior Auth Approved,2026-02-03 07:28:00,auth_specialist
+REF-0103,Scheduling Call,2026-02-05 00:28:00,scheduler
+REF-0103,Appointment Scheduled,2026-02-05 00:42:00,scheduler
+REF-0103,Visit Completed,2026-02-16 10:42:00,clinic_ma
+REF-0104,Referral Received,2026-02-25 11:03:00,intake_clerk
+REF-0104,Insurance Verification,2026-02-25 12:01:00,intake_clerk
+REF-0104,Urgent Override,2026-02-25 12:24:00,clinic_manager
+REF-0104,Scheduling Call,2026-02-25 16:10:00,scheduler
+REF-0104,Appointment Scheduled,2026-02-25 16:19:00,scheduler
+REF-0104,Visit Completed,2026-02-28 00:19:00,clinic_ma
+REF-0105,Referral Received,2026-01-30 00:20:00,intake_clerk
+REF-0105,Insurance Verification,2026-01-30 01:43:00,intake_clerk
+REF-0105,Urgent Override,2026-01-30 02:40:00,clinic_manager
+REF-0105,Scheduling Call,2026-01-30 05:00:00,scheduler
+REF-0105,Appointment Scheduled,2026-01-30 05:10:00,scheduler
+REF-0105,Visit Completed,2026-01-31 21:10:00,clinic_ma
+REF-0106,Referral Received,2026-02-06 18:34:00,intake_clerk
+REF-0106,Insurance Verification,2026-02-06 21:02:00,intake_clerk
+REF-0106,Prior Auth Submitted,2026-02-07 00:33:00,auth_specialist
+REF-0106,Prior Auth Denied,2026-02-13 14:33:00,auth_specialist
+REF-0106,Prior Auth Resubmitted,2026-02-14 03:33:00,auth_specialist
+REF-0106,Prior Auth Approved,2026-02-18 13:33:00,auth_specialist
+REF-0106,Scheduling Call,2026-02-18 21:33:00,scheduler
+REF-0106,Appointment Scheduled,2026-02-18 21:51:00,scheduler
+REF-0106,Visit Completed,2026-03-07 12:51:00,clinic_ma
+REF-0107,Referral Received,2026-02-09 23:18:00,intake_clerk
+REF-0107,Insurance Verification,2026-02-09 23:40:00,intake_clerk
+REF-0107,Urgent Override,2026-02-10 00:10:00,clinic_manager
+REF-0107,Scheduling Call,2026-02-10 01:23:00,scheduler
+REF-0107,Appointment Scheduled,2026-02-10 01:42:00,scheduler
+REF-0107,Visit Completed,2026-02-12 23:42:00,clinic_ma
+REF-0108,Referral Received,2026-01-12 20:27:00,intake_clerk
+REF-0108,Insurance Verification,2026-01-12 21:49:00,intake_clerk
+REF-0108,Prior Auth Submitted,2026-01-13 01:44:00,auth_specialist
+REF-0108,Prior Auth Approved,2026-01-17 03:44:00,auth_specialist
+REF-0108,Scheduling Call,2026-01-18 02:44:00,scheduler
+REF-0108,Appointment Scheduled,2026-01-18 02:56:00,scheduler
+REF-0108,Visit Completed,2026-01-24 16:56:00,clinic_ma
+REF-0109,Referral Received,2026-01-11 20:32:00,intake_clerk
+REF-0109,Insurance Verification,2026-01-11 23:07:00,intake_clerk
+REF-0109,Prior Auth Submitted,2026-01-12 02:35:00,auth_specialist
+REF-0109,Prior Auth Approved,2026-01-18 10:35:00,auth_specialist
+REF-0109,Scheduling Call,2026-01-20 07:35:00,scheduler
+REF-0109,Appointment Scheduled,2026-01-20 07:47:00,scheduler
+REF-0109,Visit Completed,2026-01-28 18:47:00,clinic_ma
+REF-0110,Referral Received,2026-01-22 04:11:00,intake_clerk
+REF-0110,Insurance Verification,2026-01-22 04:50:00,intake_clerk
+REF-0110,Prior Auth Submitted,2026-01-22 09:32:00,auth_specialist
+REF-0110,Prior Auth Approved,2026-01-27 09:32:00,auth_specialist
+REF-0110,Scheduling Call,2026-01-29 02:32:00,scheduler
+REF-0110,Appointment Scheduled,2026-01-29 02:47:00,scheduler
+REF-0110,Case Closed - No Show,2026-02-14 11:47:00,scheduler
+REF-0111,Referral Received,2026-02-01 07:09:00,intake_clerk
+REF-0111,Insurance Verification,2026-02-01 09:29:00,intake_clerk
+REF-0111,Prior Auth Submitted,2026-02-01 12:34:00,auth_specialist
+REF-0111,Prior Auth Approved,2026-02-06 15:34:00,auth_specialist
+REF-0111,Scheduling Call,2026-02-06 22:34:00,scheduler
+REF-0111,Appointment Scheduled,2026-02-06 22:41:00,scheduler
+REF-0111,Visit Completed,2026-02-19 13:41:00,clinic_ma
+REF-0112,Referral Received,2026-01-08 13:03:00,intake_clerk
+REF-0112,Insurance Verification,2026-01-08 14:36:00,intake_clerk
+REF-0112,Case Closed - Abandoned,2026-01-12 13:36:00,intake_clerk
+REF-0113,Referral Received,2026-02-26 19:38:00,intake_clerk
+REF-0113,Insurance Verification,2026-02-26 21:56:00,intake_clerk
+REF-0113,Prior Auth Submitted,2026-02-26 22:47:00,auth_specialist
+REF-0113,Prior Auth Approved,2026-03-05 05:47:00,auth_specialist
+REF-0113,Scheduling Call,2026-03-06 21:47:00,scheduler
+REF-0113,Appointment Scheduled,2026-03-06 22:02:00,scheduler
+REF-0113,Visit Completed,2026-03-20 14:02:00,clinic_ma
+REF-0114,Referral Received,2026-01-18 04:03:00,intake_clerk
+REF-0114,Insurance Verification,2026-01-18 05:50:00,intake_clerk
+REF-0114,Prior Auth Submitted,2026-01-18 07:03:00,auth_specialist
+REF-0114,Prior Auth Approved,2026-01-21 05:03:00,auth_specialist
+REF-0114,Scheduling Call,2026-01-21 11:03:00,scheduler
+REF-0114,Appointment Scheduled,2026-01-21 11:22:00,scheduler
+REF-0114,Case Closed - No Show,2026-02-04 15:22:00,scheduler
+REF-0115,Referral Received,2026-02-18 22:39:00,intake_clerk
+REF-0115,Insurance Verification,2026-02-18 23:46:00,intake_clerk
+REF-0115,Info Request to Referrer,2026-02-19 00:25:00,intake_clerk
+REF-0115,Info Received,2026-02-21 12:25:00,intake_clerk
+REF-0115,Insurance Verification,2026-02-21 13:04:00,intake_clerk
+REF-0115,Prior Auth Submitted,2026-02-21 16:27:00,auth_specialist
+REF-0115,Prior Auth Approved,2026-02-23 22:27:00,auth_specialist
+REF-0115,Scheduling Call,2026-02-25 18:27:00,scheduler
+REF-0115,Appointment Scheduled,2026-02-25 18:34:00,scheduler
+REF-0115,Visit Completed,2026-03-12 15:34:00,clinic_ma
+REF-0116,Referral Received,2026-03-04 05:24:00,intake_clerk
+REF-0116,Insurance Verification,2026-03-04 07:16:00,intake_clerk
+REF-0116,Info Request to Referrer,2026-03-04 07:53:00,intake_clerk
+REF-0116,Info Received,2026-03-08 19:53:00,intake_clerk
+REF-0116,Insurance Verification,2026-03-08 20:46:00,intake_clerk
+REF-0116,Prior Auth Submitted,2026-03-09 00:06:00,auth_specialist
+REF-0116,Prior Auth Denied,2026-03-14 12:06:00,auth_specialist
+REF-0116,Prior Auth Resubmitted,2026-03-15 14:06:00,auth_specialist
+REF-0116,Prior Auth Approved,2026-03-19 05:06:00,auth_specialist
+REF-0116,Scheduling Call,2026-03-21 02:06:00,scheduler
+REF-0116,Appointment Scheduled,2026-03-21 02:23:00,scheduler
+REF-0116,Visit Completed,2026-03-25 21:23:00,clinic_ma
+REF-0117,Referral Received,2026-01-31 18:35:00,intake_clerk
+REF-0117,Insurance Verification,2026-01-31 20:19:00,intake_clerk
+REF-0117,Prior Auth Submitted,2026-02-01 01:18:00,auth_specialist
+REF-0117,Prior Auth Denied,2026-02-06 14:18:00,auth_specialist
+REF-0117,Prior Auth Resubmitted,2026-02-09 04:18:00,auth_specialist
+REF-0117,Prior Auth Approved,2026-02-11 06:18:00,auth_specialist
+REF-0117,Scheduling Call,2026-02-12 09:18:00,scheduler
+REF-0117,Appointment Scheduled,2026-02-12 09:29:00,scheduler
+REF-0117,Visit Completed,2026-02-25 17:29:00,clinic_ma
+REF-0118,Referral Received,2026-01-21 17:14:00,intake_clerk
+REF-0118,Insurance Verification,2026-01-21 18:13:00,intake_clerk
+REF-0118,Case Closed - Abandoned,2026-01-25 19:13:00,intake_clerk
+REF-0119,Referral Received,2026-02-17 15:49:00,intake_clerk
+REF-0119,Insurance Verification,2026-02-17 18:23:00,intake_clerk
+REF-0119,Case Closed - Abandoned,2026-02-24 08:23:00,intake_clerk
+REF-0120,Referral Received,2026-03-21 02:49:00,intake_clerk
+REF-0120,Insurance Verification,2026-03-21 05:41:00,intake_clerk
+REF-0120,Prior Auth Submitted,2026-03-21 07:34:00,auth_specialist
+REF-0120,Prior Auth Denied,2026-03-26 23:34:00,auth_specialist
+REF-0120,Prior Auth Resubmitted,2026-03-28 04:34:00,auth_specialist
+REF-0120,Prior Auth Approved,2026-03-30 09:34:00,auth_specialist
+REF-0120,Scheduling Call,2026-03-31 15:34:00,scheduler
+REF-0120,Appointment Scheduled,2026-03-31 15:46:00,scheduler
+REF-0120,Case Closed - No Show,2026-04-16 15:46:00,scheduler
+REF-0121,Referral Received,2026-01-29 15:48:00,intake_clerk
+REF-0121,Insurance Verification,2026-01-29 18:02:00,intake_clerk
+REF-0121,Prior Auth Submitted,2026-01-29 20:34:00,auth_specialist
+REF-0121,Prior Auth Approved,2026-02-05 03:34:00,auth_specialist
+REF-0121,Scheduling Call,2026-02-06 13:34:00,scheduler
+REF-0121,Appointment Scheduled,2026-02-06 13:45:00,scheduler
+REF-0121,Visit Completed,2026-02-21 17:45:00,clinic_ma
+REF-0122,Referral Received,2026-02-11 22:29:00,intake_clerk
+REF-0122,Insurance Verification,2026-02-12 00:26:00,intake_clerk
+REF-0122,Prior Auth Submitted,2026-02-12 04:30:00,auth_specialist
+REF-0122,Prior Auth Approved,2026-02-18 12:30:00,auth_specialist
+REF-0122,Scheduling Call,2026-02-19 04:30:00,scheduler
+REF-0122,Appointment Scheduled,2026-02-19 04:39:00,scheduler
+REF-0122,Case Closed - No Show,2026-02-23 06:39:00,scheduler
+REF-0123,Referral Received,2026-03-01 01:30:00,intake_clerk
+REF-0123,Insurance Verification,2026-03-01 04:11:00,intake_clerk
+REF-0123,Prior Auth Submitted,2026-03-01 09:05:00,auth_specialist
+REF-0123,Prior Auth Approved,2026-03-04 21:05:00,auth_specialist
+REF-0123,Scheduling Call,2026-03-05 06:05:00,scheduler
+REF-0123,Appointment Scheduled,2026-03-05 06:18:00,scheduler
+REF-0123,Visit Completed,2026-03-19 04:18:00,clinic_ma
+REF-0124,Referral Received,2026-01-17 21:53:00,intake_clerk
+REF-0124,Insurance Verification,2026-01-17 23:09:00,intake_clerk
+REF-0124,Prior Auth Submitted,2026-01-18 02:37:00,auth_specialist
+REF-0124,Prior Auth Approved,2026-01-22 07:37:00,auth_specialist
+REF-0124,Scheduling Call,2026-01-22 14:37:00,scheduler
+REF-0124,Appointment Scheduled,2026-01-22 14:53:00,scheduler
+REF-0124,Visit Completed,2026-01-27 07:53:00,clinic_ma
+REF-0125,Referral Received,2026-02-06 07:14:00,intake_clerk
+REF-0125,Insurance Verification,2026-02-06 07:46:00,intake_clerk
+REF-0125,Urgent Override,2026-02-06 08:41:00,clinic_manager
+REF-0125,Scheduling Call,2026-02-06 11:57:00,scheduler
+REF-0125,Appointment Scheduled,2026-02-06 12:12:00,scheduler
+REF-0125,Visit Completed,2026-02-08 06:12:00,clinic_ma
+REF-0126,Referral Received,2026-01-17 01:02:00,intake_clerk
+REF-0126,Insurance Verification,2026-01-17 02:22:00,intake_clerk
+REF-0126,Info Request to Referrer,2026-01-17 02:54:00,intake_clerk
+REF-0126,Info Received,2026-01-18 19:54:00,intake_clerk
+REF-0126,Insurance Verification,2026-01-18 20:54:00,intake_clerk
+REF-0126,Prior Auth Submitted,2026-01-18 21:26:00,auth_specialist
+REF-0126,Prior Auth Approved,2026-01-20 23:26:00,auth_specialist
+REF-0126,Scheduling Call,2026-01-21 19:26:00,scheduler
+REF-0126,Appointment Scheduled,2026-01-21 19:35:00,scheduler
+REF-0126,Visit Completed,2026-02-06 18:35:00,clinic_ma
+REF-0127,Referral Received,2026-02-19 08:27:00,intake_clerk
+REF-0127,Insurance Verification,2026-02-19 09:23:00,intake_clerk
+REF-0127,Urgent Override,2026-02-19 09:48:00,clinic_manager
+REF-0127,Scheduling Call,2026-02-19 11:35:00,scheduler
+REF-0127,Appointment Scheduled,2026-02-19 11:43:00,scheduler
+REF-0127,Visit Completed,2026-02-20 17:43:00,clinic_ma
+REF-0128,Referral Received,2026-01-25 16:26:00,intake_clerk
+REF-0128,Insurance Verification,2026-01-25 19:25:00,intake_clerk
+REF-0128,Prior Auth Submitted,2026-01-25 20:51:00,auth_specialist
+REF-0128,Prior Auth Approved,2026-01-30 11:51:00,auth_specialist
+REF-0128,Scheduling Call,2026-02-01 05:51:00,scheduler
+REF-0128,Appointment Scheduled,2026-02-01 06:03:00,scheduler
+REF-0128,Visit Completed,2026-02-10 11:03:00,clinic_ma
+REF-0129,Referral Received,2026-02-10 23:00:00,intake_clerk
+REF-0129,Insurance Verification,2026-02-11 00:21:00,intake_clerk
+REF-0129,Prior Auth Submitted,2026-02-11 02:26:00,auth_specialist
+REF-0129,Prior Auth Approved,2026-02-13 12:26:00,auth_specialist
+REF-0129,Scheduling Call,2026-02-15 01:26:00,scheduler
+REF-0129,Appointment Scheduled,2026-02-15 01:33:00,scheduler
+REF-0129,Case Closed - No Show,2026-03-01 15:33:00,scheduler
+REF-0130,Referral Received,2026-02-17 15:50:00,intake_clerk
+REF-0130,Insurance Verification,2026-02-17 18:31:00,intake_clerk
+REF-0130,Case Closed - Abandoned,2026-02-25 18:31:00,intake_clerk
+REF-0131,Referral Received,2026-01-09 01:40:00,intake_clerk
+REF-0131,Insurance Verification,2026-01-09 03:35:00,intake_clerk
+REF-0131,Prior Auth Submitted,2026-01-09 04:13:00,auth_specialist
+REF-0131,Prior Auth Approved,2026-01-11 12:13:00,auth_specialist
+REF-0131,Scheduling Call,2026-01-12 14:13:00,scheduler
+REF-0131,Appointment Scheduled,2026-01-12 14:21:00,scheduler
+REF-0131,Visit Completed,2026-01-22 16:21:00,clinic_ma
+REF-0132,Referral Received,2026-01-16 17:02:00,intake_clerk
+REF-0132,Insurance Verification,2026-01-16 18:48:00,intake_clerk
+REF-0132,Prior Auth Submitted,2026-01-16 20:47:00,auth_specialist
+REF-0132,Prior Auth Approved,2026-01-22 11:47:00,auth_specialist
+REF-0132,Scheduling Call,2026-01-23 20:47:00,scheduler
+REF-0132,Appointment Scheduled,2026-01-23 21:07:00,scheduler
+REF-0132,Visit Completed,2026-01-29 18:07:00,clinic_ma
+REF-0133,Referral Received,2026-01-10 17:45:00,intake_clerk
+REF-0133,Insurance Verification,2026-01-10 20:02:00,intake_clerk
+REF-0133,Case Closed - Abandoned,2026-01-15 23:02:00,intake_clerk
+REF-0134,Referral Received,2026-01-09 01:50:00,intake_clerk
+REF-0134,Insurance Verification,2026-01-09 02:15:00,intake_clerk
+REF-0134,Info Request to Referrer,2026-01-09 02:35:00,intake_clerk
+REF-0134,Info Received,2026-01-11 17:35:00,intake_clerk
+REF-0134,Insurance Verification,2026-01-11 18:22:00,intake_clerk
+REF-0134,Prior Auth Submitted,2026-01-11 22:54:00,auth_specialist
+REF-0134,Prior Auth Approved,2026-01-17 22:54:00,auth_specialist
+REF-0134,Scheduling Call,2026-01-19 19:54:00,scheduler
+REF-0134,Appointment Scheduled,2026-01-19 20:10:00,scheduler
+REF-0134,Case Closed - No Show,2026-01-23 20:10:00,scheduler
+REF-0135,Referral Received,2026-03-20 05:41:00,intake_clerk
+REF-0135,Insurance Verification,2026-03-20 06:16:00,intake_clerk
+REF-0135,Info Request to Referrer,2026-03-20 06:51:00,intake_clerk
+REF-0135,Info Received,2026-03-23 05:51:00,intake_clerk
+REF-0135,Insurance Verification,2026-03-23 06:33:00,intake_clerk
+REF-0135,Prior Auth Submitted,2026-03-23 10:48:00,auth_specialist
+REF-0135,Prior Auth Approved,2026-03-27 11:48:00,auth_specialist
+REF-0135,Scheduling Call,2026-03-28 12:48:00,scheduler
+REF-0135,Appointment Scheduled,2026-03-28 13:08:00,scheduler
+REF-0135,Visit Completed,2026-04-08 09:08:00,clinic_ma
+REF-0136,Referral Received,2026-03-25 04:51:00,intake_clerk
+REF-0136,Insurance Verification,2026-03-25 05:32:00,intake_clerk
+REF-0136,Prior Auth Submitted,2026-03-25 06:42:00,auth_specialist
+REF-0136,Prior Auth Approved,2026-03-31 15:42:00,auth_specialist
+REF-0136,Scheduling Call,2026-04-01 06:42:00,scheduler
+REF-0136,Appointment Scheduled,2026-04-01 06:57:00,scheduler
+REF-0136,Visit Completed,2026-04-11 05:57:00,clinic_ma
+REF-0137,Referral Received,2026-03-02 17:18:00,intake_clerk
+REF-0137,Insurance Verification,2026-03-02 18:55:00,intake_clerk
+REF-0137,Info Request to Referrer,2026-03-02 19:27:00,intake_clerk
+REF-0137,Info Received,2026-03-06 01:27:00,intake_clerk
+REF-0137,Insurance Verification,2026-03-06 01:52:00,intake_clerk
+REF-0137,Prior Auth Submitted,2026-03-06 05:21:00,auth_specialist
+REF-0137,Prior Auth Approved,2026-03-12 02:21:00,auth_specialist
+REF-0137,Scheduling Call,2026-03-13 04:21:00,scheduler
+REF-0137,Appointment Scheduled,2026-03-13 04:39:00,scheduler
+REF-0137,Visit Completed,2026-03-17 09:39:00,clinic_ma
+REF-0138,Referral Received,2026-01-11 17:42:00,intake_clerk
+REF-0138,Insurance Verification,2026-01-11 19:35:00,intake_clerk
+REF-0138,Prior Auth Submitted,2026-01-11 21:26:00,auth_specialist
+REF-0138,Prior Auth Approved,2026-01-14 15:26:00,auth_specialist
+REF-0138,Scheduling Call,2026-01-16 09:26:00,scheduler
+REF-0138,Appointment Scheduled,2026-01-16 09:45:00,scheduler
+REF-0138,Visit Completed,2026-01-20 19:45:00,clinic_ma
+REF-0139,Referral Received,2026-01-25 11:49:00,intake_clerk
+REF-0139,Insurance Verification,2026-01-25 13:41:00,intake_clerk
+REF-0139,Prior Auth Submitted,2026-01-25 14:27:00,auth_specialist
+REF-0139,Prior Auth Approved,2026-01-31 04:27:00,auth_specialist
+REF-0139,Scheduling Call,2026-02-01 12:27:00,scheduler
+REF-0139,Appointment Scheduled,2026-02-01 12:43:00,scheduler
+REF-0139,Visit Completed,2026-02-06 03:43:00,clinic_ma
+REF-0140,Referral Received,2026-02-23 07:08:00,intake_clerk
+REF-0140,Insurance Verification,2026-02-23 09:09:00,intake_clerk
+REF-0140,Prior Auth Submitted,2026-02-23 12:01:00,auth_specialist
+REF-0140,Prior Auth Denied,2026-02-26 02:01:00,auth_specialist
+REF-0140,Prior Auth Resubmitted,2026-02-26 13:01:00,auth_specialist
+REF-0140,Prior Auth Approved,2026-03-03 04:01:00,auth_specialist
+REF-0140,Scheduling Call,2026-03-04 17:01:00,scheduler
+REF-0140,Appointment Scheduled,2026-03-04 17:09:00,scheduler
+REF-0140,Visit Completed,2026-03-13 06:09:00,clinic_ma
+REF-0141,Referral Received,2026-03-06 09:28:00,intake_clerk
+REF-0141,Insurance Verification,2026-03-06 11:06:00,intake_clerk
+REF-0141,Info Request to Referrer,2026-03-06 11:25:00,intake_clerk
+REF-0141,Info Received,2026-03-11 03:25:00,intake_clerk
+REF-0141,Insurance Verification,2026-03-11 04:11:00,intake_clerk
+REF-0141,Prior Auth Submitted,2026-03-11 05:50:00,auth_specialist
+REF-0141,Prior Auth Approved,2026-03-15 14:50:00,auth_specialist
+REF-0141,Scheduling Call,2026-03-16 05:50:00,scheduler
+REF-0141,Appointment Scheduled,2026-03-16 06:09:00,scheduler
+REF-0141,Case Closed - No Show,2026-03-26 01:09:00,scheduler
+REF-0142,Referral Received,2026-03-03 07:22:00,intake_clerk
+REF-0142,Insurance Verification,2026-03-03 10:02:00,intake_clerk
+REF-0142,Prior Auth Submitted,2026-03-03 13:05:00,auth_specialist
+REF-0142,Prior Auth Approved,2026-03-09 08:05:00,auth_specialist
+REF-0142,Scheduling Call,2026-03-11 08:05:00,scheduler
+REF-0142,Appointment Scheduled,2026-03-11 08:21:00,scheduler
+REF-0142,Visit Completed,2026-03-16 22:21:00,clinic_ma
+REF-0143,Referral Received,2026-01-22 11:50:00,intake_clerk
+REF-0143,Insurance Verification,2026-01-22 13:13:00,intake_clerk
+REF-0143,Info Request to Referrer,2026-01-22 13:23:00,intake_clerk
+REF-0143,Info Received,2026-01-25 11:23:00,intake_clerk
+REF-0143,Insurance Verification,2026-01-25 12:13:00,intake_clerk
+REF-0143,Prior Auth Submitted,2026-01-25 16:42:00,auth_specialist
+REF-0143,Prior Auth Approved,2026-01-30 14:42:00,auth_specialist
+REF-0143,Scheduling Call,2026-01-31 02:42:00,scheduler
+REF-0143,Appointment Scheduled,2026-01-31 02:49:00,scheduler
+REF-0143,Visit Completed,2026-02-11 13:49:00,clinic_ma
+REF-0144,Referral Received,2026-03-07 12:46:00,intake_clerk
+REF-0144,Insurance Verification,2026-03-07 14:51:00,intake_clerk
+REF-0144,Prior Auth Submitted,2026-03-07 15:58:00,auth_specialist
+REF-0144,Prior Auth Denied,2026-03-11 07:58:00,auth_specialist
+REF-0144,Prior Auth Resubmitted,2026-03-12 00:58:00,auth_specialist
+REF-0144,Prior Auth Approved,2026-03-17 15:58:00,auth_specialist
+REF-0144,Scheduling Call,2026-03-19 04:58:00,scheduler
+REF-0144,Appointment Scheduled,2026-03-19 05:08:00,scheduler
+REF-0144,Visit Completed,2026-03-24 23:08:00,clinic_ma
+REF-0145,Referral Received,2026-02-11 06:32:00,intake_clerk
+REF-0145,Insurance Verification,2026-02-11 07:06:00,intake_clerk
+REF-0145,Prior Auth Submitted,2026-02-11 12:01:00,auth_specialist
+REF-0145,Prior Auth Denied,2026-02-14 09:01:00,auth_specialist
+REF-0145,Prior Auth Resubmitted,2026-02-15 13:01:00,auth_specialist
+REF-0145,Prior Auth Approved,2026-02-21 07:01:00,auth_specialist
+REF-0145,Scheduling Call,2026-02-22 01:01:00,scheduler
+REF-0145,Appointment Scheduled,2026-02-22 01:15:00,scheduler
+REF-0145,Visit Completed,2026-03-02 09:15:00,clinic_ma
+REF-0146,Referral Received,2026-01-22 02:40:00,intake_clerk
+REF-0146,Insurance Verification,2026-01-22 04:10:00,intake_clerk
+REF-0146,Prior Auth Submitted,2026-01-22 07:15:00,auth_specialist
+REF-0146,Prior Auth Approved,2026-01-24 18:15:00,auth_specialist
+REF-0146,Scheduling Call,2026-01-26 06:15:00,scheduler
+REF-0146,Appointment Scheduled,2026-01-26 06:24:00,scheduler
+REF-0146,Visit Completed,2026-02-11 13:24:00,clinic_ma
+REF-0147,Referral Received,2026-03-07 19:57:00,intake_clerk
+REF-0147,Insurance Verification,2026-03-07 22:41:00,intake_clerk
+REF-0147,Case Closed - Abandoned,2026-03-11 05:41:00,intake_clerk
+REF-0148,Referral Received,2026-01-12 06:02:00,intake_clerk
+REF-0148,Insurance Verification,2026-01-12 08:49:00,intake_clerk
+REF-0148,Prior Auth Submitted,2026-01-12 11:06:00,auth_specialist
+REF-0148,Prior Auth Approved,2026-01-16 16:06:00,auth_specialist
+REF-0148,Scheduling Call,2026-01-18 11:06:00,scheduler
+REF-0148,Appointment Scheduled,2026-01-18 11:26:00,scheduler
+REF-0148,Case Closed - No Show,2026-02-02 02:26:00,scheduler
+REF-0149,Referral Received,2026-01-30 01:41:00,intake_clerk
+REF-0149,Insurance Verification,2026-01-30 04:04:00,intake_clerk
+REF-0149,Prior Auth Submitted,2026-01-30 08:01:00,auth_specialist
+REF-0149,Prior Auth Approved,2026-02-01 17:01:00,auth_specialist
+REF-0149,Scheduling Call,2026-02-03 17:01:00,scheduler
+REF-0149,Scheduling Call,2026-02-05 21:01:00,scheduler
+REF-0149,Appointment Scheduled,2026-02-05 21:19:00,scheduler
+REF-0149,Visit Completed,2026-02-13 05:19:00,clinic_ma
+REF-0150,Referral Received,2026-02-03 08:38:00,intake_clerk
+REF-0150,Insurance Verification,2026-02-03 10:29:00,intake_clerk
+REF-0150,Info Request to Referrer,2026-02-03 10:49:00,intake_clerk
+REF-0150,Info Received,2026-02-08 07:49:00,intake_clerk
+REF-0150,Insurance Verification,2026-02-08 08:26:00,intake_clerk
+REF-0150,Prior Auth Submitted,2026-02-08 10:02:00,auth_specialist
+REF-0150,Prior Auth Approved,2026-02-13 03:02:00,auth_specialist
+REF-0150,Scheduling Call,2026-02-14 18:02:00,scheduler
+REF-0150,Appointment Scheduled,2026-02-14 18:14:00,scheduler
+REF-0150,Visit Completed,2026-02-23 10:14:00,clinic_ma
+REF-0151,Referral Received,2026-02-12 16:15:00,intake_clerk
+REF-0151,Insurance Verification,2026-02-12 16:41:00,intake_clerk
+REF-0151,Info Request to Referrer,2026-02-12 17:00:00,intake_clerk
+REF-0151,Info Received,2026-02-15 18:00:00,intake_clerk
+REF-0151,Insurance Verification,2026-02-15 18:54:00,intake_clerk
+REF-0151,Prior Auth Submitted,2026-02-15 20:45:00,auth_specialist
+REF-0151,Prior Auth Approved,2026-02-22 19:45:00,auth_specialist
+REF-0151,Scheduling Call,2026-02-24 11:45:00,scheduler
+REF-0151,Appointment Scheduled,2026-02-24 11:56:00,scheduler
+REF-0151,Visit Completed,2026-03-10 02:56:00,clinic_ma
+REF-0152,Referral Received,2026-02-18 06:29:00,intake_clerk
+REF-0152,Insurance Verification,2026-02-18 08:07:00,intake_clerk
+REF-0152,Prior Auth Submitted,2026-02-18 09:23:00,auth_specialist
+REF-0152,Prior Auth Approved,2026-02-23 01:23:00,auth_specialist
+REF-0152,Scheduling Call,2026-02-24 10:23:00,scheduler
+REF-0152,Appointment Scheduled,2026-02-24 10:34:00,scheduler
+REF-0152,Visit Completed,2026-02-28 10:34:00,clinic_ma
+REF-0153,Referral Received,2026-01-09 15:18:00,intake_clerk
+REF-0153,Insurance Verification,2026-01-09 17:38:00,intake_clerk
+REF-0153,Prior Auth Submitted,2026-01-09 18:12:00,auth_specialist
+REF-0153,Prior Auth Approved,2026-01-14 01:12:00,auth_specialist
+REF-0153,Scheduling Call,2026-01-14 13:12:00,scheduler
+REF-0153,Appointment Scheduled,2026-01-14 13:28:00,scheduler
+REF-0153,Visit Completed,2026-01-25 08:28:00,clinic_ma
+REF-0154,Referral Received,2026-01-09 04:25:00,intake_clerk
+REF-0154,Insurance Verification,2026-01-09 05:56:00,intake_clerk
+REF-0154,Urgent Override,2026-01-09 06:18:00,clinic_manager
+REF-0154,Scheduling Call,2026-01-09 08:20:00,scheduler
+REF-0154,Appointment Scheduled,2026-01-09 08:34:00,scheduler
+REF-0154,Visit Completed,2026-01-10 17:34:00,clinic_ma
+REF-0155,Referral Received,2026-02-07 07:32:00,intake_clerk
+REF-0155,Insurance Verification,2026-02-07 10:12:00,intake_clerk
+REF-0155,Prior Auth Submitted,2026-02-07 11:42:00,auth_specialist
+REF-0155,Prior Auth Denied,2026-02-09 23:42:00,auth_specialist
+REF-0155,Prior Auth Resubmitted,2026-02-12 09:42:00,auth_specialist
+REF-0155,Prior Auth Approved,2026-02-16 04:42:00,auth_specialist
+REF-0155,Scheduling Call,2026-02-17 19:42:00,scheduler
+REF-0155,Appointment Scheduled,2026-02-17 19:51:00,scheduler
+REF-0155,Visit Completed,2026-03-03 15:51:00,clinic_ma
+REF-0156,Referral Received,2026-02-08 14:32:00,intake_clerk
+REF-0156,Insurance Verification,2026-02-08 14:56:00,intake_clerk
+REF-0156,Urgent Override,2026-02-08 15:14:00,clinic_manager
+REF-0156,Scheduling Call,2026-02-08 18:46:00,scheduler
+REF-0156,Appointment Scheduled,2026-02-08 19:01:00,scheduler
+REF-0156,Visit Completed,2026-02-12 07:01:00,clinic_ma
+REF-0157,Referral Received,2026-02-18 15:29:00,intake_clerk
+REF-0157,Insurance Verification,2026-02-18 16:54:00,intake_clerk
+REF-0157,Info Request to Referrer,2026-02-18 17:08:00,intake_clerk
+REF-0157,Info Received,2026-02-21 10:08:00,intake_clerk
+REF-0157,Insurance Verification,2026-02-21 11:02:00,intake_clerk
+REF-0157,Prior Auth Submitted,2026-02-21 14:53:00,auth_specialist
+REF-0157,Prior Auth Approved,2026-02-27 12:53:00,auth_specialist
+REF-0157,Scheduling Call,2026-02-28 11:53:00,scheduler
+REF-0157,Appointment Scheduled,2026-02-28 12:13:00,scheduler
+REF-0157,Visit Completed,2026-03-09 21:13:00,clinic_ma
+REF-0158,Referral Received,2026-02-14 20:52:00,intake_clerk
+REF-0158,Insurance Verification,2026-02-14 21:54:00,intake_clerk
+REF-0158,Urgent Override,2026-02-14 22:47:00,clinic_manager
+REF-0158,Scheduling Call,2026-02-14 23:45:00,scheduler
+REF-0158,Appointment Scheduled,2026-02-15 00:03:00,scheduler
+REF-0158,Visit Completed,2026-02-17 15:03:00,clinic_ma
+REF-0159,Referral Received,2026-03-14 07:57:00,intake_clerk
+REF-0159,Insurance Verification,2026-03-14 08:23:00,intake_clerk
+REF-0159,Prior Auth Submitted,2026-03-14 11:08:00,auth_specialist
+REF-0159,Prior Auth Approved,2026-03-20 15:08:00,auth_specialist
+REF-0159,Scheduling Call,2026-03-22 08:08:00,scheduler
+REF-0159,Appointment Scheduled,2026-03-22 08:14:00,scheduler
+REF-0159,Visit Completed,2026-03-28 23:14:00,clinic_ma
+REF-0160,Referral Received,2026-02-19 01:40:00,intake_clerk
+REF-0160,Insurance Verification,2026-02-19 03:37:00,intake_clerk
+REF-0160,Prior Auth Submitted,2026-02-19 06:11:00,auth_specialist
+REF-0160,Prior Auth Denied,2026-02-24 23:11:00,auth_specialist
+REF-0160,Prior Auth Resubmitted,2026-02-25 21:11:00,auth_specialist
+REF-0160,Prior Auth Denied,2026-03-02 05:11:00,auth_specialist
+REF-0160,Prior Auth Resubmitted,2026-03-04 05:11:00,auth_specialist
+REF-0160,Prior Auth Approved,2026-03-08 10:11:00,auth_specialist
+REF-0160,Scheduling Call,2026-03-08 23:11:00,scheduler
+REF-0160,Appointment Scheduled,2026-03-08 23:22:00,scheduler
+REF-0160,Visit Completed,2026-03-25 00:22:00,clinic_ma
+REF-0161,Referral Received,2026-03-24 21:30:00,intake_clerk
+REF-0161,Insurance Verification,2026-03-24 22:05:00,intake_clerk
+REF-0161,Prior Auth Submitted,2026-03-25 03:00:00,auth_specialist
+REF-0161,Prior Auth Denied,2026-03-28 20:00:00,auth_specialist
+REF-0161,Prior Auth Resubmitted,2026-03-31 17:00:00,auth_specialist
+REF-0161,Prior Auth Approved,2026-04-04 09:00:00,auth_specialist
+REF-0161,Scheduling Call,2026-04-05 00:00:00,scheduler
+REF-0161,Appointment Scheduled,2026-04-05 00:15:00,scheduler
+REF-0161,Visit Completed,2026-04-13 15:15:00,clinic_ma
+REF-0162,Referral Received,2026-02-26 09:30:00,intake_clerk
+REF-0162,Insurance Verification,2026-02-26 10:21:00,intake_clerk
+REF-0162,Info Request to Referrer,2026-02-26 10:39:00,intake_clerk
+REF-0162,Info Received,2026-03-02 09:39:00,intake_clerk
+REF-0162,Insurance Verification,2026-03-02 10:13:00,intake_clerk
+REF-0162,Prior Auth Submitted,2026-03-02 13:15:00,auth_specialist
+REF-0162,Prior Auth Approved,2026-03-08 07:15:00,auth_specialist
+REF-0162,Scheduling Call,2026-03-09 00:15:00,scheduler
+REF-0162,Appointment Scheduled,2026-03-09 00:35:00,scheduler
+REF-0162,Visit Completed,2026-03-19 10:35:00,clinic_ma
+REF-0163,Referral Received,2026-02-22 03:59:00,intake_clerk
+REF-0163,Insurance Verification,2026-02-22 05:29:00,intake_clerk
+REF-0163,Prior Auth Submitted,2026-02-22 09:13:00,auth_specialist
+REF-0163,Prior Auth Approved,2026-02-26 11:13:00,auth_specialist
+REF-0163,Scheduling Call,2026-02-27 13:13:00,scheduler
+REF-0163,Appointment Scheduled,2026-02-27 13:22:00,scheduler
+REF-0163,Visit Completed,2026-03-08 16:22:00,clinic_ma
+REF-0164,Referral Received,2026-03-27 20:45:00,intake_clerk
+REF-0164,Insurance Verification,2026-03-27 22:01:00,intake_clerk
+REF-0164,Urgent Override,2026-03-27 22:52:00,clinic_manager
+REF-0164,Scheduling Call,2026-03-28 00:27:00,scheduler
+REF-0164,Appointment Scheduled,2026-03-28 00:47:00,scheduler
+REF-0164,Visit Completed,2026-03-30 03:47:00,clinic_ma
+REF-0165,Referral Received,2026-01-22 13:52:00,intake_clerk
+REF-0165,Insurance Verification,2026-01-22 16:35:00,intake_clerk
+REF-0165,Prior Auth Submitted,2026-01-22 18:15:00,auth_specialist
+REF-0165,Prior Auth Denied,2026-01-28 16:15:00,auth_specialist
+REF-0165,Prior Auth Resubmitted,2026-01-30 06:15:00,auth_specialist
+REF-0165,Prior Auth Approved,2026-02-04 19:15:00,auth_specialist
+REF-0165,Scheduling Call,2026-02-06 08:15:00,scheduler
+REF-0165,Appointment Scheduled,2026-02-06 08:27:00,scheduler
+REF-0165,Visit Completed,2026-02-18 03:27:00,clinic_ma
+REF-0166,Referral Received,2026-02-02 12:45:00,intake_clerk
+REF-0166,Insurance Verification,2026-02-02 13:40:00,intake_clerk
+REF-0166,Case Closed - Abandoned,2026-02-11 09:40:00,intake_clerk
+REF-0167,Referral Received,2026-03-25 14:10:00,intake_clerk
+REF-0167,Insurance Verification,2026-03-25 16:31:00,intake_clerk
+REF-0167,Prior Auth Submitted,2026-03-25 18:43:00,auth_specialist
+REF-0167,Prior Auth Approved,2026-03-29 06:43:00,auth_specialist
+REF-0167,Scheduling Call,2026-03-30 06:43:00,scheduler
+REF-0167,Appointment Scheduled,2026-03-30 06:49:00,scheduler
+REF-0167,Case Closed - No Show,2026-04-04 03:49:00,scheduler
+REF-0168,Referral Received,2026-03-01 23:36:00,intake_clerk
+REF-0168,Insurance Verification,2026-03-02 01:30:00,intake_clerk
+REF-0168,Info Request to Referrer,2026-03-02 02:03:00,intake_clerk
+REF-0168,Info Received,2026-03-03 06:03:00,intake_clerk
+REF-0168,Insurance Verification,2026-03-03 06:29:00,intake_clerk
+REF-0168,Prior Auth Submitted,2026-03-03 08:29:00,auth_specialist
+REF-0168,Prior Auth Approved,2026-03-05 12:29:00,auth_specialist
+REF-0168,Scheduling Call,2026-03-06 17:29:00,scheduler
+REF-0168,Appointment Scheduled,2026-03-06 17:39:00,scheduler
+REF-0168,Case Closed - No Show,2026-03-15 21:39:00,scheduler
+REF-0169,Referral Received,2026-03-21 03:02:00,intake_clerk
+REF-0169,Insurance Verification,2026-03-21 04:34:00,intake_clerk
+REF-0169,Urgent Override,2026-03-21 05:22:00,clinic_manager
+REF-0169,Scheduling Call,2026-03-21 06:19:00,scheduler
+REF-0169,Appointment Scheduled,2026-03-21 06:34:00,scheduler
+REF-0169,Visit Completed,2026-03-23 18:34:00,clinic_ma
+REF-0170,Referral Received,2026-02-13 02:41:00,intake_clerk
+REF-0170,Insurance Verification,2026-02-13 05:07:00,intake_clerk
+REF-0170,Prior Auth Submitted,2026-02-13 06:45:00,auth_specialist
+REF-0170,Prior Auth Approved,2026-02-17 17:45:00,auth_specialist
+REF-0170,Scheduling Call,2026-02-18 14:45:00,scheduler
+REF-0170,Appointment Scheduled,2026-02-18 14:53:00,scheduler
+REF-0170,Visit Completed,2026-03-03 08:53:00,clinic_ma
+REF-0171,Referral Received,2026-03-01 15:16:00,intake_clerk
+REF-0171,Insurance Verification,2026-03-01 15:39:00,intake_clerk
+REF-0171,Prior Auth Submitted,2026-03-01 18:40:00,auth_specialist
+REF-0171,Prior Auth Approved,2026-03-07 18:40:00,auth_specialist
+REF-0171,Scheduling Call,2026-03-08 10:40:00,scheduler
+REF-0171,Appointment Scheduled,2026-03-08 10:57:00,scheduler
+REF-0171,Visit Completed,2026-03-22 09:57:00,clinic_ma
+REF-0172,Referral Received,2026-02-02 07:05:00,intake_clerk
+REF-0172,Insurance Verification,2026-02-02 07:49:00,intake_clerk
+REF-0172,Prior Auth Submitted,2026-02-02 09:30:00,auth_specialist
+REF-0172,Prior Auth Approved,2026-02-09 08:30:00,auth_specialist
+REF-0172,Scheduling Call,2026-02-10 03:30:00,scheduler
+REF-0172,Scheduling Call,2026-02-12 03:30:00,scheduler
+REF-0172,Appointment Scheduled,2026-02-12 03:42:00,scheduler
+REF-0172,Visit Completed,2026-02-20 19:42:00,clinic_ma
+REF-0173,Referral Received,2026-03-27 17:21:00,intake_clerk
+REF-0173,Insurance Verification,2026-03-27 19:13:00,intake_clerk
+REF-0173,Info Request to Referrer,2026-03-27 19:41:00,intake_clerk
+REF-0173,Info Received,2026-03-28 20:41:00,intake_clerk
+REF-0173,Insurance Verification,2026-03-28 21:12:00,intake_clerk
+REF-0173,Prior Auth Submitted,2026-03-28 23:42:00,auth_specialist
+REF-0173,Prior Auth Denied,2026-03-31 14:42:00,auth_specialist
+REF-0173,Prior Auth Resubmitted,2026-04-03 09:42:00,auth_specialist
+REF-0173,Prior Auth Approved,2026-04-07 12:42:00,auth_specialist
+REF-0173,Scheduling Call,2026-04-09 11:42:00,scheduler
+REF-0173,Appointment Scheduled,2026-04-09 11:56:00,scheduler
+REF-0173,Visit Completed,2026-04-26 02:56:00,clinic_ma
+REF-0174,Referral Received,2026-03-24 12:18:00,intake_clerk
+REF-0174,Insurance Verification,2026-03-24 13:34:00,intake_clerk
+REF-0174,Prior Auth Submitted,2026-03-24 15:12:00,auth_specialist
+REF-0174,Prior Auth Approved,2026-03-29 01:12:00,auth_specialist
+REF-0174,Scheduling Call,2026-03-30 19:12:00,scheduler
+REF-0174,Appointment Scheduled,2026-03-30 19:32:00,scheduler
+REF-0174,Visit Completed,2026-04-07 10:32:00,clinic_ma
+REF-0175,Referral Received,2026-03-11 08:15:00,intake_clerk
+REF-0175,Insurance Verification,2026-03-11 11:07:00,intake_clerk
+REF-0175,Prior Auth Submitted,2026-03-11 12:18:00,auth_specialist
+REF-0175,Prior Auth Approved,2026-03-16 07:18:00,auth_specialist
+REF-0175,Scheduling Call,2026-03-17 10:18:00,scheduler
+REF-0175,Scheduling Call,2026-03-19 22:18:00,scheduler
+REF-0175,Appointment Scheduled,2026-03-19 22:26:00,scheduler
+REF-0175,Visit Completed,2026-04-03 14:26:00,clinic_ma
+REF-0176,Referral Received,2026-03-23 09:32:00,intake_clerk
+REF-0176,Insurance Verification,2026-03-23 11:00:00,intake_clerk
+REF-0176,Info Request to Referrer,2026-03-23 11:14:00,intake_clerk
+REF-0176,Info Received,2026-03-25 08:14:00,intake_clerk
+REF-0176,Insurance Verification,2026-03-25 08:49:00,intake_clerk
+REF-0176,Prior Auth Submitted,2026-03-25 13:05:00,auth_specialist
+REF-0176,Prior Auth Denied,2026-03-28 15:05:00,auth_specialist
+REF-0176,Prior Auth Resubmitted,2026-03-31 13:05:00,auth_specialist
+REF-0176,Prior Auth Denied,2026-04-05 06:05:00,auth_specialist
+REF-0176,Prior Auth Resubmitted,2026-04-07 23:05:00,auth_specialist
+REF-0176,Prior Auth Approved,2026-04-14 06:05:00,auth_specialist
+REF-0176,Scheduling Call,2026-04-14 13:05:00,scheduler
+REF-0176,Appointment Scheduled,2026-04-14 13:23:00,scheduler
+REF-0176,Visit Completed,2026-04-18 18:23:00,clinic_ma
+REF-0177,Referral Received,2026-02-22 00:29:00,intake_clerk
+REF-0177,Insurance Verification,2026-02-22 02:07:00,intake_clerk
+REF-0177,Prior Auth Submitted,2026-02-22 05:59:00,auth_specialist
+REF-0177,Prior Auth Approved,2026-02-24 05:59:00,auth_specialist
+REF-0177,Scheduling Call,2026-02-24 22:59:00,scheduler
+REF-0177,Appointment Scheduled,2026-02-24 23:05:00,scheduler
+REF-0177,Visit Completed,2026-03-01 07:05:00,clinic_ma
+REF-0178,Referral Received,2026-02-20 12:03:00,intake_clerk
+REF-0178,Insurance Verification,2026-02-20 12:40:00,intake_clerk
+REF-0178,Prior Auth Submitted,2026-02-20 17:11:00,auth_specialist
+REF-0178,Prior Auth Denied,2026-02-24 21:11:00,auth_specialist
+REF-0178,Prior Auth Resubmitted,2026-02-26 04:11:00,auth_specialist
+REF-0178,Prior Auth Approved,2026-03-04 06:11:00,auth_specialist
+REF-0178,Scheduling Call,2026-03-06 03:11:00,scheduler
+REF-0178,Appointment Scheduled,2026-03-06 03:29:00,scheduler
+REF-0178,Visit Completed,2026-03-17 06:29:00,clinic_ma
+REF-0179,Referral Received,2026-02-12 14:55:00,intake_clerk
+REF-0179,Insurance Verification,2026-02-12 16:51:00,intake_clerk
+REF-0179,Prior Auth Submitted,2026-02-12 18:29:00,auth_specialist
+REF-0179,Prior Auth Approved,2026-02-16 14:29:00,auth_specialist
+REF-0179,Scheduling Call,2026-02-17 01:29:00,scheduler
+REF-0179,Appointment Scheduled,2026-02-17 01:46:00,scheduler
+REF-0179,Visit Completed,2026-02-24 19:46:00,clinic_ma
+REF-0180,Referral Received,2026-03-17 13:00:00,intake_clerk
+REF-0180,Insurance Verification,2026-03-17 14:36:00,intake_clerk
+REF-0180,Prior Auth Submitted,2026-03-17 18:43:00,auth_specialist
+REF-0180,Prior Auth Approved,2026-03-24 03:43:00,auth_specialist
+REF-0180,Scheduling Call,2026-03-24 21:43:00,scheduler
+REF-0180,Appointment Scheduled,2026-03-24 21:59:00,scheduler
+REF-0180,Visit Completed,2026-03-31 21:59:00,clinic_ma
+REF-0181,Referral Received,2026-03-26 07:56:00,intake_clerk
+REF-0181,Insurance Verification,2026-03-26 08:44:00,intake_clerk
+REF-0181,Case Closed - Abandoned,2026-04-02 19:44:00,intake_clerk
+REF-0182,Referral Received,2026-02-26 19:49:00,intake_clerk
+REF-0182,Insurance Verification,2026-02-26 20:13:00,intake_clerk
+REF-0182,Prior Auth Submitted,2026-02-26 21:17:00,auth_specialist
+REF-0182,Prior Auth Denied,2026-03-01 01:17:00,auth_specialist
+REF-0182,Prior Auth Resubmitted,2026-03-03 18:17:00,auth_specialist
+REF-0182,Prior Auth Approved,2026-03-09 12:17:00,auth_specialist
+REF-0182,Scheduling Call,2026-03-09 19:17:00,scheduler
+REF-0182,Appointment Scheduled,2026-03-09 19:23:00,scheduler
+REF-0182,Visit Completed,2026-03-17 18:23:00,clinic_ma
+REF-0183,Referral Received,2026-02-20 09:13:00,intake_clerk
+REF-0183,Insurance Verification,2026-02-20 09:47:00,intake_clerk
+REF-0183,Prior Auth Submitted,2026-02-20 12:45:00,auth_specialist
+REF-0183,Prior Auth Denied,2026-02-27 09:45:00,auth_specialist
+REF-0183,Prior Auth Resubmitted,2026-03-01 09:45:00,auth_specialist
+REF-0183,Prior Auth Approved,2026-03-07 11:45:00,auth_specialist
+REF-0183,Scheduling Call,2026-03-09 10:45:00,scheduler
+REF-0183,Appointment Scheduled,2026-03-09 10:57:00,scheduler
+REF-0183,Visit Completed,2026-03-15 11:57:00,clinic_ma
+REF-0184,Referral Received,2026-03-02 16:33:00,intake_clerk
+REF-0184,Insurance Verification,2026-03-02 17:31:00,intake_clerk
+REF-0184,Info Request to Referrer,2026-03-02 17:49:00,intake_clerk
+REF-0184,Info Received,2026-03-04 00:49:00,intake_clerk
+REF-0184,Insurance Verification,2026-03-04 01:39:00,intake_clerk
+REF-0184,Prior Auth Submitted,2026-03-04 03:38:00,auth_specialist
+REF-0184,Prior Auth Approved,2026-03-08 09:38:00,auth_specialist
+REF-0184,Scheduling Call,2026-03-10 00:38:00,scheduler
+REF-0184,Appointment Scheduled,2026-03-10 00:54:00,scheduler
+REF-0184,Case Closed - No Show,2026-03-21 03:54:00,scheduler
+REF-0185,Referral Received,2026-03-13 09:33:00,intake_clerk
+REF-0185,Insurance Verification,2026-03-13 10:46:00,intake_clerk
+REF-0185,Info Request to Referrer,2026-03-13 11:09:00,intake_clerk
+REF-0185,Info Received,2026-03-15 06:09:00,intake_clerk
+REF-0185,Insurance Verification,2026-03-15 06:43:00,intake_clerk
+REF-0185,Prior Auth Submitted,2026-03-15 11:15:00,auth_specialist
+REF-0185,Prior Auth Denied,2026-03-18 15:15:00,auth_specialist
+REF-0185,Prior Auth Resubmitted,2026-03-20 13:15:00,auth_specialist
+REF-0185,Prior Auth Approved,2026-03-23 07:15:00,auth_specialist
+REF-0185,Scheduling Call,2026-03-24 16:15:00,scheduler
+REF-0185,Appointment Scheduled,2026-03-24 16:33:00,scheduler
+REF-0185,Case Closed - No Show,2026-04-08 13:33:00,scheduler
+REF-0186,Referral Received,2026-02-19 13:08:00,intake_clerk
+REF-0186,Insurance Verification,2026-02-19 14:33:00,intake_clerk
+REF-0186,Prior Auth Submitted,2026-02-19 15:43:00,auth_specialist
+REF-0186,Prior Auth Approved,2026-02-26 03:43:00,auth_specialist
+REF-0186,Scheduling Call,2026-02-27 06:43:00,scheduler
+REF-0186,Scheduling Call,2026-03-02 04:43:00,scheduler
+REF-0186,Appointment Scheduled,2026-03-02 04:54:00,scheduler
+REF-0186,Visit Completed,2026-03-13 05:54:00,clinic_ma
+REF-0187,Referral Received,2026-03-03 19:38:00,intake_clerk
+REF-0187,Insurance Verification,2026-03-03 20:16:00,intake_clerk
+REF-0187,Prior Auth Submitted,2026-03-03 22:37:00,auth_specialist
+REF-0187,Prior Auth Approved,2026-03-10 13:37:00,auth_specialist
+REF-0187,Scheduling Call,2026-03-11 14:37:00,scheduler
+REF-0187,Appointment Scheduled,2026-03-11 14:42:00,scheduler
+REF-0187,Visit Completed,2026-03-18 15:42:00,clinic_ma
+REF-0188,Referral Received,2026-03-28 10:47:00,intake_clerk
+REF-0188,Insurance Verification,2026-03-28 12:43:00,intake_clerk
+REF-0188,Urgent Override,2026-03-28 13:23:00,clinic_manager
+REF-0188,Scheduling Call,2026-03-28 14:55:00,scheduler
+REF-0188,Appointment Scheduled,2026-03-28 15:06:00,scheduler
+REF-0188,Visit Completed,2026-03-31 17:06:00,clinic_ma
+REF-0189,Referral Received,2026-03-24 10:15:00,intake_clerk
+REF-0189,Insurance Verification,2026-03-24 11:47:00,intake_clerk
+REF-0189,Prior Auth Submitted,2026-03-24 15:20:00,auth_specialist
+REF-0189,Prior Auth Approved,2026-03-28 13:20:00,auth_specialist
+REF-0189,Scheduling Call,2026-03-30 01:20:00,scheduler
+REF-0189,Appointment Scheduled,2026-03-30 01:39:00,scheduler
+REF-0189,Visit Completed,2026-04-12 01:39:00,clinic_ma
+REF-0190,Referral Received,2026-03-11 07:53:00,intake_clerk
+REF-0190,Insurance Verification,2026-03-11 08:39:00,intake_clerk
+REF-0190,Info Request to Referrer,2026-03-11 09:00:00,intake_clerk
+REF-0190,Info Received,2026-03-14 01:00:00,intake_clerk
+REF-0190,Insurance Verification,2026-03-14 01:41:00,intake_clerk
+REF-0190,Case Closed - Abandoned,2026-03-19 09:41:00,intake_clerk
+REF-0191,Referral Received,2026-03-09 14:09:00,intake_clerk
+REF-0191,Insurance Verification,2026-03-09 15:39:00,intake_clerk
+REF-0191,Urgent Override,2026-03-09 16:26:00,clinic_manager
+REF-0191,Scheduling Call,2026-03-09 19:24:00,scheduler
+REF-0191,Appointment Scheduled,2026-03-09 19:42:00,scheduler
+REF-0191,Visit Completed,2026-03-12 08:42:00,clinic_ma
+REF-0192,Referral Received,2026-01-18 08:12:00,intake_clerk
+REF-0192,Insurance Verification,2026-01-18 09:20:00,intake_clerk
+REF-0192,Info Request to Referrer,2026-01-18 09:48:00,intake_clerk
+REF-0192,Info Received,2026-01-20 16:48:00,intake_clerk
+REF-0192,Insurance Verification,2026-01-20 17:34:00,intake_clerk
+REF-0192,Prior Auth Submitted,2026-01-20 20:56:00,auth_specialist
+REF-0192,Prior Auth Approved,2026-01-27 05:56:00,auth_specialist
+REF-0192,Scheduling Call,2026-01-28 16:56:00,scheduler
+REF-0192,Appointment Scheduled,2026-01-28 17:16:00,scheduler
+REF-0192,Visit Completed,2026-02-08 05:16:00,clinic_ma
+REF-0193,Referral Received,2026-01-19 18:08:00,intake_clerk
+REF-0193,Insurance Verification,2026-01-19 20:33:00,intake_clerk
+REF-0193,Prior Auth Submitted,2026-01-19 21:33:00,auth_specialist
+REF-0193,Prior Auth Approved,2026-01-26 08:33:00,auth_specialist
+REF-0193,Scheduling Call,2026-01-26 16:33:00,scheduler
+REF-0193,Appointment Scheduled,2026-01-26 16:39:00,scheduler
+REF-0193,Visit Completed,2026-02-07 11:39:00,clinic_ma
+REF-0194,Referral Received,2026-01-17 01:53:00,intake_clerk
+REF-0194,Insurance Verification,2026-01-17 02:30:00,intake_clerk
+REF-0194,Prior Auth Submitted,2026-01-17 03:04:00,auth_specialist
+REF-0194,Prior Auth Denied,2026-01-21 13:04:00,auth_specialist
+REF-0194,Prior Auth Resubmitted,2026-01-23 20:04:00,auth_specialist
+REF-0194,Prior Auth Denied,2026-01-29 05:04:00,auth_specialist
+REF-0194,Prior Auth Resubmitted,2026-02-01 02:04:00,auth_specialist
+REF-0194,Prior Auth Approved,2026-02-06 14:04:00,auth_specialist
+REF-0194,Scheduling Call,2026-02-08 01:04:00,scheduler
+REF-0194,Scheduling Call,2026-02-10 11:04:00,scheduler
+REF-0194,Appointment Scheduled,2026-02-10 11:22:00,scheduler
+REF-0194,Visit Completed,2026-02-24 18:22:00,clinic_ma
+REF-0195,Referral Received,2026-03-07 23:17:00,intake_clerk
+REF-0195,Insurance Verification,2026-03-08 00:50:00,intake_clerk
+REF-0195,Case Closed - Abandoned,2026-03-15 14:50:00,intake_clerk
+REF-0196,Referral Received,2026-03-15 03:58:00,intake_clerk
+REF-0196,Insurance Verification,2026-03-15 04:30:00,intake_clerk
+REF-0196,Info Request to Referrer,2026-03-15 04:56:00,intake_clerk
+REF-0196,Info Received,2026-03-16 23:56:00,intake_clerk
+REF-0196,Insurance Verification,2026-03-17 00:26:00,intake_clerk
+REF-0196,Prior Auth Submitted,2026-03-17 05:25:00,auth_specialist
+REF-0196,Prior Auth Approved,2026-03-21 02:25:00,auth_specialist
+REF-0196,Scheduling Call,2026-03-21 23:25:00,scheduler
+REF-0196,Appointment Scheduled,2026-03-21 23:32:00,scheduler
+REF-0196,Visit Completed,2026-04-02 14:32:00,clinic_ma
+REF-0197,Referral Received,2026-02-13 12:36:00,intake_clerk
+REF-0197,Insurance Verification,2026-02-13 14:25:00,intake_clerk
+REF-0197,Info Request to Referrer,2026-02-13 14:42:00,intake_clerk
+REF-0197,Info Received,2026-02-16 04:42:00,intake_clerk
+REF-0197,Insurance Verification,2026-02-16 05:40:00,intake_clerk
+REF-0197,Prior Auth Submitted,2026-02-16 06:51:00,auth_specialist
+REF-0197,Prior Auth Approved,2026-02-22 19:51:00,auth_specialist
+REF-0197,Scheduling Call,2026-02-24 16:51:00,scheduler
+REF-0197,Appointment Scheduled,2026-02-24 16:58:00,scheduler
+REF-0197,Visit Completed,2026-03-07 17:58:00,clinic_ma
+REF-0198,Referral Received,2026-02-21 11:30:00,intake_clerk
+REF-0198,Insurance Verification,2026-02-21 11:51:00,intake_clerk
+REF-0198,Urgent Override,2026-02-21 12:45:00,clinic_manager
+REF-0198,Scheduling Call,2026-02-21 13:58:00,scheduler
+REF-0198,Appointment Scheduled,2026-02-21 14:05:00,scheduler
+REF-0198,Visit Completed,2026-02-25 05:05:00,clinic_ma
+REF-0199,Referral Received,2026-03-18 11:27:00,intake_clerk
+REF-0199,Insurance Verification,2026-03-18 13:11:00,intake_clerk
+REF-0199,Prior Auth Submitted,2026-03-18 14:29:00,auth_specialist
+REF-0199,Prior Auth Approved,2026-03-25 11:29:00,auth_specialist
+REF-0199,Scheduling Call,2026-03-25 17:29:00,scheduler
+REF-0199,Appointment Scheduled,2026-03-25 17:49:00,scheduler
+REF-0199,Visit Completed,2026-03-30 07:49:00,clinic_ma
+REF-0200,Referral Received,2026-03-04 17:59:00,intake_clerk
+REF-0200,Insurance Verification,2026-03-04 19:28:00,intake_clerk
+REF-0200,Info Request to Referrer,2026-03-04 19:56:00,intake_clerk
+REF-0200,Info Received,2026-03-09 07:56:00,intake_clerk
+REF-0200,Insurance Verification,2026-03-09 08:13:00,intake_clerk
+REF-0200,Prior Auth Submitted,2026-03-09 11:24:00,auth_specialist
+REF-0200,Prior Auth Denied,2026-03-12 13:24:00,auth_specialist
+REF-0200,Prior Auth Resubmitted,2026-03-13 15:24:00,auth_specialist
+REF-0200,Prior Auth Approved,2026-03-19 10:24:00,auth_specialist
+REF-0200,Scheduling Call,2026-03-20 15:24:00,scheduler
+REF-0200,Appointment Scheduled,2026-03-20 15:38:00,scheduler
+REF-0200,Visit Completed,2026-03-28 18:38:00,clinic_ma
+REF-0201,Referral Received,2026-02-22 16:53:00,intake_clerk
+REF-0201,Insurance Verification,2026-02-22 19:31:00,intake_clerk
+REF-0201,Prior Auth Submitted,2026-02-22 21:12:00,auth_specialist
+REF-0201,Prior Auth Approved,2026-02-28 13:12:00,auth_specialist
+REF-0201,Scheduling Call,2026-02-28 22:12:00,scheduler
+REF-0201,Appointment Scheduled,2026-02-28 22:28:00,scheduler
+REF-0201,Visit Completed,2026-03-13 05:28:00,clinic_ma
+REF-0202,Referral Received,2026-01-25 03:53:00,intake_clerk
+REF-0202,Insurance Verification,2026-01-25 05:30:00,intake_clerk
+REF-0202,Urgent Override,2026-01-25 06:29:00,clinic_manager
+REF-0202,Scheduling Call,2026-01-25 09:36:00,scheduler
+REF-0202,Appointment Scheduled,2026-01-25 09:53:00,scheduler
+REF-0202,Visit Completed,2026-01-28 02:53:00,clinic_ma
+REF-0203,Referral Received,2026-01-07 20:40:00,intake_clerk
+REF-0203,Insurance Verification,2026-01-07 21:57:00,intake_clerk
+REF-0203,Info Request to Referrer,2026-01-07 22:22:00,intake_clerk
+REF-0203,Info Received,2026-01-10 03:22:00,intake_clerk
+REF-0203,Insurance Verification,2026-01-10 03:59:00,intake_clerk
+REF-0203,Prior Auth Submitted,2026-01-10 07:41:00,auth_specialist
+REF-0203,Prior Auth Approved,2026-01-15 22:41:00,auth_specialist
+REF-0203,Scheduling Call,2026-01-17 15:41:00,scheduler
+REF-0203,Appointment Scheduled,2026-01-17 15:48:00,scheduler
+REF-0203,Visit Completed,2026-01-26 22:48:00,clinic_ma
+REF-0204,Referral Received,2026-03-14 10:15:00,intake_clerk
+REF-0204,Insurance Verification,2026-03-14 10:56:00,intake_clerk
+REF-0204,Prior Auth Submitted,2026-03-14 14:40:00,auth_specialist
+REF-0204,Prior Auth Approved,2026-03-19 23:40:00,auth_specialist
+REF-0204,Scheduling Call,2026-03-20 12:40:00,scheduler
+REF-0204,Appointment Scheduled,2026-03-20 12:55:00,scheduler
+REF-0204,Visit Completed,2026-03-25 10:55:00,clinic_ma
+REF-0205,Referral Received,2026-01-05 18:19:00,intake_clerk
+REF-0205,Insurance Verification,2026-01-05 19:48:00,intake_clerk
+REF-0205,Prior Auth Submitted,2026-01-05 21:02:00,auth_specialist
+REF-0205,Prior Auth Denied,2026-01-10 06:02:00,auth_specialist
+REF-0205,Prior Auth Resubmitted,2026-01-12 18:02:00,auth_specialist
+REF-0205,Prior Auth Denied,2026-01-15 05:02:00,auth_specialist
+REF-0205,Prior Auth Resubmitted,2026-01-17 10:02:00,auth_specialist
+REF-0205,Prior Auth Approved,2026-01-22 08:02:00,auth_specialist
+REF-0205,Scheduling Call,2026-01-22 17:02:00,scheduler
+REF-0205,Appointment Scheduled,2026-01-22 17:17:00,scheduler
+REF-0205,Case Closed - No Show,2026-01-25 23:17:00,scheduler
+REF-0206,Referral Received,2026-01-30 05:26:00,intake_clerk
+REF-0206,Insurance Verification,2026-01-30 06:07:00,intake_clerk
+REF-0206,Prior Auth Submitted,2026-01-30 08:41:00,auth_specialist
+REF-0206,Prior Auth Approved,2026-02-02 05:41:00,auth_specialist
+REF-0206,Scheduling Call,2026-02-04 04:41:00,scheduler
+REF-0206,Appointment Scheduled,2026-02-04 04:50:00,scheduler
+REF-0206,Visit Completed,2026-02-12 21:50:00,clinic_ma
+REF-0207,Referral Received,2026-02-16 09:09:00,intake_clerk
+REF-0207,Insurance Verification,2026-02-16 10:24:00,intake_clerk
+REF-0207,Urgent Override,2026-02-16 10:51:00,clinic_manager
+REF-0207,Scheduling Call,2026-02-16 13:08:00,scheduler
+REF-0207,Appointment Scheduled,2026-02-16 13:22:00,scheduler
+REF-0207,Visit Completed,2026-02-20 02:22:00,clinic_ma
+REF-0208,Referral Received,2026-03-13 02:04:00,intake_clerk
+REF-0208,Insurance Verification,2026-03-13 03:27:00,intake_clerk
+REF-0208,Prior Auth Submitted,2026-03-13 08:10:00,auth_specialist
+REF-0208,Prior Auth Approved,2026-03-16 09:10:00,auth_specialist
+REF-0208,Scheduling Call,2026-03-17 18:10:00,scheduler
+REF-0208,Appointment Scheduled,2026-03-17 18:24:00,scheduler
+REF-0208,Visit Completed,2026-03-29 04:24:00,clinic_ma
+REF-0209,Referral Received,2026-02-02 16:53:00,intake_clerk
+REF-0209,Insurance Verification,2026-02-02 18:37:00,intake_clerk
+REF-0209,Prior Auth Submitted,2026-02-02 22:47:00,auth_specialist
+REF-0209,Prior Auth Approved,2026-02-09 12:47:00,auth_specialist
+REF-0209,Scheduling Call,2026-02-11 09:47:00,scheduler
+REF-0209,Appointment Scheduled,2026-02-11 09:56:00,scheduler
+REF-0209,Visit Completed,2026-02-27 05:56:00,clinic_ma
+REF-0210,Referral Received,2026-03-27 04:44:00,intake_clerk
+REF-0210,Insurance Verification,2026-03-27 05:44:00,intake_clerk
+REF-0210,Info Request to Referrer,2026-03-27 05:59:00,intake_clerk
+REF-0210,Info Received,2026-03-30 07:59:00,intake_clerk
+REF-0210,Insurance Verification,2026-03-30 08:34:00,intake_clerk
+REF-0210,Prior Auth Submitted,2026-03-30 13:15:00,auth_specialist
+REF-0210,Prior Auth Approved,2026-04-05 17:15:00,auth_specialist
+REF-0210,Scheduling Call,2026-04-06 12:15:00,scheduler
+REF-0210,Appointment Scheduled,2026-04-06 12:28:00,scheduler
+REF-0210,Visit Completed,2026-04-17 21:28:00,clinic_ma
+REF-0211,Referral Received,2026-02-05 11:07:00,intake_clerk
+REF-0211,Insurance Verification,2026-02-05 12:18:00,intake_clerk
+REF-0211,Prior Auth Submitted,2026-02-05 14:20:00,auth_specialist
+REF-0211,Prior Auth Approved,2026-02-10 12:20:00,auth_specialist
+REF-0211,Scheduling Call,2026-02-10 17:20:00,scheduler
+REF-0211,Appointment Scheduled,2026-02-10 17:39:00,scheduler
+REF-0211,Case Closed - No Show,2026-02-18 04:39:00,scheduler
+REF-0212,Referral Received,2026-02-11 17:51:00,intake_clerk
+REF-0212,Insurance Verification,2026-02-11 19:39:00,intake_clerk
+REF-0212,Info Request to Referrer,2026-02-11 19:51:00,intake_clerk
+REF-0212,Info Received,2026-02-14 23:51:00,intake_clerk
+REF-0212,Insurance Verification,2026-02-15 00:49:00,intake_clerk
+REF-0212,Prior Auth Submitted,2026-02-15 03:54:00,auth_specialist
+REF-0212,Prior Auth Denied,2026-02-20 15:54:00,auth_specialist
+REF-0212,Prior Auth Resubmitted,2026-02-21 18:54:00,auth_specialist
+REF-0212,Prior Auth Approved,2026-02-27 23:54:00,auth_specialist
+REF-0212,Scheduling Call,2026-03-01 03:54:00,scheduler
+REF-0212,Scheduling Call,2026-03-03 17:54:00,scheduler
+REF-0212,Appointment Scheduled,2026-03-03 18:14:00,scheduler
+REF-0212,Visit Completed,2026-03-18 03:14:00,clinic_ma
+REF-0213,Referral Received,2026-02-17 13:59:00,intake_clerk
+REF-0213,Insurance Verification,2026-02-17 16:06:00,intake_clerk
+REF-0213,Prior Auth Submitted,2026-02-17 19:40:00,auth_specialist
+REF-0213,Prior Auth Approved,2026-02-24 02:40:00,auth_specialist
+REF-0213,Scheduling Call,2026-02-25 16:40:00,scheduler
+REF-0213,Appointment Scheduled,2026-02-25 16:47:00,scheduler
+REF-0213,Visit Completed,2026-03-05 23:47:00,clinic_ma
+REF-0214,Referral Received,2026-03-02 10:42:00,intake_clerk
+REF-0214,Insurance Verification,2026-03-02 13:38:00,intake_clerk
+REF-0214,Case Closed - Abandoned,2026-03-12 10:38:00,intake_clerk
+REF-0215,Referral Received,2026-03-04 03:41:00,intake_clerk
+REF-0215,Insurance Verification,2026-03-04 05:25:00,intake_clerk
+REF-0215,Prior Auth Submitted,2026-03-04 09:35:00,auth_specialist
+REF-0215,Prior Auth Denied,2026-03-06 21:35:00,auth_specialist
+REF-0215,Prior Auth Resubmitted,2026-03-08 14:35:00,auth_specialist
+REF-0215,Prior Auth Approved,2026-03-14 13:35:00,auth_specialist
+REF-0215,Scheduling Call,2026-03-16 02:35:00,scheduler
+REF-0215,Appointment Scheduled,2026-03-16 02:47:00,scheduler
+REF-0215,Visit Completed,2026-03-27 10:47:00,clinic_ma
+REF-0216,Referral Received,2026-02-13 20:49:00,intake_clerk
+REF-0216,Insurance Verification,2026-02-13 23:17:00,intake_clerk
+REF-0216,Prior Auth Submitted,2026-02-13 23:59:00,auth_specialist
+REF-0216,Prior Auth Approved,2026-02-17 12:59:00,auth_specialist
+REF-0216,Scheduling Call,2026-02-18 18:59:00,scheduler
+REF-0216,Appointment Scheduled,2026-02-18 19:06:00,scheduler
+REF-0216,Visit Completed,2026-02-24 19:06:00,clinic_ma
+REF-0217,Referral Received,2026-02-04 01:19:00,intake_clerk
+REF-0217,Insurance Verification,2026-02-04 02:31:00,intake_clerk
+REF-0217,Prior Auth Submitted,2026-02-04 05:59:00,auth_specialist
+REF-0217,Prior Auth Approved,2026-02-08 13:59:00,auth_specialist
+REF-0217,Scheduling Call,2026-02-10 13:59:00,scheduler
+REF-0217,Appointment Scheduled,2026-02-10 14:06:00,scheduler
+REF-0217,Visit Completed,2026-02-16 00:06:00,clinic_ma
+REF-0218,Referral Received,2026-01-07 06:54:00,intake_clerk
+REF-0218,Insurance Verification,2026-01-07 07:41:00,intake_clerk
+REF-0218,Prior Auth Submitted,2026-01-07 09:35:00,auth_specialist
+REF-0218,Prior Auth Approved,2026-01-13 07:35:00,auth_specialist
+REF-0218,Scheduling Call,2026-01-14 02:35:00,scheduler
+REF-0218,Appointment Scheduled,2026-01-14 02:45:00,scheduler
+REF-0218,Visit Completed,2026-01-26 04:45:00,clinic_ma
+REF-0219,Referral Received,2026-03-28 02:29:00,intake_clerk
+REF-0219,Insurance Verification,2026-03-28 03:40:00,intake_clerk
+REF-0219,Info Request to Referrer,2026-03-28 04:10:00,intake_clerk
+REF-0219,Info Received,2026-03-30 03:10:00,intake_clerk
+REF-0219,Insurance Verification,2026-03-30 03:36:00,intake_clerk
+REF-0219,Prior Auth Submitted,2026-03-30 07:47:00,auth_specialist
+REF-0219,Prior Auth Approved,2026-04-05 05:47:00,auth_specialist
+REF-0219,Scheduling Call,2026-04-07 00:47:00,scheduler
+REF-0219,Appointment Scheduled,2026-04-07 01:06:00,scheduler
+REF-0219,Visit Completed,2026-04-18 08:06:00,clinic_ma
+REF-0220,Referral Received,2026-01-05 17:45:00,intake_clerk
+REF-0220,Insurance Verification,2026-01-05 18:40:00,intake_clerk
+REF-0220,Info Request to Referrer,2026-01-05 19:14:00,intake_clerk
+REF-0220,Info Received,2026-01-10 13:14:00,intake_clerk
+REF-0220,Insurance Verification,2026-01-10 13:33:00,intake_clerk
+REF-0220,Prior Auth Submitted,2026-01-10 15:38:00,auth_specialist
+REF-0220,Prior Auth Approved,2026-01-13 16:38:00,auth_specialist
+REF-0220,Scheduling Call,2026-01-15 01:38:00,scheduler
+REF-0220,Appointment Scheduled,2026-01-15 01:58:00,scheduler
+REF-0220,Visit Completed,2026-01-31 16:58:00,clinic_ma
+REF-0221,Referral Received,2026-02-01 01:38:00,intake_clerk
+REF-0221,Insurance Verification,2026-02-01 03:38:00,intake_clerk
+REF-0221,Prior Auth Submitted,2026-02-01 07:06:00,auth_specialist
+REF-0221,Prior Auth Approved,2026-02-05 17:06:00,auth_specialist
+REF-0221,Scheduling Call,2026-02-07 12:06:00,scheduler
+REF-0221,Appointment Scheduled,2026-02-07 12:20:00,scheduler
+REF-0221,Case Closed - No Show,2026-02-23 02:20:00,scheduler
+REF-0222,Referral Received,2026-01-12 13:43:00,intake_clerk
+REF-0222,Insurance Verification,2026-01-12 14:18:00,intake_clerk
+REF-0222,Info Request to Referrer,2026-01-12 14:35:00,intake_clerk
+REF-0222,Info Received,2026-01-15 05:35:00,intake_clerk
+REF-0222,Insurance Verification,2026-01-15 05:57:00,intake_clerk
+REF-0222,Prior Auth Submitted,2026-01-15 07:39:00,auth_specialist
+REF-0222,Prior Auth Approved,2026-01-19 12:39:00,auth_specialist
+REF-0222,Scheduling Call,2026-01-21 06:39:00,scheduler
+REF-0222,Appointment Scheduled,2026-01-21 06:56:00,scheduler
+REF-0222,Visit Completed,2026-02-03 15:56:00,clinic_ma
+REF-0223,Referral Received,2026-02-28 13:34:00,intake_clerk
+REF-0223,Insurance Verification,2026-02-28 14:38:00,intake_clerk
+REF-0223,Prior Auth Submitted,2026-02-28 19:18:00,auth_specialist
+REF-0223,Prior Auth Approved,2026-03-03 18:18:00,auth_specialist
+REF-0223,Scheduling Call,2026-03-04 18:18:00,scheduler
+REF-0223,Appointment Scheduled,2026-03-04 18:24:00,scheduler
+REF-0223,Case Closed - No Show,2026-03-07 22:24:00,scheduler
+REF-0224,Referral Received,2026-02-15 16:08:00,intake_clerk
+REF-0224,Insurance Verification,2026-02-15 17:17:00,intake_clerk
+REF-0224,Info Request to Referrer,2026-02-15 17:57:00,intake_clerk
+REF-0224,Info Received,2026-02-19 16:57:00,intake_clerk
+REF-0224,Insurance Verification,2026-02-19 17:44:00,intake_clerk
+REF-0224,Prior Auth Submitted,2026-02-19 21:43:00,auth_specialist
+REF-0224,Prior Auth Approved,2026-02-24 02:43:00,auth_specialist
+REF-0224,Scheduling Call,2026-02-25 10:43:00,scheduler
+REF-0224,Appointment Scheduled,2026-02-25 10:50:00,scheduler
+REF-0224,Visit Completed,2026-03-05 02:50:00,clinic_ma
+REF-0225,Referral Received,2026-01-30 06:02:00,intake_clerk
+REF-0225,Insurance Verification,2026-01-30 07:30:00,intake_clerk
+REF-0225,Info Request to Referrer,2026-01-30 07:49:00,intake_clerk
+REF-0225,Info Received,2026-02-01 04:49:00,intake_clerk
+REF-0225,Insurance Verification,2026-02-01 05:33:00,intake_clerk
+REF-0225,Prior Auth Submitted,2026-02-01 10:16:00,auth_specialist
+REF-0225,Prior Auth Approved,2026-02-04 00:16:00,auth_specialist
+REF-0225,Scheduling Call,2026-02-05 16:16:00,scheduler
+REF-0225,Appointment Scheduled,2026-02-05 16:32:00,scheduler
+REF-0225,Visit Completed,2026-02-09 13:32:00,clinic_ma
+REF-0226,Referral Received,2026-03-11 04:46:00,intake_clerk
+REF-0226,Insurance Verification,2026-03-11 06:01:00,intake_clerk
+REF-0226,Prior Auth Submitted,2026-03-11 07:23:00,auth_specialist
+REF-0226,Prior Auth Approved,2026-03-16 18:23:00,auth_specialist
+REF-0226,Scheduling Call,2026-03-17 13:23:00,scheduler
+REF-0226,Appointment Scheduled,2026-03-17 13:29:00,scheduler
+REF-0226,Visit Completed,2026-03-27 23:29:00,clinic_ma
+REF-0227,Referral Received,2026-03-19 21:52:00,intake_clerk
+REF-0227,Insurance Verification,2026-03-19 22:27:00,intake_clerk
+REF-0227,Urgent Override,2026-03-19 23:26:00,clinic_manager
+REF-0227,Scheduling Call,2026-03-20 03:23:00,scheduler
+REF-0227,Appointment Scheduled,2026-03-20 03:35:00,scheduler
+REF-0227,Visit Completed,2026-03-22 05:35:00,clinic_ma
+REF-0228,Referral Received,2026-03-15 12:47:00,intake_clerk
+REF-0228,Insurance Verification,2026-03-15 14:36:00,intake_clerk
+REF-0228,Prior Auth Submitted,2026-03-15 18:45:00,auth_specialist
+REF-0228,Prior Auth Denied,2026-03-18 11:45:00,auth_specialist
+REF-0228,Prior Auth Resubmitted,2026-03-19 21:45:00,auth_specialist
+REF-0228,Prior Auth Approved,2026-03-26 04:45:00,auth_specialist
+REF-0228,Scheduling Call,2026-03-26 11:45:00,scheduler
+REF-0228,Appointment Scheduled,2026-03-26 11:58:00,scheduler
+REF-0228,Visit Completed,2026-04-02 01:58:00,clinic_ma
+REF-0229,Referral Received,2026-02-01 22:45:00,intake_clerk
+REF-0229,Insurance Verification,2026-02-02 00:18:00,intake_clerk
+REF-0229,Info Request to Referrer,2026-02-02 00:36:00,intake_clerk
+REF-0229,Info Received,2026-02-05 17:36:00,intake_clerk
+REF-0229,Insurance Verification,2026-02-05 18:34:00,intake_clerk
+REF-0229,Prior Auth Submitted,2026-02-05 20:13:00,auth_specialist
+REF-0229,Prior Auth Approved,2026-02-12 00:13:00,auth_specialist
+REF-0229,Scheduling Call,2026-02-13 06:13:00,scheduler
+REF-0229,Appointment Scheduled,2026-02-13 06:26:00,scheduler
+REF-0229,Case Closed - No Show,2026-02-18 22:26:00,scheduler
+REF-0230,Referral Received,2026-03-06 04:55:00,intake_clerk
+REF-0230,Insurance Verification,2026-03-06 05:33:00,intake_clerk
+REF-0230,Info Request to Referrer,2026-03-06 06:05:00,intake_clerk
+REF-0230,Info Received,2026-03-08 23:05:00,intake_clerk
+REF-0230,Insurance Verification,2026-03-08 23:35:00,intake_clerk
+REF-0230,Prior Auth Submitted,2026-03-09 03:26:00,auth_specialist
+REF-0230,Prior Auth Approved,2026-03-14 04:26:00,auth_specialist
+REF-0230,Scheduling Call,2026-03-16 00:26:00,scheduler
+REF-0230,Appointment Scheduled,2026-03-16 00:44:00,scheduler
+REF-0230,Visit Completed,2026-03-20 14:44:00,clinic_ma
+REF-0231,Referral Received,2026-02-28 09:50:00,intake_clerk
+REF-0231,Insurance Verification,2026-02-28 10:33:00,intake_clerk
+REF-0231,Prior Auth Submitted,2026-02-28 13:25:00,auth_specialist
+REF-0231,Prior Auth Approved,2026-03-07 05:25:00,auth_specialist
+REF-0231,Scheduling Call,2026-03-08 08:25:00,scheduler
+REF-0231,Appointment Scheduled,2026-03-08 08:45:00,scheduler
+REF-0231,Visit Completed,2026-03-11 09:45:00,clinic_ma
+REF-0232,Referral Received,2026-03-20 11:49:00,intake_clerk
+REF-0232,Insurance Verification,2026-03-20 12:32:00,intake_clerk
+REF-0232,Prior Auth Submitted,2026-03-20 16:56:00,auth_specialist
+REF-0232,Prior Auth Approved,2026-03-26 09:56:00,auth_specialist
+REF-0232,Scheduling Call,2026-03-27 11:56:00,scheduler
+REF-0232,Appointment Scheduled,2026-03-27 12:13:00,scheduler
+REF-0232,Visit Completed,2026-04-08 15:13:00,clinic_ma
+REF-0233,Referral Received,2026-03-16 17:13:00,intake_clerk
+REF-0233,Insurance Verification,2026-03-16 18:55:00,intake_clerk
+REF-0233,Prior Auth Submitted,2026-03-16 22:17:00,auth_specialist
+REF-0233,Prior Auth Approved,2026-03-19 14:17:00,auth_specialist
+REF-0233,Scheduling Call,2026-03-21 06:17:00,scheduler
+REF-0233,Appointment Scheduled,2026-03-21 06:32:00,scheduler
+REF-0233,Case Closed - No Show,2026-03-25 06:32:00,scheduler
+REF-0234,Referral Received,2026-01-09 06:06:00,intake_clerk
+REF-0234,Insurance Verification,2026-01-09 08:23:00,intake_clerk
+REF-0234,Case Closed - Abandoned,2026-01-14 00:23:00,intake_clerk
+REF-0235,Referral Received,2026-02-11 23:29:00,intake_clerk
+REF-0235,Insurance Verification,2026-02-12 00:43:00,intake_clerk
+REF-0235,Urgent Override,2026-02-12 01:05:00,clinic_manager
+REF-0235,Scheduling Call,2026-02-12 04:31:00,scheduler
+REF-0235,Appointment Scheduled,2026-02-12 04:40:00,scheduler
+REF-0235,Visit Completed,2026-02-14 18:40:00,clinic_ma
+REF-0236,Referral Received,2026-01-18 21:55:00,intake_clerk
+REF-0236,Insurance Verification,2026-01-18 23:25:00,intake_clerk
+REF-0236,Prior Auth Submitted,2026-01-19 02:59:00,auth_specialist
+REF-0236,Prior Auth Approved,2026-01-23 01:59:00,auth_specialist
+REF-0236,Scheduling Call,2026-01-24 23:59:00,scheduler
+REF-0236,Appointment Scheduled,2026-01-25 00:09:00,scheduler
+REF-0236,Visit Completed,2026-02-10 08:09:00,clinic_ma
+REF-0237,Referral Received,2026-01-31 09:46:00,intake_clerk
+REF-0237,Insurance Verification,2026-01-31 11:05:00,intake_clerk
+REF-0237,Prior Auth Submitted,2026-01-31 12:21:00,auth_specialist
+REF-0237,Prior Auth Approved,2026-02-02 12:21:00,auth_specialist
+REF-0237,Scheduling Call,2026-02-03 05:21:00,scheduler
+REF-0237,Appointment Scheduled,2026-02-03 05:30:00,scheduler
+REF-0237,Visit Completed,2026-02-17 06:30:00,clinic_ma
+REF-0238,Referral Received,2026-03-04 08:28:00,intake_clerk
+REF-0238,Insurance Verification,2026-03-04 10:17:00,intake_clerk
+REF-0238,Urgent Override,2026-03-04 10:48:00,clinic_manager
+REF-0238,Scheduling Call,2026-03-04 14:47:00,scheduler
+REF-0238,Appointment Scheduled,2026-03-04 14:55:00,scheduler
+REF-0238,Visit Completed,2026-03-07 20:55:00,clinic_ma
+REF-0239,Referral Received,2026-03-05 13:08:00,intake_clerk
+REF-0239,Insurance Verification,2026-03-05 14:26:00,intake_clerk
+REF-0239,Prior Auth Submitted,2026-03-05 15:48:00,auth_specialist
+REF-0239,Prior Auth Denied,2026-03-09 14:48:00,auth_specialist
+REF-0239,Prior Auth Resubmitted,2026-03-11 12:48:00,auth_specialist
+REF-0239,Prior Auth Denied,2026-03-17 15:48:00,auth_specialist
+REF-0239,Prior Auth Resubmitted,2026-03-18 16:48:00,auth_specialist
+REF-0239,Prior Auth Approved,2026-03-24 02:48:00,auth_specialist
+REF-0239,Scheduling Call,2026-03-26 01:48:00,scheduler
+REF-0239,Appointment Scheduled,2026-03-26 01:53:00,scheduler
+REF-0239,Visit Completed,2026-04-01 13:53:00,clinic_ma
+REF-0240,Referral Received,2026-02-11 21:22:00,intake_clerk
+REF-0240,Insurance Verification,2026-02-12 00:22:00,intake_clerk
+REF-0240,Prior Auth Submitted,2026-02-12 04:22:00,auth_specialist
+REF-0240,Prior Auth Approved,2026-02-16 12:22:00,auth_specialist
+REF-0240,Scheduling Call,2026-02-17 05:22:00,scheduler
+REF-0240,Scheduling Call,2026-02-18 11:22:00,scheduler
+REF-0240,Appointment Scheduled,2026-02-18 11:31:00,scheduler
+REF-0240,Visit Completed,2026-03-06 00:31:00,clinic_ma
+REF-0241,Referral Received,2026-03-08 15:24:00,intake_clerk
+REF-0241,Insurance Verification,2026-03-08 17:33:00,intake_clerk
+REF-0241,Prior Auth Submitted,2026-03-08 19:14:00,auth_specialist
+REF-0241,Prior Auth Denied,2026-03-14 05:14:00,auth_specialist
+REF-0241,Prior Auth Resubmitted,2026-03-14 23:14:00,auth_specialist
+REF-0241,Prior Auth Approved,2026-03-20 03:14:00,auth_specialist
+REF-0241,Scheduling Call,2026-03-21 21:14:00,scheduler
+REF-0241,Appointment Scheduled,2026-03-21 21:28:00,scheduler
+REF-0241,Visit Completed,2026-03-25 10:28:00,clinic_ma
+REF-0242,Referral Received,2026-03-18 16:54:00,intake_clerk
+REF-0242,Insurance Verification,2026-03-18 18:31:00,intake_clerk
+REF-0242,Prior Auth Submitted,2026-03-18 23:21:00,auth_specialist
+REF-0242,Prior Auth Denied,2026-03-23 01:21:00,auth_specialist
+REF-0242,Prior Auth Resubmitted,2026-03-24 22:21:00,auth_specialist
+REF-0242,Prior Auth Approved,2026-03-31 02:21:00,auth_specialist
+REF-0242,Scheduling Call,2026-03-31 21:21:00,scheduler
+REF-0242,Appointment Scheduled,2026-03-31 21:29:00,scheduler
+REF-0242,Visit Completed,2026-04-17 11:29:00,clinic_ma
+REF-0243,Referral Received,2026-02-25 00:04:00,intake_clerk
+REF-0243,Insurance Verification,2026-02-25 00:27:00,intake_clerk
+REF-0243,Prior Auth Submitted,2026-02-25 03:39:00,auth_specialist
+REF-0243,Prior Auth Denied,2026-03-03 17:39:00,auth_specialist
+REF-0243,Prior Auth Resubmitted,2026-03-06 06:39:00,auth_specialist
+REF-0243,Prior Auth Approved,2026-03-11 21:39:00,auth_specialist
+REF-0243,Scheduling Call,2026-03-12 12:39:00,scheduler
+REF-0243,Appointment Scheduled,2026-03-12 12:46:00,scheduler
+REF-0243,Visit Completed,2026-03-16 22:46:00,clinic_ma
+REF-0244,Referral Received,2026-01-06 12:16:00,intake_clerk
+REF-0244,Insurance Verification,2026-01-06 12:43:00,intake_clerk
+REF-0244,Info Request to Referrer,2026-01-06 13:23:00,intake_clerk
+REF-0244,Info Received,2026-01-09 15:23:00,intake_clerk
+REF-0244,Insurance Verification,2026-01-09 16:10:00,intake_clerk
+REF-0244,Prior Auth Submitted,2026-01-09 20:56:00,auth_specialist
+REF-0244,Prior Auth Approved,2026-01-14 02:56:00,auth_specialist
+REF-0244,Scheduling Call,2026-01-16 02:56:00,scheduler
+REF-0244,Appointment Scheduled,2026-01-16 03:05:00,scheduler
+REF-0244,Visit Completed,2026-01-25 17:05:00,clinic_ma
+REF-0245,Referral Received,2026-01-12 01:32:00,intake_clerk
+REF-0245,Insurance Verification,2026-01-12 02:31:00,intake_clerk
+REF-0245,Prior Auth Submitted,2026-01-12 06:21:00,auth_specialist
+REF-0245,Prior Auth Approved,2026-01-18 07:21:00,auth_specialist
+REF-0245,Scheduling Call,2026-01-20 04:21:00,scheduler
+REF-0245,Appointment Scheduled,2026-01-20 04:28:00,scheduler
+REF-0245,Visit Completed,2026-02-01 11:28:00,clinic_ma
+REF-0246,Referral Received,2026-03-08 14:54:00,intake_clerk
+REF-0246,Insurance Verification,2026-03-08 15:45:00,intake_clerk
+REF-0246,Info Request to Referrer,2026-03-08 15:57:00,intake_clerk
+REF-0246,Info Received,2026-03-11 22:57:00,intake_clerk
+REF-0246,Insurance Verification,2026-03-11 23:19:00,intake_clerk
+REF-0246,Prior Auth Submitted,2026-03-12 00:17:00,auth_specialist
+REF-0246,Prior Auth Approved,2026-03-17 22:17:00,auth_specialist
+REF-0246,Scheduling Call,2026-03-19 20:17:00,scheduler
+REF-0246,Appointment Scheduled,2026-03-19 20:25:00,scheduler
+REF-0246,Visit Completed,2026-03-25 18:25:00,clinic_ma
+REF-0247,Referral Received,2026-03-06 04:00:00,intake_clerk
+REF-0247,Insurance Verification,2026-03-06 05:04:00,intake_clerk
+REF-0247,Info Request to Referrer,2026-03-06 05:30:00,intake_clerk
+REF-0247,Info Received,2026-03-09 23:30:00,intake_clerk
+REF-0247,Insurance Verification,2026-03-10 00:01:00,intake_clerk
+REF-0247,Prior Auth Submitted,2026-03-10 01:35:00,auth_specialist
+REF-0247,Prior Auth Approved,2026-03-16 16:35:00,auth_specialist
+REF-0247,Scheduling Call,2026-03-17 13:35:00,scheduler
+REF-0247,Appointment Scheduled,2026-03-17 13:43:00,scheduler
+REF-0247,Visit Completed,2026-03-21 04:43:00,clinic_ma
+REF-0248,Referral Received,2026-02-02 22:51:00,intake_clerk
+REF-0248,Insurance Verification,2026-02-03 01:25:00,intake_clerk
+REF-0248,Case Closed - Abandoned,2026-02-12 04:25:00,intake_clerk
+REF-0249,Referral Received,2026-02-27 21:04:00,intake_clerk
+REF-0249,Insurance Verification,2026-02-27 23:34:00,intake_clerk
+REF-0249,Prior Auth Submitted,2026-02-28 04:19:00,auth_specialist
+REF-0249,Prior Auth Approved,2026-03-03 01:19:00,auth_specialist
+REF-0249,Scheduling Call,2026-03-04 04:19:00,scheduler
+REF-0249,Appointment Scheduled,2026-03-04 04:27:00,scheduler
+REF-0249,Case Closed - No Show,2026-03-09 15:27:00,scheduler
+REF-0250,Referral Received,2026-01-24 19:47:00,intake_clerk
+REF-0250,Insurance Verification,2026-01-24 20:18:00,intake_clerk
+REF-0250,Prior Auth Submitted,2026-01-24 20:54:00,auth_specialist
+REF-0250,Prior Auth Denied,2026-01-29 08:54:00,auth_specialist
+REF-0250,Prior Auth Resubmitted,2026-01-31 14:54:00,auth_specialist
+REF-0250,Prior Auth Approved,2026-02-03 09:54:00,auth_specialist
+REF-0250,Scheduling Call,2026-02-04 00:54:00,scheduler
+REF-0250,Appointment Scheduled,2026-02-04 01:00:00,scheduler
+REF-0250,Visit Completed,2026-02-15 23:00:00,clinic_ma
+REF-0251,Referral Received,2026-01-24 11:20:00,intake_clerk
+REF-0251,Insurance Verification,2026-01-24 13:12:00,intake_clerk
+REF-0251,Info Request to Referrer,2026-01-24 13:32:00,intake_clerk
+REF-0251,Info Received,2026-01-26 23:32:00,intake_clerk
+REF-0251,Insurance Verification,2026-01-26 23:51:00,intake_clerk
+REF-0251,Prior Auth Submitted,2026-01-27 01:22:00,auth_specialist
+REF-0251,Prior Auth Approved,2026-02-02 20:22:00,auth_specialist
+REF-0251,Scheduling Call,2026-02-03 03:22:00,scheduler
+REF-0251,Appointment Scheduled,2026-02-03 03:28:00,scheduler
+REF-0251,Case Closed - No Show,2026-02-07 14:28:00,scheduler
+REF-0252,Referral Received,2026-03-21 04:29:00,intake_clerk
+REF-0252,Insurance Verification,2026-03-21 06:08:00,intake_clerk
+REF-0252,Prior Auth Submitted,2026-03-21 10:31:00,auth_specialist
+REF-0252,Prior Auth Denied,2026-03-24 11:31:00,auth_specialist
+REF-0252,Prior Auth Resubmitted,2026-03-26 08:31:00,auth_specialist
+REF-0252,Prior Auth Approved,2026-03-29 22:31:00,auth_specialist
+REF-0252,Scheduling Call,2026-03-31 17:31:00,scheduler
+REF-0252,Appointment Scheduled,2026-03-31 17:47:00,scheduler
+REF-0252,Visit Completed,2026-04-14 05:47:00,clinic_ma
+REF-0253,Referral Received,2026-03-12 06:49:00,intake_clerk
+REF-0253,Insurance Verification,2026-03-12 08:18:00,intake_clerk
+REF-0253,Info Request to Referrer,2026-03-12 08:52:00,intake_clerk
+REF-0253,Info Received,2026-03-14 15:52:00,intake_clerk
+REF-0253,Insurance Verification,2026-03-14 16:16:00,intake_clerk
+REF-0253,Case Closed - Abandoned,2026-03-22 00:16:00,intake_clerk
+REF-0254,Referral Received,2026-01-07 08:14:00,intake_clerk
+REF-0254,Insurance Verification,2026-01-07 08:36:00,intake_clerk
+REF-0254,Prior Auth Submitted,2026-01-07 09:06:00,auth_specialist
+REF-0254,Prior Auth Approved,2026-01-11 09:06:00,auth_specialist
+REF-0254,Scheduling Call,2026-01-12 08:06:00,scheduler
+REF-0254,Appointment Scheduled,2026-01-12 08:18:00,scheduler
+REF-0254,Visit Completed,2026-01-16 14:18:00,clinic_ma
+REF-0255,Referral Received,2026-03-29 07:09:00,intake_clerk
+REF-0255,Insurance Verification,2026-03-29 07:52:00,intake_clerk
+REF-0255,Case Closed - Abandoned,2026-04-03 18:52:00,intake_clerk
+REF-0256,Referral Received,2026-03-22 21:54:00,intake_clerk
+REF-0256,Insurance Verification,2026-03-22 23:49:00,intake_clerk
+REF-0256,Prior Auth Submitted,2026-03-23 01:02:00,auth_specialist
+REF-0256,Prior Auth Approved,2026-03-27 17:02:00,auth_specialist
+REF-0256,Scheduling Call,2026-03-28 05:02:00,scheduler
+REF-0256,Appointment Scheduled,2026-03-28 05:19:00,scheduler
+REF-0256,Visit Completed,2026-04-12 07:19:00,clinic_ma
+REF-0257,Referral Received,2026-01-10 15:27:00,intake_clerk
+REF-0257,Insurance Verification,2026-01-10 16:20:00,intake_clerk
+REF-0257,Prior Auth Submitted,2026-01-10 19:03:00,auth_specialist
+REF-0257,Prior Auth Approved,2026-01-17 17:03:00,auth_specialist
+REF-0257,Scheduling Call,2026-01-18 22:03:00,scheduler
+REF-0257,Appointment Scheduled,2026-01-18 22:18:00,scheduler
+REF-0257,Visit Completed,2026-01-27 17:18:00,clinic_ma
+REF-0258,Referral Received,2026-01-25 06:04:00,intake_clerk
+REF-0258,Insurance Verification,2026-01-25 06:58:00,intake_clerk
+REF-0258,Prior Auth Submitted,2026-01-25 08:23:00,auth_specialist
+REF-0258,Prior Auth Denied,2026-01-28 05:23:00,auth_specialist
+REF-0258,Prior Auth Resubmitted,2026-01-30 22:23:00,auth_specialist
+REF-0258,Prior Auth Approved,2026-02-04 02:23:00,auth_specialist
+REF-0258,Scheduling Call,2026-02-04 13:23:00,scheduler
+REF-0258,Appointment Scheduled,2026-02-04 13:34:00,scheduler
+REF-0258,Visit Completed,2026-02-17 10:34:00,clinic_ma
+REF-0259,Referral Received,2026-01-27 22:54:00,intake_clerk
+REF-0259,Insurance Verification,2026-01-27 23:34:00,intake_clerk
+REF-0259,Urgent Override,2026-01-28 00:27:00,clinic_manager
+REF-0259,Scheduling Call,2026-01-28 02:14:00,scheduler
+REF-0259,Appointment Scheduled,2026-01-28 02:20:00,scheduler
+REF-0259,Visit Completed,2026-01-30 05:20:00,clinic_ma
+REF-0260,Referral Received,2026-03-17 15:54:00,intake_clerk
+REF-0260,Insurance Verification,2026-03-17 16:25:00,intake_clerk
+REF-0260,Info Request to Referrer,2026-03-17 16:57:00,intake_clerk
+REF-0260,Info Received,2026-03-19 23:57:00,intake_clerk
+REF-0260,Insurance Verification,2026-03-20 00:34:00,intake_clerk
+REF-0260,Prior Auth Submitted,2026-03-20 01:29:00,auth_specialist
+REF-0260,Prior Auth Approved,2026-03-23 10:29:00,auth_specialist
+REF-0260,Scheduling Call,2026-03-24 01:29:00,scheduler
+REF-0260,Scheduling Call,2026-03-26 02:29:00,scheduler
+REF-0260,Appointment Scheduled,2026-03-26 02:48:00,scheduler
+REF-0260,Visit Completed,2026-04-09 19:48:00,clinic_ma
+REF-0261,Referral Received,2026-01-26 15:06:00,intake_clerk
+REF-0261,Insurance Verification,2026-01-26 16:01:00,intake_clerk
+REF-0261,Prior Auth Submitted,2026-01-26 17:02:00,auth_specialist
+REF-0261,Prior Auth Approved,2026-01-29 21:02:00,auth_specialist
+REF-0261,Scheduling Call,2026-01-30 09:02:00,scheduler
+REF-0261,Appointment Scheduled,2026-01-30 09:19:00,scheduler
+REF-0261,Visit Completed,2026-02-15 19:19:00,clinic_ma
+REF-0262,Referral Received,2026-03-26 08:41:00,intake_clerk
+REF-0262,Insurance Verification,2026-03-26 10:16:00,intake_clerk
+REF-0262,Urgent Override,2026-03-26 10:42:00,clinic_manager
+REF-0262,Scheduling Call,2026-03-26 14:40:00,scheduler
+REF-0262,Appointment Scheduled,2026-03-26 14:47:00,scheduler
+REF-0262,Visit Completed,2026-03-27 16:47:00,clinic_ma
+REF-0263,Referral Received,2026-01-10 20:12:00,intake_clerk
+REF-0263,Insurance Verification,2026-01-10 22:25:00,intake_clerk
+REF-0263,Prior Auth Submitted,2026-01-10 23:42:00,auth_specialist
+REF-0263,Prior Auth Approved,2026-01-17 09:42:00,auth_specialist
+REF-0263,Scheduling Call,2026-01-18 10:42:00,scheduler
+REF-0263,Appointment Scheduled,2026-01-18 11:01:00,scheduler
+REF-0263,Visit Completed,2026-02-02 16:01:00,clinic_ma
+REF-0264,Referral Received,2026-02-11 07:52:00,intake_clerk
+REF-0264,Insurance Verification,2026-02-11 10:19:00,intake_clerk
+REF-0264,Case Closed - Abandoned,2026-02-18 23:19:00,intake_clerk
+REF-0265,Referral Received,2026-01-20 01:22:00,intake_clerk
+REF-0265,Insurance Verification,2026-01-20 02:05:00,intake_clerk
+REF-0265,Info Request to Referrer,2026-01-20 02:23:00,intake_clerk
+REF-0265,Info Received,2026-01-22 13:23:00,intake_clerk
+REF-0265,Insurance Verification,2026-01-22 14:06:00,intake_clerk
+REF-0265,Prior Auth Submitted,2026-01-22 14:53:00,auth_specialist
+REF-0265,Prior Auth Approved,2026-01-27 20:53:00,auth_specialist
+REF-0265,Scheduling Call,2026-01-28 15:53:00,scheduler
+REF-0265,Appointment Scheduled,2026-01-28 16:13:00,scheduler
+REF-0265,Visit Completed,2026-02-12 09:13:00,clinic_ma
+REF-0266,Referral Received,2026-02-15 05:03:00,intake_clerk
+REF-0266,Insurance Verification,2026-02-15 06:12:00,intake_clerk
+REF-0266,Urgent Override,2026-02-15 06:30:00,clinic_manager
+REF-0266,Scheduling Call,2026-02-15 08:47:00,scheduler
+REF-0266,Appointment Scheduled,2026-02-15 08:58:00,scheduler
+REF-0266,Visit Completed,2026-02-19 03:58:00,clinic_ma
+REF-0267,Referral Received,2026-01-26 14:40:00,intake_clerk
+REF-0267,Insurance Verification,2026-01-26 17:19:00,intake_clerk
+REF-0267,Prior Auth Submitted,2026-01-26 21:04:00,auth_specialist
+REF-0267,Prior Auth Approved,2026-01-30 18:04:00,auth_specialist
+REF-0267,Scheduling Call,2026-02-01 04:04:00,scheduler
+REF-0267,Appointment Scheduled,2026-02-01 04:24:00,scheduler
+REF-0267,Visit Completed,2026-02-16 05:24:00,clinic_ma
+REF-0268,Referral Received,2026-02-17 04:20:00,intake_clerk
+REF-0268,Insurance Verification,2026-02-17 05:26:00,intake_clerk
+REF-0268,Case Closed - Abandoned,2026-02-26 13:26:00,intake_clerk
+REF-0269,Referral Received,2026-01-24 00:01:00,intake_clerk
+REF-0269,Insurance Verification,2026-01-24 01:32:00,intake_clerk
+REF-0269,Case Closed - Abandoned,2026-02-01 01:32:00,intake_clerk
+REF-0270,Referral Received,2026-02-19 12:22:00,intake_clerk
+REF-0270,Insurance Verification,2026-02-19 13:41:00,intake_clerk
+REF-0270,Prior Auth Submitted,2026-02-19 15:02:00,auth_specialist
+REF-0270,Prior Auth Denied,2026-02-22 21:02:00,auth_specialist
+REF-0270,Prior Auth Resubmitted,2026-02-24 15:02:00,auth_specialist
+REF-0270,Prior Auth Approved,2026-03-02 20:02:00,auth_specialist
+REF-0270,Scheduling Call,2026-03-03 03:02:00,scheduler
+REF-0270,Appointment Scheduled,2026-03-03 03:14:00,scheduler
+REF-0270,Visit Completed,2026-03-14 09:14:00,clinic_ma
+REF-0271,Referral Received,2026-02-04 14:59:00,intake_clerk
+REF-0271,Insurance Verification,2026-02-04 16:03:00,intake_clerk
+REF-0271,Prior Auth Submitted,2026-02-04 19:15:00,auth_specialist
+REF-0271,Prior Auth Approved,2026-02-10 12:15:00,auth_specialist
+REF-0271,Scheduling Call,2026-02-11 14:15:00,scheduler
+REF-0271,Appointment Scheduled,2026-02-11 14:20:00,scheduler
+REF-0271,Visit Completed,2026-02-22 02:20:00,clinic_ma
+REF-0272,Referral Received,2026-03-27 04:36:00,intake_clerk
+REF-0272,Insurance Verification,2026-03-27 07:20:00,intake_clerk
+REF-0272,Prior Auth Submitted,2026-03-27 12:02:00,auth_specialist
+REF-0272,Prior Auth Approved,2026-03-30 10:02:00,auth_specialist
+REF-0272,Scheduling Call,2026-03-31 21:02:00,scheduler
+REF-0272,Scheduling Call,2026-04-02 00:02:00,scheduler
+REF-0272,Appointment Scheduled,2026-04-02 00:14:00,scheduler
+REF-0272,Visit Completed,2026-04-05 10:14:00,clinic_ma
+REF-0273,Referral Received,2026-02-19 06:30:00,intake_clerk
+REF-0273,Insurance Verification,2026-02-19 08:08:00,intake_clerk
+REF-0273,Urgent Override,2026-02-19 08:30:00,clinic_manager
+REF-0273,Scheduling Call,2026-02-19 12:26:00,scheduler
+REF-0273,Appointment Scheduled,2026-02-19 12:35:00,scheduler
+REF-0273,Visit Completed,2026-02-22 07:35:00,clinic_ma
+REF-0274,Referral Received,2026-03-07 12:11:00,intake_clerk
+REF-0274,Insurance Verification,2026-03-07 13:53:00,intake_clerk
+REF-0274,Case Closed - Abandoned,2026-03-12 02:53:00,intake_clerk
+REF-0275,Referral Received,2026-02-24 09:45:00,intake_clerk
+REF-0275,Insurance Verification,2026-02-24 10:33:00,intake_clerk
+REF-0275,Prior Auth Submitted,2026-02-24 14:09:00,auth_specialist
+REF-0275,Prior Auth Approved,2026-02-28 13:09:00,auth_specialist
+REF-0275,Scheduling Call,2026-03-02 11:09:00,scheduler
+REF-0275,Appointment Scheduled,2026-03-02 11:17:00,scheduler
+REF-0275,Visit Completed,2026-03-12 08:17:00,clinic_ma
+REF-0276,Referral Received,2026-01-16 23:10:00,intake_clerk
+REF-0276,Insurance Verification,2026-01-17 01:21:00,intake_clerk
+REF-0276,Prior Auth Submitted,2026-01-17 06:00:00,auth_specialist
+REF-0276,Prior Auth Approved,2026-01-20 04:00:00,auth_specialist
+REF-0276,Scheduling Call,2026-01-21 19:00:00,scheduler
+REF-0276,Appointment Scheduled,2026-01-21 19:16:00,scheduler
+REF-0276,Visit Completed,2026-02-06 08:16:00,clinic_ma
+REF-0277,Referral Received,2026-03-15 20:11:00,intake_clerk
+REF-0277,Insurance Verification,2026-03-15 21:46:00,intake_clerk
+REF-0277,Prior Auth Submitted,2026-03-15 22:16:00,auth_specialist
+REF-0277,Prior Auth Approved,2026-03-20 23:16:00,auth_specialist
+REF-0277,Scheduling Call,2026-03-22 04:16:00,scheduler
+REF-0277,Appointment Scheduled,2026-03-22 04:22:00,scheduler
+REF-0277,Visit Completed,2026-03-31 22:22:00,clinic_ma
+REF-0278,Referral Received,2026-03-24 22:51:00,intake_clerk
+REF-0278,Insurance Verification,2026-03-25 00:07:00,intake_clerk
+REF-0278,Prior Auth Submitted,2026-03-25 01:30:00,auth_specialist
+REF-0278,Prior Auth Approved,2026-03-27 19:30:00,auth_specialist
+REF-0278,Scheduling Call,2026-03-28 20:30:00,scheduler
+REF-0278,Appointment Scheduled,2026-03-28 20:42:00,scheduler
+REF-0278,Visit Completed,2026-04-07 15:42:00,clinic_ma
+REF-0279,Referral Received,2026-01-19 15:40:00,intake_clerk
+REF-0279,Insurance Verification,2026-01-19 16:22:00,intake_clerk
+REF-0279,Prior Auth Submitted,2026-01-19 19:43:00,auth_specialist
+REF-0279,Prior Auth Approved,2026-01-23 04:43:00,auth_specialist
+REF-0279,Scheduling Call,2026-01-23 21:43:00,scheduler
+REF-0279,Appointment Scheduled,2026-01-23 21:50:00,scheduler
+REF-0279,Visit Completed,2026-01-29 04:50:00,clinic_ma
+REF-0280,Referral Received,2026-03-07 19:00:00,intake_clerk
+REF-0280,Insurance Verification,2026-03-07 20:16:00,intake_clerk
+REF-0280,Urgent Override,2026-03-07 21:12:00,clinic_manager
+REF-0280,Scheduling Call,2026-03-07 23:29:00,scheduler
+REF-0280,Appointment Scheduled,2026-03-07 23:39:00,scheduler
+REF-0280,Visit Completed,2026-03-11 03:39:00,clinic_ma
+REF-0281,Referral Received,2026-02-16 09:56:00,intake_clerk
+REF-0281,Insurance Verification,2026-02-16 12:35:00,intake_clerk
+REF-0281,Prior Auth Submitted,2026-02-16 17:10:00,auth_specialist
+REF-0281,Prior Auth Approved,2026-02-21 18:10:00,auth_specialist
+REF-0281,Scheduling Call,2026-02-23 15:10:00,scheduler
+REF-0281,Appointment Scheduled,2026-02-23 15:22:00,scheduler
+REF-0281,Visit Completed,2026-02-28 04:22:00,clinic_ma
+REF-0282,Referral Received,2026-03-14 12:54:00,intake_clerk
+REF-0282,Insurance Verification,2026-03-14 13:16:00,intake_clerk
+REF-0282,Urgent Override,2026-03-14 13:46:00,clinic_manager
+REF-0282,Scheduling Call,2026-03-14 15:22:00,scheduler
+REF-0282,Appointment Scheduled,2026-03-14 15:30:00,scheduler
+REF-0282,Visit Completed,2026-03-16 00:30:00,clinic_ma
+REF-0283,Referral Received,2026-02-03 12:10:00,intake_clerk
+REF-0283,Insurance Verification,2026-02-03 13:11:00,intake_clerk
+REF-0283,Prior Auth Submitted,2026-02-03 14:28:00,auth_specialist
+REF-0283,Prior Auth Approved,2026-02-08 20:28:00,auth_specialist
+REF-0283,Scheduling Call,2026-02-10 06:28:00,scheduler
+REF-0283,Appointment Scheduled,2026-02-10 06:46:00,scheduler
+REF-0283,Case Closed - No Show,2026-02-16 18:46:00,scheduler
+REF-0284,Referral Received,2026-02-26 03:56:00,intake_clerk
+REF-0284,Insurance Verification,2026-02-26 04:29:00,intake_clerk
+REF-0284,Prior Auth Submitted,2026-02-26 06:44:00,auth_specialist
+REF-0284,Prior Auth Approved,2026-03-02 10:44:00,auth_specialist
+REF-0284,Scheduling Call,2026-03-04 10:44:00,scheduler
+REF-0284,Appointment Scheduled,2026-03-04 10:57:00,scheduler
+REF-0284,Visit Completed,2026-03-13 18:57:00,clinic_ma
+REF-0285,Referral Received,2026-01-25 14:06:00,intake_clerk
+REF-0285,Insurance Verification,2026-01-25 15:39:00,intake_clerk
+REF-0285,Urgent Override,2026-01-25 16:24:00,clinic_manager
+REF-0285,Scheduling Call,2026-01-25 18:59:00,scheduler
+REF-0285,Appointment Scheduled,2026-01-25 19:08:00,scheduler
+REF-0285,Visit Completed,2026-01-27 01:08:00,clinic_ma
+REF-0286,Referral Received,2026-02-05 02:00:00,intake_clerk
+REF-0286,Insurance Verification,2026-02-05 03:35:00,intake_clerk
+REF-0286,Prior Auth Submitted,2026-02-05 08:10:00,auth_specialist
+REF-0286,Prior Auth Denied,2026-02-07 11:10:00,auth_specialist
+REF-0286,Prior Auth Resubmitted,2026-02-08 21:10:00,auth_specialist
+REF-0286,Prior Auth Denied,2026-02-12 10:10:00,auth_specialist
+REF-0286,Prior Auth Resubmitted,2026-02-13 04:10:00,auth_specialist
+REF-0286,Prior Auth Approved,2026-02-17 16:10:00,auth_specialist
+REF-0286,Scheduling Call,2026-02-18 03:10:00,scheduler
+REF-0286,Appointment Scheduled,2026-02-18 03:27:00,scheduler
+REF-0286,Visit Completed,2026-02-26 18:27:00,clinic_ma
+REF-0287,Referral Received,2026-01-13 02:41:00,intake_clerk
+REF-0287,Insurance Verification,2026-01-13 03:48:00,intake_clerk
+REF-0287,Prior Auth Submitted,2026-01-13 07:33:00,auth_specialist
+REF-0287,Prior Auth Approved,2026-01-17 16:33:00,auth_specialist
+REF-0287,Scheduling Call,2026-01-17 22:33:00,scheduler
+REF-0287,Appointment Scheduled,2026-01-17 22:52:00,scheduler
+REF-0287,Visit Completed,2026-01-26 15:52:00,clinic_ma
+REF-0288,Referral Received,2026-02-22 11:03:00,intake_clerk
+REF-0288,Insurance Verification,2026-02-22 12:52:00,intake_clerk
+REF-0288,Info Request to Referrer,2026-02-22 13:23:00,intake_clerk
+REF-0288,Info Received,2026-02-24 01:23:00,intake_clerk
+REF-0288,Insurance Verification,2026-02-24 01:43:00,intake_clerk
+REF-0288,Prior Auth Submitted,2026-02-24 05:44:00,auth_specialist
+REF-0288,Prior Auth Approved,2026-03-01 08:44:00,auth_specialist
+REF-0288,Scheduling Call,2026-03-02 02:44:00,scheduler
+REF-0288,Appointment Scheduled,2026-03-02 03:01:00,scheduler
+REF-0288,Visit Completed,2026-03-14 01:01:00,clinic_ma
+REF-0289,Referral Received,2026-03-28 17:34:00,intake_clerk
+REF-0289,Insurance Verification,2026-03-28 19:55:00,intake_clerk
+REF-0289,Prior Auth Submitted,2026-03-28 22:25:00,auth_specialist
+REF-0289,Prior Auth Approved,2026-03-31 08:25:00,auth_specialist
+REF-0289,Scheduling Call,2026-04-01 13:25:00,scheduler
+REF-0289,Appointment Scheduled,2026-04-01 13:31:00,scheduler
+REF-0289,Visit Completed,2026-04-15 13:31:00,clinic_ma
+REF-0290,Referral Received,2026-03-14 15:36:00,intake_clerk
+REF-0290,Insurance Verification,2026-03-14 18:34:00,intake_clerk
+REF-0290,Prior Auth Submitted,2026-03-14 22:53:00,auth_specialist
+REF-0290,Prior Auth Denied,2026-03-17 19:53:00,auth_specialist
+REF-0290,Prior Auth Resubmitted,2026-03-19 06:53:00,auth_specialist
+REF-0290,Prior Auth Approved,2026-03-21 22:53:00,auth_specialist
+REF-0290,Scheduling Call,2026-03-22 04:53:00,scheduler
+REF-0290,Appointment Scheduled,2026-03-22 05:11:00,scheduler
+REF-0290,Visit Completed,2026-04-07 14:11:00,clinic_ma
+REF-0291,Referral Received,2026-01-17 22:53:00,intake_clerk
+REF-0291,Insurance Verification,2026-01-18 00:34:00,intake_clerk
+REF-0291,Prior Auth Submitted,2026-01-18 01:38:00,auth_specialist
+REF-0291,Prior Auth Denied,2026-01-23 00:38:00,auth_specialist
+REF-0291,Prior Auth Resubmitted,2026-01-25 10:38:00,auth_specialist
+REF-0291,Prior Auth Approved,2026-01-31 23:38:00,auth_specialist
+REF-0291,Scheduling Call,2026-02-01 20:38:00,scheduler
+REF-0291,Appointment Scheduled,2026-02-01 20:43:00,scheduler
+REF-0291,Visit Completed,2026-02-18 03:43:00,clinic_ma
+REF-0292,Referral Received,2026-02-24 11:33:00,intake_clerk
+REF-0292,Insurance Verification,2026-02-24 12:21:00,intake_clerk
+REF-0292,Prior Auth Submitted,2026-02-24 14:06:00,auth_specialist
+REF-0292,Prior Auth Approved,2026-03-01 16:06:00,auth_specialist
+REF-0292,Scheduling Call,2026-03-02 02:06:00,scheduler
+REF-0292,Appointment Scheduled,2026-03-02 02:14:00,scheduler
+REF-0292,Visit Completed,2026-03-16 12:14:00,clinic_ma
+REF-0293,Referral Received,2026-03-21 10:22:00,intake_clerk
+REF-0293,Insurance Verification,2026-03-21 11:49:00,intake_clerk
+REF-0293,Prior Auth Submitted,2026-03-21 16:27:00,auth_specialist
+REF-0293,Prior Auth Approved,2026-03-26 04:27:00,auth_specialist
+REF-0293,Scheduling Call,2026-03-26 10:27:00,scheduler
+REF-0293,Appointment Scheduled,2026-03-26 10:44:00,scheduler
+REF-0293,Visit Completed,2026-04-11 09:44:00,clinic_ma
+REF-0294,Referral Received,2026-03-04 10:44:00,intake_clerk
+REF-0294,Insurance Verification,2026-03-04 12:45:00,intake_clerk
+REF-0294,Prior Auth Submitted,2026-03-04 16:04:00,auth_specialist
+REF-0294,Prior Auth Approved,2026-03-06 22:04:00,auth_specialist
+REF-0294,Scheduling Call,2026-03-08 08:04:00,scheduler
+REF-0294,Appointment Scheduled,2026-03-08 08:20:00,scheduler
+REF-0294,Visit Completed,2026-03-17 19:20:00,clinic_ma
+REF-0295,Referral Received,2026-01-31 20:17:00,intake_clerk
+REF-0295,Insurance Verification,2026-01-31 21:02:00,intake_clerk
+REF-0295,Prior Auth Submitted,2026-01-31 23:28:00,auth_specialist
+REF-0295,Prior Auth Denied,2026-02-06 22:28:00,auth_specialist
+REF-0295,Prior Auth Resubmitted,2026-02-09 14:28:00,auth_specialist
+REF-0295,Prior Auth Approved,2026-02-13 07:28:00,auth_specialist
+REF-0295,Scheduling Call,2026-02-14 04:28:00,scheduler
+REF-0295,Appointment Scheduled,2026-02-14 04:35:00,scheduler
+REF-0295,Visit Completed,2026-02-21 16:35:00,clinic_ma
+REF-0296,Referral Received,2026-03-24 06:52:00,intake_clerk
+REF-0296,Insurance Verification,2026-03-24 09:16:00,intake_clerk
+REF-0296,Prior Auth Submitted,2026-03-24 12:57:00,auth_specialist
+REF-0296,Prior Auth Approved,2026-03-29 05:57:00,auth_specialist
+REF-0296,Scheduling Call,2026-03-29 19:57:00,scheduler
+REF-0296,Scheduling Call,2026-04-01 16:57:00,scheduler
+REF-0296,Appointment Scheduled,2026-04-01 17:14:00,scheduler
+REF-0296,Visit Completed,2026-04-15 21:14:00,clinic_ma
+REF-0297,Referral Received,2026-03-21 08:36:00,intake_clerk
+REF-0297,Insurance Verification,2026-03-21 09:20:00,intake_clerk
+REF-0297,Urgent Override,2026-03-21 09:42:00,clinic_manager
+REF-0297,Scheduling Call,2026-03-21 10:26:00,scheduler
+REF-0297,Appointment Scheduled,2026-03-21 10:38:00,scheduler
+REF-0297,Visit Completed,2026-03-22 14:38:00,clinic_ma
+REF-0298,Referral Received,2026-02-13 06:03:00,intake_clerk
+REF-0298,Insurance Verification,2026-02-13 07:13:00,intake_clerk
+REF-0298,Prior Auth Submitted,2026-02-13 11:40:00,auth_specialist
+REF-0298,Prior Auth Approved,2026-02-18 20:40:00,auth_specialist
+REF-0298,Scheduling Call,2026-02-19 07:40:00,scheduler
+REF-0298,Appointment Scheduled,2026-02-19 07:52:00,scheduler
+REF-0298,Visit Completed,2026-03-06 23:52:00,clinic_ma
+REF-0299,Referral Received,2026-02-12 09:11:00,intake_clerk
+REF-0299,Insurance Verification,2026-02-12 11:32:00,intake_clerk
+REF-0299,Prior Auth Submitted,2026-02-12 15:01:00,auth_specialist
+REF-0299,Prior Auth Approved,2026-02-19 02:01:00,auth_specialist
+REF-0299,Scheduling Call,2026-02-19 22:01:00,scheduler
+REF-0299,Appointment Scheduled,2026-02-19 22:08:00,scheduler
+REF-0299,Visit Completed,2026-03-03 03:08:00,clinic_ma
+REF-0300,Referral Received,2026-01-09 13:10:00,intake_clerk
+REF-0300,Insurance Verification,2026-01-09 14:24:00,intake_clerk
+REF-0300,Prior Auth Submitted,2026-01-09 16:49:00,auth_specialist
+REF-0300,Prior Auth Approved,2026-01-13 02:49:00,auth_specialist
+REF-0300,Scheduling Call,2026-01-14 23:49:00,scheduler
+REF-0300,Appointment Scheduled,2026-01-14 23:54:00,scheduler
+REF-0300,Case Closed - No Show,2026-01-18 03:54:00,scheduler
+REF-0301,Referral Received,2026-02-14 18:58:00,intake_clerk
+REF-0301,Insurance Verification,2026-02-14 19:40:00,intake_clerk
+REF-0301,Info Request to Referrer,2026-02-14 20:09:00,intake_clerk
+REF-0301,Info Received,2026-02-15 21:09:00,intake_clerk
+REF-0301,Insurance Verification,2026-02-15 21:38:00,intake_clerk
+REF-0301,Prior Auth Submitted,2026-02-16 00:44:00,auth_specialist
+REF-0301,Prior Auth Approved,2026-02-21 18:44:00,auth_specialist
+REF-0301,Scheduling Call,2026-02-23 15:44:00,scheduler
+REF-0301,Appointment Scheduled,2026-02-23 16:01:00,scheduler
+REF-0301,Case Closed - No Show,2026-03-08 11:01:00,scheduler
+REF-0302,Referral Received,2026-01-26 20:13:00,intake_clerk
+REF-0302,Insurance Verification,2026-01-26 22:46:00,intake_clerk
+REF-0302,Prior Auth Submitted,2026-01-27 02:39:00,auth_specialist
+REF-0302,Prior Auth Approved,2026-01-29 02:39:00,auth_specialist
+REF-0302,Scheduling Call,2026-01-30 14:39:00,scheduler
+REF-0302,Appointment Scheduled,2026-01-30 14:55:00,scheduler
+REF-0302,Visit Completed,2026-02-15 06:55:00,clinic_ma
+REF-0303,Referral Received,2026-02-26 07:18:00,intake_clerk
+REF-0303,Insurance Verification,2026-02-26 07:51:00,intake_clerk
+REF-0303,Info Request to Referrer,2026-02-26 08:16:00,intake_clerk
+REF-0303,Info Received,2026-02-27 16:16:00,intake_clerk
+REF-0303,Insurance Verification,2026-02-27 16:52:00,intake_clerk
+REF-0303,Prior Auth Submitted,2026-02-27 20:08:00,auth_specialist
+REF-0303,Prior Auth Approved,2026-03-03 05:08:00,auth_specialist
+REF-0303,Scheduling Call,2026-03-05 02:08:00,scheduler
+REF-0303,Appointment Scheduled,2026-03-05 02:22:00,scheduler
+REF-0303,Visit Completed,2026-03-19 02:22:00,clinic_ma
+REF-0304,Referral Received,2026-03-11 15:15:00,intake_clerk
+REF-0304,Insurance Verification,2026-03-11 18:08:00,intake_clerk
+REF-0304,Prior Auth Submitted,2026-03-11 21:21:00,auth_specialist
+REF-0304,Prior Auth Approved,2026-03-17 17:21:00,auth_specialist
+REF-0304,Scheduling Call,2026-03-17 22:21:00,scheduler
+REF-0304,Appointment Scheduled,2026-03-17 22:35:00,scheduler
+REF-0304,Visit Completed,2026-03-29 20:35:00,clinic_ma
+REF-0305,Referral Received,2026-02-08 20:24:00,intake_clerk
+REF-0305,Insurance Verification,2026-02-08 23:13:00,intake_clerk
+REF-0305,Prior Auth Submitted,2026-02-09 01:20:00,auth_specialist
+REF-0305,Prior Auth Approved,2026-02-14 20:20:00,auth_specialist
+REF-0305,Scheduling Call,2026-02-15 14:20:00,scheduler
+REF-0305,Appointment Scheduled,2026-02-15 14:40:00,scheduler
+REF-0305,Case Closed - No Show,2026-02-26 05:40:00,scheduler
+REF-0306,Referral Received,2026-02-17 14:19:00,intake_clerk
+REF-0306,Insurance Verification,2026-02-17 17:01:00,intake_clerk
+REF-0306,Prior Auth Submitted,2026-02-17 18:20:00,auth_specialist
+REF-0306,Prior Auth Approved,2026-02-23 16:20:00,auth_specialist
+REF-0306,Scheduling Call,2026-02-24 12:20:00,scheduler
+REF-0306,Appointment Scheduled,2026-02-24 12:30:00,scheduler
+REF-0306,Case Closed - No Show,2026-03-06 15:30:00,scheduler
+REF-0307,Referral Received,2026-03-02 04:05:00,intake_clerk
+REF-0307,Insurance Verification,2026-03-02 04:53:00,intake_clerk
+REF-0307,Info Request to Referrer,2026-03-02 05:26:00,intake_clerk
+REF-0307,Info Received,2026-03-04 20:26:00,intake_clerk
+REF-0307,Insurance Verification,2026-03-04 21:07:00,intake_clerk
+REF-0307,Prior Auth Submitted,2026-03-05 00:26:00,auth_specialist
+REF-0307,Prior Auth Approved,2026-03-10 02:26:00,auth_specialist
+REF-0307,Scheduling Call,2026-03-11 00:26:00,scheduler
+REF-0307,Appointment Scheduled,2026-03-11 00:34:00,scheduler
+REF-0307,Visit Completed,2026-03-27 12:34:00,clinic_ma
+REF-0308,Referral Received,2026-02-24 03:37:00,intake_clerk
+REF-0308,Insurance Verification,2026-02-24 04:15:00,intake_clerk
+REF-0308,Prior Auth Submitted,2026-02-24 06:24:00,auth_specialist
+REF-0308,Prior Auth Approved,2026-03-02 21:24:00,auth_specialist
+REF-0308,Scheduling Call,2026-03-04 20:24:00,scheduler
+REF-0308,Appointment Scheduled,2026-03-04 20:38:00,scheduler
+REF-0308,Visit Completed,2026-03-11 01:38:00,clinic_ma
+REF-0309,Referral Received,2026-01-17 01:12:00,intake_clerk
+REF-0309,Insurance Verification,2026-01-17 03:57:00,intake_clerk
+REF-0309,Prior Auth Submitted,2026-01-17 08:21:00,auth_specialist
+REF-0309,Prior Auth Denied,2026-01-23 22:21:00,auth_specialist
+REF-0309,Prior Auth Resubmitted,2026-01-25 05:21:00,auth_specialist
+REF-0309,Prior Auth Approved,2026-01-29 19:21:00,auth_specialist
+REF-0309,Scheduling Call,2026-01-30 20:21:00,scheduler
+REF-0309,Appointment Scheduled,2026-01-30 20:31:00,scheduler
+REF-0309,Visit Completed,2026-02-04 01:31:00,clinic_ma
+REF-0310,Referral Received,2026-01-05 17:28:00,intake_clerk
+REF-0310,Insurance Verification,2026-01-05 19:25:00,intake_clerk
+REF-0310,Info Request to Referrer,2026-01-05 19:59:00,intake_clerk
+REF-0310,Info Received,2026-01-07 16:59:00,intake_clerk
+REF-0310,Insurance Verification,2026-01-07 17:50:00,intake_clerk
+REF-0310,Prior Auth Submitted,2026-01-07 22:30:00,auth_specialist
+REF-0310,Prior Auth Approved,2026-01-14 01:30:00,auth_specialist
+REF-0310,Scheduling Call,2026-01-14 10:30:00,scheduler
+REF-0310,Appointment Scheduled,2026-01-14 10:48:00,scheduler
+REF-0310,Visit Completed,2026-01-26 00:48:00,clinic_ma
+REF-0311,Referral Received,2026-02-10 22:30:00,intake_clerk
+REF-0311,Insurance Verification,2026-02-10 22:59:00,intake_clerk
+REF-0311,Prior Auth Submitted,2026-02-11 02:40:00,auth_specialist
+REF-0311,Prior Auth Approved,2026-02-17 20:40:00,auth_specialist
+REF-0311,Scheduling Call,2026-02-18 20:40:00,scheduler
+REF-0311,Appointment Scheduled,2026-02-18 20:51:00,scheduler
+REF-0311,Visit Completed,2026-02-21 22:51:00,clinic_ma
+REF-0312,Referral Received,2026-02-27 19:46:00,intake_clerk
+REF-0312,Insurance Verification,2026-02-27 21:34:00,intake_clerk
+REF-0312,Info Request to Referrer,2026-02-27 22:12:00,intake_clerk
+REF-0312,Info Received,2026-03-02 18:12:00,intake_clerk
+REF-0312,Insurance Verification,2026-03-02 18:46:00,intake_clerk
+REF-0312,Prior Auth Submitted,2026-03-02 22:32:00,auth_specialist
+REF-0312,Prior Auth Approved,2026-03-06 13:32:00,auth_specialist
+REF-0312,Scheduling Call,2026-03-07 03:32:00,scheduler
+REF-0312,Scheduling Call,2026-03-08 05:32:00,scheduler
+REF-0312,Appointment Scheduled,2026-03-08 05:46:00,scheduler
+REF-0312,Case Closed - No Show,2026-03-20 22:46:00,scheduler
+REF-0313,Referral Received,2026-03-08 10:33:00,intake_clerk
+REF-0313,Insurance Verification,2026-03-08 12:19:00,intake_clerk
+REF-0313,Prior Auth Submitted,2026-03-08 13:57:00,auth_specialist
+REF-0313,Prior Auth Approved,2026-03-15 08:57:00,auth_specialist
+REF-0313,Scheduling Call,2026-03-16 19:57:00,scheduler
+REF-0313,Appointment Scheduled,2026-03-16 20:08:00,scheduler
+REF-0313,Visit Completed,2026-03-28 10:08:00,clinic_ma
+REF-0314,Referral Received,2026-01-06 23:14:00,intake_clerk
+REF-0314,Insurance Verification,2026-01-06 23:50:00,intake_clerk
+REF-0314,Info Request to Referrer,2026-01-07 00:06:00,intake_clerk
+REF-0314,Info Received,2026-01-11 21:06:00,intake_clerk
+REF-0314,Insurance Verification,2026-01-11 21:22:00,intake_clerk
+REF-0314,Prior Auth Submitted,2026-01-11 23:18:00,auth_specialist
+REF-0314,Prior Auth Denied,2026-01-17 18:18:00,auth_specialist
+REF-0314,Prior Auth Resubmitted,2026-01-18 06:18:00,auth_specialist
+REF-0314,Prior Auth Approved,2026-01-23 15:18:00,auth_specialist
+REF-0314,Scheduling Call,2026-01-24 11:18:00,scheduler
+REF-0314,Appointment Scheduled,2026-01-24 11:24:00,scheduler
+REF-0314,Visit Completed,2026-01-28 11:24:00,clinic_ma
+REF-0315,Referral Received,2026-03-02 19:06:00,intake_clerk
+REF-0315,Insurance Verification,2026-03-02 19:31:00,intake_clerk
+REF-0315,Case Closed - Abandoned,2026-03-07 00:31:00,intake_clerk
+REF-0316,Referral Received,2026-02-09 21:28:00,intake_clerk
+REF-0316,Insurance Verification,2026-02-10 00:08:00,intake_clerk
+REF-0316,Prior Auth Submitted,2026-02-10 01:56:00,auth_specialist
+REF-0316,Prior Auth Denied,2026-02-15 16:56:00,auth_specialist
+REF-0316,Prior Auth Resubmitted,2026-02-16 01:56:00,auth_specialist
+REF-0316,Prior Auth Approved,2026-02-21 13:56:00,auth_specialist
+REF-0316,Scheduling Call,2026-02-21 23:56:00,scheduler
+REF-0316,Appointment Scheduled,2026-02-22 00:09:00,scheduler
+REF-0316,Visit Completed,2026-02-27 22:09:00,clinic_ma
+REF-0317,Referral Received,2026-02-10 01:53:00,intake_clerk
+REF-0317,Insurance Verification,2026-02-10 04:23:00,intake_clerk
+REF-0317,Prior Auth Submitted,2026-02-10 05:53:00,auth_specialist
+REF-0317,Prior Auth Approved,2026-02-16 09:53:00,auth_specialist
+REF-0317,Scheduling Call,2026-02-16 19:53:00,scheduler
+REF-0317,Appointment Scheduled,2026-02-16 20:04:00,scheduler
+REF-0317,Visit Completed,2026-03-02 23:04:00,clinic_ma
+REF-0318,Referral Received,2026-03-29 08:12:00,intake_clerk
+REF-0318,Insurance Verification,2026-03-29 10:16:00,intake_clerk
+REF-0318,Prior Auth Submitted,2026-03-29 11:06:00,auth_specialist
+REF-0318,Prior Auth Approved,2026-04-05 07:06:00,auth_specialist
+REF-0318,Scheduling Call,2026-04-06 00:06:00,scheduler
+REF-0318,Appointment Scheduled,2026-04-06 00:26:00,scheduler
+REF-0318,Visit Completed,2026-04-09 01:26:00,clinic_ma
+REF-0319,Referral Received,2026-01-06 10:42:00,intake_clerk
+REF-0319,Insurance Verification,2026-01-06 11:16:00,intake_clerk
+REF-0319,Urgent Override,2026-01-06 12:02:00,clinic_manager
+REF-0319,Scheduling Call,2026-01-06 15:23:00,scheduler
+REF-0319,Appointment Scheduled,2026-01-06 15:43:00,scheduler
+REF-0319,Visit Completed,2026-01-08 10:43:00,clinic_ma
+REF-0320,Referral Received,2026-03-27 08:05:00,intake_clerk
+REF-0320,Insurance Verification,2026-03-27 08:44:00,intake_clerk
+REF-0320,Prior Auth Submitted,2026-03-27 10:05:00,auth_specialist
+REF-0320,Prior Auth Approved,2026-04-01 20:05:00,auth_specialist
+REF-0320,Scheduling Call,2026-04-02 14:05:00,scheduler
+REF-0320,Appointment Scheduled,2026-04-02 14:19:00,scheduler
+REF-0320,Visit Completed,2026-04-06 15:19:00,clinic_ma
+REF-0321,Referral Received,2026-01-13 20:52:00,intake_clerk
+REF-0321,Insurance Verification,2026-01-13 21:17:00,intake_clerk
+REF-0321,Info Request to Referrer,2026-01-13 21:54:00,intake_clerk
+REF-0321,Info Received,2026-01-16 10:54:00,intake_clerk
+REF-0321,Insurance Verification,2026-01-16 11:32:00,intake_clerk
+REF-0321,Prior Auth Submitted,2026-01-16 14:42:00,auth_specialist
+REF-0321,Prior Auth Approved,2026-01-19 04:42:00,auth_specialist
+REF-0321,Scheduling Call,2026-01-19 14:42:00,scheduler
+REF-0321,Appointment Scheduled,2026-01-19 14:48:00,scheduler
+REF-0321,Visit Completed,2026-01-25 12:48:00,clinic_ma
+REF-0322,Referral Received,2026-03-02 22:41:00,intake_clerk
+REF-0322,Insurance Verification,2026-03-02 23:46:00,intake_clerk
+REF-0322,Info Request to Referrer,2026-03-03 00:24:00,intake_clerk
+REF-0322,Info Received,2026-03-06 08:24:00,intake_clerk
+REF-0322,Insurance Verification,2026-03-06 09:18:00,intake_clerk
+REF-0322,Prior Auth Submitted,2026-03-06 10:35:00,auth_specialist
+REF-0322,Prior Auth Approved,2026-03-10 05:35:00,auth_specialist
+REF-0322,Scheduling Call,2026-03-10 20:35:00,scheduler
+REF-0322,Appointment Scheduled,2026-03-10 20:52:00,scheduler
+REF-0322,Case Closed - No Show,2026-03-19 15:52:00,scheduler
+REF-0323,Referral Received,2026-03-17 15:24:00,intake_clerk
+REF-0323,Insurance Verification,2026-03-17 17:46:00,intake_clerk
+REF-0323,Prior Auth Submitted,2026-03-17 19:41:00,auth_specialist
+REF-0323,Prior Auth Denied,2026-03-23 12:41:00,auth_specialist
+REF-0323,Prior Auth Resubmitted,2026-03-24 03:41:00,auth_specialist
+REF-0323,Prior Auth Approved,2026-03-30 15:41:00,auth_specialist
+REF-0323,Scheduling Call,2026-03-31 05:41:00,scheduler
+REF-0323,Appointment Scheduled,2026-03-31 06:01:00,scheduler
+REF-0323,Visit Completed,2026-04-12 14:01:00,clinic_ma
+REF-0324,Referral Received,2026-01-20 19:39:00,intake_clerk
+REF-0324,Insurance Verification,2026-01-20 21:30:00,intake_clerk
+REF-0324,Prior Auth Submitted,2026-01-20 23:06:00,auth_specialist
+REF-0324,Prior Auth Approved,2026-01-25 13:06:00,auth_specialist
+REF-0324,Scheduling Call,2026-01-26 00:06:00,scheduler
+REF-0324,Appointment Scheduled,2026-01-26 00:25:00,scheduler
+REF-0324,Visit Completed,2026-02-03 13:25:00,clinic_ma
+REF-0325,Referral Received,2026-03-02 05:20:00,intake_clerk
+REF-0325,Insurance Verification,2026-03-02 07:06:00,intake_clerk
+REF-0325,Urgent Override,2026-03-02 07:49:00,clinic_manager
+REF-0325,Scheduling Call,2026-03-02 11:35:00,scheduler
+REF-0325,Appointment Scheduled,2026-03-02 11:47:00,scheduler
+REF-0325,Visit Completed,2026-03-05 06:47:00,clinic_ma
+REF-0326,Referral Received,2026-02-18 15:33:00,intake_clerk
+REF-0326,Insurance Verification,2026-02-18 18:31:00,intake_clerk
+REF-0326,Prior Auth Submitted,2026-02-18 21:08:00,auth_specialist
+REF-0326,Prior Auth Approved,2026-02-24 09:08:00,auth_specialist
+REF-0326,Scheduling Call,2026-02-26 08:08:00,scheduler
+REF-0326,Appointment Scheduled,2026-02-26 08:17:00,scheduler
+REF-0326,Visit Completed,2026-03-13 05:17:00,clinic_ma
+REF-0327,Referral Received,2026-03-22 10:39:00,intake_clerk
+REF-0327,Insurance Verification,2026-03-22 12:21:00,intake_clerk
+REF-0327,Urgent Override,2026-03-22 12:41:00,clinic_manager
+REF-0327,Scheduling Call,2026-03-22 15:20:00,scheduler
+REF-0327,Appointment Scheduled,2026-03-22 15:40:00,scheduler
+REF-0327,Visit Completed,2026-03-26 06:40:00,clinic_ma
+REF-0328,Referral Received,2026-03-20 12:10:00,intake_clerk
+REF-0328,Insurance Verification,2026-03-20 13:32:00,intake_clerk
+REF-0328,Urgent Override,2026-03-20 14:02:00,clinic_manager
+REF-0328,Scheduling Call,2026-03-20 15:33:00,scheduler
+REF-0328,Appointment Scheduled,2026-03-20 15:48:00,scheduler
+REF-0328,Visit Completed,2026-03-23 02:48:00,clinic_ma
+REF-0329,Referral Received,2026-01-09 15:32:00,intake_clerk
+REF-0329,Insurance Verification,2026-01-09 17:14:00,intake_clerk
+REF-0329,Info Request to Referrer,2026-01-09 17:36:00,intake_clerk
+REF-0329,Info Received,2026-01-12 20:36:00,intake_clerk
+REF-0329,Insurance Verification,2026-01-12 21:06:00,intake_clerk
+REF-0329,Case Closed - Abandoned,2026-01-20 14:06:00,intake_clerk
+REF-0330,Referral Received,2026-03-14 16:36:00,intake_clerk
+REF-0330,Insurance Verification,2026-03-14 19:03:00,intake_clerk
+REF-0330,Prior Auth Submitted,2026-03-14 20:33:00,auth_specialist
+REF-0330,Prior Auth Approved,2026-03-20 19:33:00,auth_specialist
+REF-0330,Scheduling Call,2026-03-22 16:33:00,scheduler
+REF-0330,Scheduling Call,2026-03-24 17:33:00,scheduler
+REF-0330,Appointment Scheduled,2026-03-24 17:51:00,scheduler
+REF-0330,Visit Completed,2026-04-08 10:51:00,clinic_ma
+REF-0331,Referral Received,2026-01-05 08:52:00,intake_clerk
+REF-0331,Insurance Verification,2026-01-05 10:29:00,intake_clerk
+REF-0331,Urgent Override,2026-01-05 11:18:00,clinic_manager
+REF-0331,Scheduling Call,2026-01-05 14:31:00,scheduler
+REF-0331,Appointment Scheduled,2026-01-05 14:45:00,scheduler
+REF-0331,Visit Completed,2026-01-09 07:45:00,clinic_ma
+REF-0332,Referral Received,2026-02-22 07:13:00,intake_clerk
+REF-0332,Insurance Verification,2026-02-22 09:29:00,intake_clerk
+REF-0332,Prior Auth Submitted,2026-02-22 13:05:00,auth_specialist
+REF-0332,Prior Auth Approved,2026-02-28 21:05:00,auth_specialist
+REF-0332,Scheduling Call,2026-03-01 15:05:00,scheduler
+REF-0332,Appointment Scheduled,2026-03-01 15:20:00,scheduler
+REF-0332,Visit Completed,2026-03-17 20:20:00,clinic_ma
+REF-0333,Referral Received,2026-02-25 12:30:00,intake_clerk
+REF-0333,Insurance Verification,2026-02-25 14:23:00,intake_clerk
+REF-0333,Prior Auth Submitted,2026-02-25 15:51:00,auth_specialist
+REF-0333,Prior Auth Denied,2026-03-03 03:51:00,auth_specialist
+REF-0333,Prior Auth Resubmitted,2026-03-04 15:51:00,auth_specialist
+REF-0333,Prior Auth Denied,2026-03-08 12:51:00,auth_specialist
+REF-0333,Prior Auth Resubmitted,2026-03-10 09:51:00,auth_specialist
+REF-0333,Prior Auth Approved,2026-03-15 07:51:00,auth_specialist
+REF-0333,Scheduling Call,2026-03-16 20:51:00,scheduler
+REF-0333,Appointment Scheduled,2026-03-16 20:59:00,scheduler
+REF-0333,Visit Completed,2026-03-23 08:59:00,clinic_ma
+REF-0334,Referral Received,2026-02-16 08:08:00,intake_clerk
+REF-0334,Insurance Verification,2026-02-16 10:12:00,intake_clerk
+REF-0334,Prior Auth Submitted,2026-02-16 12:22:00,auth_specialist
+REF-0334,Prior Auth Denied,2026-02-23 11:22:00,auth_specialist
+REF-0334,Prior Auth Resubmitted,2026-02-25 21:22:00,auth_specialist
+REF-0334,Prior Auth Approved,2026-03-04 06:22:00,auth_specialist
+REF-0334,Scheduling Call,2026-03-04 22:22:00,scheduler
+REF-0334,Appointment Scheduled,2026-03-04 22:30:00,scheduler
+REF-0334,Visit Completed,2026-03-08 21:30:00,clinic_ma
+REF-0335,Referral Received,2026-03-25 09:40:00,intake_clerk
+REF-0335,Insurance Verification,2026-03-25 12:30:00,intake_clerk
+REF-0335,Prior Auth Submitted,2026-03-25 16:50:00,auth_specialist
+REF-0335,Prior Auth Approved,2026-03-30 19:50:00,auth_specialist
+REF-0335,Scheduling Call,2026-04-01 07:50:00,scheduler
+REF-0335,Appointment Scheduled,2026-04-01 08:10:00,scheduler
+REF-0335,Visit Completed,2026-04-05 08:10:00,clinic_ma
+REF-0336,Referral Received,2026-02-21 13:59:00,intake_clerk
+REF-0336,Insurance Verification,2026-02-21 16:48:00,intake_clerk
+REF-0336,Prior Auth Submitted,2026-02-21 21:38:00,auth_specialist
+REF-0336,Prior Auth Approved,2026-02-28 17:38:00,auth_specialist
+REF-0336,Scheduling Call,2026-03-01 08:38:00,scheduler
+REF-0336,Appointment Scheduled,2026-03-01 08:48:00,scheduler
+REF-0336,Visit Completed,2026-03-07 01:48:00,clinic_ma
+REF-0337,Referral Received,2026-01-14 04:24:00,intake_clerk
+REF-0337,Insurance Verification,2026-01-14 07:19:00,intake_clerk
+REF-0337,Prior Auth Submitted,2026-01-14 12:07:00,auth_specialist
+REF-0337,Prior Auth Approved,2026-01-18 17:07:00,auth_specialist
+REF-0337,Scheduling Call,2026-01-20 11:07:00,scheduler
+REF-0337,Appointment Scheduled,2026-01-20 11:19:00,scheduler
+REF-0337,Visit Completed,2026-01-30 18:19:00,clinic_ma
+REF-0338,Referral Received,2026-03-29 03:18:00,intake_clerk
+REF-0338,Insurance Verification,2026-03-29 04:12:00,intake_clerk
+REF-0338,Prior Auth Submitted,2026-03-29 09:04:00,auth_specialist
+REF-0338,Prior Auth Approved,2026-04-04 02:04:00,auth_specialist
+REF-0338,Scheduling Call,2026-04-05 17:04:00,scheduler
+REF-0338,Appointment Scheduled,2026-04-05 17:15:00,scheduler
+REF-0338,Visit Completed,2026-04-22 00:15:00,clinic_ma
+REF-0339,Referral Received,2026-03-07 07:18:00,intake_clerk
+REF-0339,Insurance Verification,2026-03-07 08:11:00,intake_clerk
+REF-0339,Prior Auth Submitted,2026-03-07 10:12:00,auth_specialist
+REF-0339,Prior Auth Approved,2026-03-13 02:12:00,auth_specialist
+REF-0339,Scheduling Call,2026-03-14 22:12:00,scheduler
+REF-0339,Appointment Scheduled,2026-03-14 22:20:00,scheduler
+REF-0339,Visit Completed,2026-03-29 21:20:00,clinic_ma
+REF-0340,Referral Received,2026-02-15 07:37:00,intake_clerk
+REF-0340,Insurance Verification,2026-02-15 09:43:00,intake_clerk
+REF-0340,Prior Auth Submitted,2026-02-15 12:39:00,auth_specialist
+REF-0340,Prior Auth Approved,2026-02-19 18:39:00,auth_specialist
+REF-0340,Scheduling Call,2026-02-19 22:39:00,scheduler
+REF-0340,Appointment Scheduled,2026-02-19 22:44:00,scheduler
+REF-0340,Visit Completed,2026-02-24 01:44:00,clinic_ma
+REF-0341,Referral Received,2026-03-03 12:03:00,intake_clerk
+REF-0341,Insurance Verification,2026-03-03 13:59:00,intake_clerk
+REF-0341,Info Request to Referrer,2026-03-03 14:34:00,intake_clerk
+REF-0341,Info Received,2026-03-05 10:34:00,intake_clerk
+REF-0341,Insurance Verification,2026-03-05 11:07:00,intake_clerk
+REF-0341,Prior Auth Submitted,2026-03-05 12:51:00,auth_specialist
+REF-0341,Prior Auth Approved,2026-03-11 04:51:00,auth_specialist
+REF-0341,Scheduling Call,2026-03-12 02:51:00,scheduler
+REF-0341,Appointment Scheduled,2026-03-12 02:57:00,scheduler
+REF-0341,Visit Completed,2026-03-24 17:57:00,clinic_ma
+REF-0342,Referral Received,2026-01-14 01:39:00,intake_clerk
+REF-0342,Insurance Verification,2026-01-14 04:22:00,intake_clerk
+REF-0342,Prior Auth Submitted,2026-01-14 08:11:00,auth_specialist
+REF-0342,Prior Auth Denied,2026-01-20 12:11:00,auth_specialist
+REF-0342,Prior Auth Resubmitted,2026-01-22 08:11:00,auth_specialist
+REF-0342,Prior Auth Approved,2026-01-24 14:11:00,auth_specialist
+REF-0342,Scheduling Call,2026-01-25 18:11:00,scheduler
+REF-0342,Appointment Scheduled,2026-01-25 18:26:00,scheduler
+REF-0342,Case Closed - No Show,2026-01-29 21:26:00,scheduler
+REF-0343,Referral Received,2026-01-06 10:47:00,intake_clerk
+REF-0343,Insurance Verification,2026-01-06 12:26:00,intake_clerk
+REF-0343,Info Request to Referrer,2026-01-06 13:03:00,intake_clerk
+REF-0343,Info Received,2026-01-09 21:03:00,intake_clerk
+REF-0343,Insurance Verification,2026-01-09 21:32:00,intake_clerk
+REF-0343,Prior Auth Submitted,2026-01-10 01:10:00,auth_specialist
+REF-0343,Prior Auth Approved,2026-01-14 22:10:00,auth_specialist
+REF-0343,Scheduling Call,2026-01-16 16:10:00,scheduler
+REF-0343,Appointment Scheduled,2026-01-16 16:21:00,scheduler
+REF-0343,Visit Completed,2026-01-23 10:21:00,clinic_ma
+REF-0344,Referral Received,2026-03-04 14:04:00,intake_clerk
+REF-0344,Insurance Verification,2026-03-04 14:46:00,intake_clerk
+REF-0344,Info Request to Referrer,2026-03-04 15:19:00,intake_clerk
+REF-0344,Info Received,2026-03-08 08:19:00,intake_clerk
+REF-0344,Insurance Verification,2026-03-08 08:41:00,intake_clerk
+REF-0344,Prior Auth Submitted,2026-03-08 12:50:00,auth_specialist
+REF-0344,Prior Auth Approved,2026-03-11 21:50:00,auth_specialist
+REF-0344,Scheduling Call,2026-03-12 09:50:00,scheduler
+REF-0344,Appointment Scheduled,2026-03-12 10:03:00,scheduler
+REF-0344,Visit Completed,2026-03-25 08:03:00,clinic_ma
+REF-0345,Referral Received,2026-03-06 21:59:00,intake_clerk
+REF-0345,Insurance Verification,2026-03-06 22:38:00,intake_clerk
+REF-0345,Info Request to Referrer,2026-03-06 23:17:00,intake_clerk
+REF-0345,Info Received,2026-03-09 16:17:00,intake_clerk
+REF-0345,Insurance Verification,2026-03-09 17:10:00,intake_clerk
+REF-0345,Case Closed - Abandoned,2026-03-19 09:10:00,intake_clerk
+REF-0346,Referral Received,2026-02-26 20:53:00,intake_clerk
+REF-0346,Insurance Verification,2026-02-26 23:18:00,intake_clerk
+REF-0346,Prior Auth Submitted,2026-02-27 02:51:00,auth_specialist
+REF-0346,Prior Auth Denied,2026-03-04 20:51:00,auth_specialist
+REF-0346,Prior Auth Resubmitted,2026-03-06 20:51:00,auth_specialist
+REF-0346,Prior Auth Approved,2026-03-09 19:51:00,auth_specialist
+REF-0346,Scheduling Call,2026-03-11 08:51:00,scheduler
+REF-0346,Scheduling Call,2026-03-13 16:51:00,scheduler
+REF-0346,Appointment Scheduled,2026-03-13 17:01:00,scheduler
+REF-0346,Visit Completed,2026-03-28 03:01:00,clinic_ma
+REF-0347,Referral Received,2026-02-08 18:05:00,intake_clerk
+REF-0347,Insurance Verification,2026-02-08 19:19:00,intake_clerk
+REF-0347,Prior Auth Submitted,2026-02-08 22:38:00,auth_specialist
+REF-0347,Prior Auth Approved,2026-02-12 01:38:00,auth_specialist
+REF-0347,Scheduling Call,2026-02-13 20:38:00,scheduler
+REF-0347,Appointment Scheduled,2026-02-13 20:43:00,scheduler
+REF-0347,Visit Completed,2026-02-24 05:43:00,clinic_ma
+REF-0348,Referral Received,2026-02-12 08:15:00,intake_clerk
+REF-0348,Insurance Verification,2026-02-12 11:12:00,intake_clerk
+REF-0348,Prior Auth Submitted,2026-02-12 13:46:00,auth_specialist
+REF-0348,Prior Auth Approved,2026-02-18 04:46:00,auth_specialist
+REF-0348,Scheduling Call,2026-02-19 04:46:00,scheduler
+REF-0348,Appointment Scheduled,2026-02-19 04:54:00,scheduler
+REF-0348,Visit Completed,2026-03-05 16:54:00,clinic_ma
+REF-0349,Referral Received,2026-03-08 02:18:00,intake_clerk
+REF-0349,Insurance Verification,2026-03-08 03:44:00,intake_clerk
+REF-0349,Urgent Override,2026-03-08 04:43:00,clinic_manager
+REF-0349,Scheduling Call,2026-03-08 06:48:00,scheduler
+REF-0349,Appointment Scheduled,2026-03-08 07:07:00,scheduler
+REF-0349,Visit Completed,2026-03-11 21:07:00,clinic_ma
+REF-0350,Referral Received,2026-01-09 01:18:00,intake_clerk
+REF-0350,Insurance Verification,2026-01-09 02:27:00,intake_clerk
+REF-0350,Prior Auth Submitted,2026-01-09 03:39:00,auth_specialist
+REF-0350,Prior Auth Approved,2026-01-12 00:39:00,auth_specialist
+REF-0350,Scheduling Call,2026-01-13 14:39:00,scheduler
+REF-0350,Appointment Scheduled,2026-01-13 14:46:00,scheduler
+REF-0350,Visit Completed,2026-01-30 00:46:00,clinic_ma
+REF-0351,Referral Received,2026-03-12 08:13:00,intake_clerk
+REF-0351,Insurance Verification,2026-03-12 10:21:00,intake_clerk
+REF-0351,Prior Auth Submitted,2026-03-12 12:36:00,auth_specialist
+REF-0351,Prior Auth Approved,2026-03-18 05:36:00,auth_specialist
+REF-0351,Scheduling Call,2026-03-19 12:36:00,scheduler
+REF-0351,Appointment Scheduled,2026-03-19 12:43:00,scheduler
+REF-0351,Visit Completed,2026-03-25 18:43:00,clinic_ma
+REF-0352,Referral Received,2026-01-07 08:29:00,intake_clerk
+REF-0352,Insurance Verification,2026-01-07 08:58:00,intake_clerk
+REF-0352,Prior Auth Submitted,2026-01-07 09:55:00,auth_specialist
+REF-0352,Prior Auth Denied,2026-01-10 17:55:00,auth_specialist
+REF-0352,Prior Auth Resubmitted,2026-01-11 10:55:00,auth_specialist
+REF-0352,Prior Auth Approved,2026-01-14 15:55:00,auth_specialist
+REF-0352,Scheduling Call,2026-01-15 11:55:00,scheduler
+REF-0352,Appointment Scheduled,2026-01-15 12:14:00,scheduler
+REF-0352,Visit Completed,2026-01-27 17:14:00,clinic_ma
+REF-0353,Referral Received,2026-02-01 07:01:00,intake_clerk
+REF-0353,Insurance Verification,2026-02-01 07:51:00,intake_clerk
+REF-0353,Prior Auth Submitted,2026-02-01 08:53:00,auth_specialist
+REF-0353,Prior Auth Approved,2026-02-06 10:53:00,auth_specialist
+REF-0353,Scheduling Call,2026-02-06 16:53:00,scheduler
+REF-0353,Appointment Scheduled,2026-02-06 17:00:00,scheduler
+REF-0353,Visit Completed,2026-02-20 10:00:00,clinic_ma
+REF-0354,Referral Received,2026-01-14 09:18:00,intake_clerk
+REF-0354,Insurance Verification,2026-01-14 10:55:00,intake_clerk
+REF-0354,Prior Auth Submitted,2026-01-14 13:49:00,auth_specialist
+REF-0354,Prior Auth Approved,2026-01-18 21:49:00,auth_specialist
+REF-0354,Scheduling Call,2026-01-20 01:49:00,scheduler
+REF-0354,Appointment Scheduled,2026-01-20 01:54:00,scheduler
+REF-0354,Visit Completed,2026-02-03 10:54:00,clinic_ma
+REF-0355,Referral Received,2026-01-24 02:08:00,intake_clerk
+REF-0355,Insurance Verification,2026-01-24 04:47:00,intake_clerk
+REF-0355,Prior Auth Submitted,2026-01-24 06:30:00,auth_specialist
+REF-0355,Prior Auth Approved,2026-01-30 23:30:00,auth_specialist
+REF-0355,Scheduling Call,2026-02-01 20:30:00,scheduler
+REF-0355,Appointment Scheduled,2026-02-01 20:35:00,scheduler
+REF-0355,Visit Completed,2026-02-16 16:35:00,clinic_ma
+REF-0356,Referral Received,2026-01-17 09:07:00,intake_clerk
+REF-0356,Insurance Verification,2026-01-17 10:40:00,intake_clerk
+REF-0356,Urgent Override,2026-01-17 11:28:00,clinic_manager
+REF-0356,Scheduling Call,2026-01-17 13:38:00,scheduler
+REF-0356,Appointment Scheduled,2026-01-17 13:45:00,scheduler
+REF-0356,Visit Completed,2026-01-20 04:45:00,clinic_ma
+REF-0357,Referral Received,2026-01-23 06:47:00,intake_clerk
+REF-0357,Insurance Verification,2026-01-23 08:35:00,intake_clerk
+REF-0357,Prior Auth Submitted,2026-01-23 13:27:00,auth_specialist
+REF-0357,Prior Auth Denied,2026-01-26 12:27:00,auth_specialist
+REF-0357,Prior Auth Resubmitted,2026-01-28 00:27:00,auth_specialist
+REF-0357,Prior Auth Approved,2026-01-31 08:27:00,auth_specialist
+REF-0357,Scheduling Call,2026-02-01 00:27:00,scheduler
+REF-0357,Appointment Scheduled,2026-02-01 00:33:00,scheduler
+REF-0357,Case Closed - No Show,2026-02-15 17:33:00,scheduler
+REF-0358,Referral Received,2026-02-13 16:41:00,intake_clerk
+REF-0358,Insurance Verification,2026-02-13 18:15:00,intake_clerk
+REF-0358,Prior Auth Submitted,2026-02-13 20:53:00,auth_specialist
+REF-0358,Prior Auth Denied,2026-02-19 16:53:00,auth_specialist
+REF-0358,Prior Auth Resubmitted,2026-02-22 14:53:00,auth_specialist
+REF-0358,Prior Auth Approved,2026-02-26 11:53:00,auth_specialist
+REF-0358,Scheduling Call,2026-02-26 23:53:00,scheduler
+REF-0358,Appointment Scheduled,2026-02-27 00:05:00,scheduler
+REF-0358,Visit Completed,2026-03-15 05:05:00,clinic_ma
+REF-0359,Referral Received,2026-01-11 06:57:00,intake_clerk
+REF-0359,Insurance Verification,2026-01-11 08:19:00,intake_clerk
+REF-0359,Info Request to Referrer,2026-01-11 08:43:00,intake_clerk
+REF-0359,Info Received,2026-01-14 02:43:00,intake_clerk
+REF-0359,Insurance Verification,2026-01-14 03:37:00,intake_clerk
+REF-0359,Prior Auth Submitted,2026-01-14 05:25:00,auth_specialist
+REF-0359,Prior Auth Approved,2026-01-18 03:25:00,auth_specialist
+REF-0359,Scheduling Call,2026-01-19 03:25:00,scheduler
+REF-0359,Appointment Scheduled,2026-01-19 03:35:00,scheduler
+REF-0359,Visit Completed,2026-01-27 09:35:00,clinic_ma
+REF-0360,Referral Received,2026-03-13 09:14:00,intake_clerk
+REF-0360,Insurance Verification,2026-03-13 11:25:00,intake_clerk
+REF-0360,Prior Auth Submitted,2026-03-13 14:59:00,auth_specialist
+REF-0360,Prior Auth Denied,2026-03-19 11:59:00,auth_specialist
+REF-0360,Prior Auth Resubmitted,2026-03-21 13:59:00,auth_specialist
+REF-0360,Prior Auth Approved,2026-03-26 00:59:00,auth_specialist
+REF-0360,Scheduling Call,2026-03-27 08:59:00,scheduler
+REF-0360,Appointment Scheduled,2026-03-27 09:13:00,scheduler
+REF-0360,Visit Completed,2026-04-01 16:13:00,clinic_ma
+REF-0361,Referral Received,2026-01-20 07:41:00,intake_clerk
+REF-0361,Insurance Verification,2026-01-20 09:12:00,intake_clerk
+REF-0361,Prior Auth Submitted,2026-01-20 10:53:00,auth_specialist
+REF-0361,Prior Auth Approved,2026-01-23 11:53:00,auth_specialist
+REF-0361,Scheduling Call,2026-01-24 07:53:00,scheduler
+REF-0361,Appointment Scheduled,2026-01-24 08:00:00,scheduler
+REF-0361,Visit Completed,2026-01-27 17:00:00,clinic_ma
+REF-0362,Referral Received,2026-03-18 19:32:00,intake_clerk
+REF-0362,Insurance Verification,2026-03-18 22:20:00,intake_clerk
+REF-0362,Prior Auth Submitted,2026-03-19 00:38:00,auth_specialist
+REF-0362,Prior Auth Approved,2026-03-23 22:38:00,auth_specialist
+REF-0362,Scheduling Call,2026-03-24 18:38:00,scheduler
+REF-0362,Appointment Scheduled,2026-03-24 18:58:00,scheduler
+REF-0362,Visit Completed,2026-03-30 22:58:00,clinic_ma
+REF-0363,Referral Received,2026-02-05 13:25:00,intake_clerk
+REF-0363,Insurance Verification,2026-02-05 15:23:00,intake_clerk
+REF-0363,Info Request to Referrer,2026-02-05 15:51:00,intake_clerk
+REF-0363,Info Received,2026-02-10 12:51:00,intake_clerk
+REF-0363,Insurance Verification,2026-02-10 13:24:00,intake_clerk
+REF-0363,Prior Auth Submitted,2026-02-10 18:10:00,auth_specialist
+REF-0363,Prior Auth Approved,2026-02-14 20:10:00,auth_specialist
+REF-0363,Scheduling Call,2026-02-15 23:10:00,scheduler
+REF-0363,Appointment Scheduled,2026-02-15 23:22:00,scheduler
+REF-0363,Visit Completed,2026-03-04 01:22:00,clinic_ma
+REF-0364,Referral Received,2026-03-04 17:10:00,intake_clerk
+REF-0364,Insurance Verification,2026-03-04 18:05:00,intake_clerk
+REF-0364,Prior Auth Submitted,2026-03-04 20:06:00,auth_specialist
+REF-0364,Prior Auth Approved,2026-03-09 20:06:00,auth_specialist
+REF-0364,Scheduling Call,2026-03-11 18:06:00,scheduler
+REF-0364,Appointment Scheduled,2026-03-11 18:15:00,scheduler
+REF-0364,Visit Completed,2026-03-25 01:15:00,clinic_ma
+REF-0365,Referral Received,2026-03-26 11:22:00,intake_clerk
+REF-0365,Insurance Verification,2026-03-26 13:19:00,intake_clerk
+REF-0365,Urgent Override,2026-03-26 14:00:00,clinic_manager
+REF-0365,Scheduling Call,2026-03-26 15:29:00,scheduler
+REF-0365,Appointment Scheduled,2026-03-26 15:36:00,scheduler
+REF-0365,Visit Completed,2026-03-29 00:36:00,clinic_ma
+REF-0366,Referral Received,2026-02-05 20:14:00,intake_clerk
+REF-0366,Insurance Verification,2026-02-05 21:00:00,intake_clerk
+REF-0366,Urgent Override,2026-02-05 21:43:00,clinic_manager
+REF-0366,Scheduling Call,2026-02-06 01:35:00,scheduler
+REF-0366,Appointment Scheduled,2026-02-06 01:51:00,scheduler
+REF-0366,Visit Completed,2026-02-09 02:51:00,clinic_ma
+REF-0367,Referral Received,2026-02-14 09:58:00,intake_clerk
+REF-0367,Insurance Verification,2026-02-14 10:29:00,intake_clerk
+REF-0367,Case Closed - Abandoned,2026-02-24 08:29:00,intake_clerk
+REF-0368,Referral Received,2026-02-01 23:06:00,intake_clerk
+REF-0368,Insurance Verification,2026-02-02 01:39:00,intake_clerk
+REF-0368,Prior Auth Submitted,2026-02-02 04:29:00,auth_specialist
+REF-0368,Prior Auth Approved,2026-02-05 13:29:00,auth_specialist
+REF-0368,Scheduling Call,2026-02-07 06:29:00,scheduler
+REF-0368,Appointment Scheduled,2026-02-07 06:39:00,scheduler
+REF-0368,Visit Completed,2026-02-18 07:39:00,clinic_ma
+REF-0369,Referral Received,2026-02-05 12:37:00,intake_clerk
+REF-0369,Insurance Verification,2026-02-05 13:16:00,intake_clerk
+REF-0369,Prior Auth Submitted,2026-02-05 16:58:00,auth_specialist
+REF-0369,Prior Auth Approved,2026-02-08 20:58:00,auth_specialist
+REF-0369,Scheduling Call,2026-02-10 09:58:00,scheduler
+REF-0369,Appointment Scheduled,2026-02-10 10:14:00,scheduler
+REF-0369,Visit Completed,2026-02-23 16:14:00,clinic_ma
+REF-0370,Referral Received,2026-03-22 00:38:00,intake_clerk
+REF-0370,Insurance Verification,2026-03-22 01:15:00,intake_clerk
+REF-0370,Urgent Override,2026-03-22 01:53:00,clinic_manager
+REF-0370,Scheduling Call,2026-03-22 03:05:00,scheduler
+REF-0370,Appointment Scheduled,2026-03-22 03:17:00,scheduler
+REF-0370,Visit Completed,2026-03-23 12:17:00,clinic_ma
+REF-0371,Referral Received,2026-02-18 05:41:00,intake_clerk
+REF-0371,Insurance Verification,2026-02-18 06:20:00,intake_clerk
+REF-0371,Info Request to Referrer,2026-02-18 06:35:00,intake_clerk
+REF-0371,Info Received,2026-02-20 02:35:00,intake_clerk
+REF-0371,Insurance Verification,2026-02-20 03:13:00,intake_clerk
+REF-0371,Prior Auth Submitted,2026-02-20 04:43:00,auth_specialist
+REF-0371,Prior Auth Approved,2026-02-24 09:43:00,auth_specialist
+REF-0371,Scheduling Call,2026-02-25 10:43:00,scheduler
+REF-0371,Appointment Scheduled,2026-02-25 11:03:00,scheduler
+REF-0371,Visit Completed,2026-03-10 16:03:00,clinic_ma
+REF-0372,Referral Received,2026-01-23 07:37:00,intake_clerk
+REF-0372,Insurance Verification,2026-01-23 08:49:00,intake_clerk
+REF-0372,Info Request to Referrer,2026-01-23 08:59:00,intake_clerk
+REF-0372,Info Received,2026-01-25 15:59:00,intake_clerk
+REF-0372,Insurance Verification,2026-01-25 16:16:00,intake_clerk
+REF-0372,Prior Auth Submitted,2026-01-25 18:08:00,auth_specialist
+REF-0372,Prior Auth Denied,2026-01-30 11:08:00,auth_specialist
+REF-0372,Prior Auth Resubmitted,2026-01-31 00:08:00,auth_specialist
+REF-0372,Prior Auth Approved,2026-02-02 18:08:00,auth_specialist
+REF-0372,Scheduling Call,2026-02-03 01:08:00,scheduler
+REF-0372,Appointment Scheduled,2026-02-03 01:18:00,scheduler
+REF-0372,Visit Completed,2026-02-14 16:18:00,clinic_ma
+REF-0373,Referral Received,2026-02-25 11:36:00,intake_clerk
+REF-0373,Insurance Verification,2026-02-25 13:08:00,intake_clerk
+REF-0373,Prior Auth Submitted,2026-02-25 15:28:00,auth_specialist
+REF-0373,Prior Auth Approved,2026-03-02 03:28:00,auth_specialist
+REF-0373,Scheduling Call,2026-03-03 13:28:00,scheduler
+REF-0373,Appointment Scheduled,2026-03-03 13:46:00,scheduler
+REF-0373,Visit Completed,2026-03-18 23:46:00,clinic_ma
+REF-0374,Referral Received,2026-03-16 08:49:00,intake_clerk
+REF-0374,Insurance Verification,2026-03-16 10:33:00,intake_clerk
+REF-0374,Info Request to Referrer,2026-03-16 10:59:00,intake_clerk
+REF-0374,Info Received,2026-03-18 19:59:00,intake_clerk
+REF-0374,Insurance Verification,2026-03-18 20:24:00,intake_clerk
+REF-0374,Prior Auth Submitted,2026-03-18 23:49:00,auth_specialist
+REF-0374,Prior Auth Approved,2026-03-24 03:49:00,auth_specialist
+REF-0374,Scheduling Call,2026-03-25 20:49:00,scheduler
+REF-0374,Scheduling Call,2026-03-27 20:49:00,scheduler
+REF-0374,Appointment Scheduled,2026-03-27 21:06:00,scheduler
+REF-0374,Visit Completed,2026-03-31 05:06:00,clinic_ma
+REF-0375,Referral Received,2026-01-22 14:33:00,intake_clerk
+REF-0375,Insurance Verification,2026-01-22 17:02:00,intake_clerk
+REF-0375,Prior Auth Submitted,2026-01-22 18:48:00,auth_specialist
+REF-0375,Prior Auth Approved,2026-01-25 16:48:00,auth_specialist
+REF-0375,Scheduling Call,2026-01-27 02:48:00,scheduler
+REF-0375,Appointment Scheduled,2026-01-27 02:54:00,scheduler
+REF-0375,Case Closed - No Show,2026-02-10 10:54:00,scheduler
+REF-0376,Referral Received,2026-02-17 06:48:00,intake_clerk
+REF-0376,Insurance Verification,2026-02-17 08:09:00,intake_clerk
+REF-0376,Urgent Override,2026-02-17 09:01:00,clinic_manager
+REF-0376,Scheduling Call,2026-02-17 10:04:00,scheduler
+REF-0376,Appointment Scheduled,2026-02-17 10:09:00,scheduler
+REF-0376,Visit Completed,2026-02-20 17:09:00,clinic_ma
+REF-0377,Referral Received,2026-02-18 21:26:00,intake_clerk
+REF-0377,Insurance Verification,2026-02-18 21:57:00,intake_clerk
+REF-0377,Prior Auth Submitted,2026-02-19 02:06:00,auth_specialist
+REF-0377,Prior Auth Denied,2026-02-25 08:06:00,auth_specialist
+REF-0377,Prior Auth Resubmitted,2026-02-28 05:06:00,auth_specialist
+REF-0377,Prior Auth Approved,2026-03-04 05:06:00,auth_specialist
+REF-0377,Scheduling Call,2026-03-05 07:06:00,scheduler
+REF-0377,Appointment Scheduled,2026-03-05 07:14:00,scheduler
+REF-0377,Visit Completed,2026-03-13 17:14:00,clinic_ma
+REF-0378,Referral Received,2026-02-15 01:49:00,intake_clerk
+REF-0378,Insurance Verification,2026-02-15 02:19:00,intake_clerk
+REF-0378,Info Request to Referrer,2026-02-15 02:38:00,intake_clerk
+REF-0378,Info Received,2026-02-19 06:38:00,intake_clerk
+REF-0378,Insurance Verification,2026-02-19 07:27:00,intake_clerk
+REF-0378,Prior Auth Submitted,2026-02-19 09:33:00,auth_specialist
+REF-0378,Prior Auth Denied,2026-02-25 08:33:00,auth_specialist
+REF-0378,Prior Auth Resubmitted,2026-02-25 16:33:00,auth_specialist
+REF-0378,Prior Auth Approved,2026-02-28 07:33:00,auth_specialist
+REF-0378,Scheduling Call,2026-03-01 20:33:00,scheduler
+REF-0378,Scheduling Call,2026-03-04 13:33:00,scheduler
+REF-0378,Appointment Scheduled,2026-03-04 13:44:00,scheduler
+REF-0378,Visit Completed,2026-03-14 06:44:00,clinic_ma
+REF-0379,Referral Received,2026-02-09 05:23:00,intake_clerk
+REF-0379,Insurance Verification,2026-02-09 06:37:00,intake_clerk
+REF-0379,Urgent Override,2026-02-09 07:28:00,clinic_manager
+REF-0379,Scheduling Call,2026-02-09 10:27:00,scheduler
+REF-0379,Appointment Scheduled,2026-02-09 10:40:00,scheduler
+REF-0379,Visit Completed,2026-02-11 19:40:00,clinic_ma
+REF-0380,Referral Received,2026-03-19 06:34:00,intake_clerk
+REF-0380,Insurance Verification,2026-03-19 08:27:00,intake_clerk
+REF-0380,Prior Auth Submitted,2026-03-19 12:20:00,auth_specialist
+REF-0380,Prior Auth Approved,2026-03-23 16:20:00,auth_specialist
+REF-0380,Scheduling Call,2026-03-25 07:20:00,scheduler
+REF-0380,Appointment Scheduled,2026-03-25 07:40:00,scheduler
+REF-0380,Visit Completed,2026-04-09 05:40:00,clinic_ma
+REF-0381,Referral Received,2026-02-21 16:30:00,intake_clerk
+REF-0381,Insurance Verification,2026-02-21 17:29:00,intake_clerk
+REF-0381,Info Request to Referrer,2026-02-21 17:57:00,intake_clerk
+REF-0381,Info Received,2026-02-24 13:57:00,intake_clerk
+REF-0381,Insurance Verification,2026-02-24 14:57:00,intake_clerk
+REF-0381,Prior Auth Submitted,2026-02-24 16:37:00,auth_specialist
+REF-0381,Prior Auth Approved,2026-03-02 04:37:00,auth_specialist
+REF-0381,Scheduling Call,2026-03-02 15:37:00,scheduler
+REF-0381,Appointment Scheduled,2026-03-02 15:56:00,scheduler
+REF-0381,Visit Completed,2026-03-09 01:56:00,clinic_ma
+REF-0382,Referral Received,2026-01-13 21:13:00,intake_clerk
+REF-0382,Insurance Verification,2026-01-13 22:59:00,intake_clerk
+REF-0382,Prior Auth Submitted,2026-01-13 23:55:00,auth_specialist
+REF-0382,Prior Auth Denied,2026-01-19 08:55:00,auth_specialist
+REF-0382,Prior Auth Resubmitted,2026-01-19 16:55:00,auth_specialist
+REF-0382,Prior Auth Approved,2026-01-26 01:55:00,auth_specialist
+REF-0382,Scheduling Call,2026-01-26 14:55:00,scheduler
+REF-0382,Appointment Scheduled,2026-01-26 15:13:00,scheduler
+REF-0382,Visit Completed,2026-02-04 05:13:00,clinic_ma
+REF-0383,Referral Received,2026-01-24 06:23:00,intake_clerk
+REF-0383,Insurance Verification,2026-01-24 06:47:00,intake_clerk
+REF-0383,Urgent Override,2026-01-24 07:43:00,clinic_manager
+REF-0383,Scheduling Call,2026-01-24 09:51:00,scheduler
+REF-0383,Appointment Scheduled,2026-01-24 10:08:00,scheduler
+REF-0383,Visit Completed,2026-01-28 04:08:00,clinic_ma
+REF-0384,Referral Received,2026-01-29 18:45:00,intake_clerk
+REF-0384,Insurance Verification,2026-01-29 19:19:00,intake_clerk
+REF-0384,Prior Auth Submitted,2026-01-29 21:18:00,auth_specialist
+REF-0384,Prior Auth Approved,2026-02-03 05:18:00,auth_specialist
+REF-0384,Scheduling Call,2026-02-03 09:18:00,scheduler
+REF-0384,Appointment Scheduled,2026-02-03 09:32:00,scheduler
+REF-0384,Visit Completed,2026-02-19 03:32:00,clinic_ma
+REF-0385,Referral Received,2026-02-17 21:33:00,intake_clerk
+REF-0385,Insurance Verification,2026-02-18 00:30:00,intake_clerk
+REF-0385,Prior Auth Submitted,2026-02-18 01:18:00,auth_specialist
+REF-0385,Prior Auth Approved,2026-02-23 12:18:00,auth_specialist
+REF-0385,Scheduling Call,2026-02-23 16:18:00,scheduler
+REF-0385,Appointment Scheduled,2026-02-23 16:25:00,scheduler
+REF-0385,Case Closed - No Show,2026-03-07 04:25:00,scheduler
+REF-0386,Referral Received,2026-02-04 11:42:00,intake_clerk
+REF-0386,Insurance Verification,2026-02-04 14:32:00,intake_clerk
+REF-0386,Prior Auth Submitted,2026-02-04 15:09:00,auth_specialist
+REF-0386,Prior Auth Approved,2026-02-06 23:09:00,auth_specialist
+REF-0386,Scheduling Call,2026-02-07 08:09:00,scheduler
+REF-0386,Appointment Scheduled,2026-02-07 08:25:00,scheduler
+REF-0386,Visit Completed,2026-02-16 05:25:00,clinic_ma
+REF-0387,Referral Received,2026-01-24 15:38:00,intake_clerk
+REF-0387,Insurance Verification,2026-01-24 17:54:00,intake_clerk
+REF-0387,Prior Auth Submitted,2026-01-24 18:26:00,auth_specialist
+REF-0387,Prior Auth Approved,2026-01-28 22:26:00,auth_specialist
+REF-0387,Scheduling Call,2026-01-30 10:26:00,scheduler
+REF-0387,Appointment Scheduled,2026-01-30 10:33:00,scheduler
+REF-0387,Visit Completed,2026-02-09 16:33:00,clinic_ma
+REF-0388,Referral Received,2026-03-27 03:07:00,intake_clerk
+REF-0388,Insurance Verification,2026-03-27 04:32:00,intake_clerk
+REF-0388,Prior Auth Submitted,2026-03-27 07:10:00,auth_specialist
+REF-0388,Prior Auth Approved,2026-03-31 07:10:00,auth_specialist
+REF-0388,Scheduling Call,2026-04-01 23:10:00,scheduler
+REF-0388,Appointment Scheduled,2026-04-01 23:22:00,scheduler
+REF-0388,Visit Completed,2026-04-14 17:22:00,clinic_ma
+REF-0389,Referral Received,2026-03-04 11:29:00,intake_clerk
+REF-0389,Insurance Verification,2026-03-04 11:56:00,intake_clerk
+REF-0389,Prior Auth Submitted,2026-03-04 14:38:00,auth_specialist
+REF-0389,Prior Auth Denied,2026-03-09 23:38:00,auth_specialist
+REF-0389,Prior Auth Resubmitted,2026-03-11 11:38:00,auth_specialist
+REF-0389,Prior Auth Approved,2026-03-14 16:38:00,auth_specialist
+REF-0389,Scheduling Call,2026-03-15 16:38:00,scheduler
+REF-0389,Appointment Scheduled,2026-03-15 16:54:00,scheduler
+REF-0389,Visit Completed,2026-03-18 20:54:00,clinic_ma
+REF-0390,Referral Received,2026-03-06 03:53:00,intake_clerk
+REF-0390,Insurance Verification,2026-03-06 04:49:00,intake_clerk
+REF-0390,Info Request to Referrer,2026-03-06 05:01:00,intake_clerk
+REF-0390,Info Received,2026-03-09 08:01:00,intake_clerk
+REF-0390,Insurance Verification,2026-03-09 08:59:00,intake_clerk
+REF-0390,Prior Auth Submitted,2026-03-09 12:24:00,auth_specialist
+REF-0390,Prior Auth Denied,2026-03-16 11:24:00,auth_specialist
+REF-0390,Prior Auth Resubmitted,2026-03-17 17:24:00,auth_specialist
+REF-0390,Prior Auth Approved,2026-03-21 14:24:00,auth_specialist
+REF-0390,Scheduling Call,2026-03-22 07:24:00,scheduler
+REF-0390,Appointment Scheduled,2026-03-22 07:37:00,scheduler
+REF-0390,Visit Completed,2026-03-29 08:37:00,clinic_ma
+REF-0391,Referral Received,2026-02-16 21:47:00,intake_clerk
+REF-0391,Insurance Verification,2026-02-16 23:41:00,intake_clerk
+REF-0391,Info Request to Referrer,2026-02-16 23:58:00,intake_clerk
+REF-0391,Info Received,2026-02-19 08:58:00,intake_clerk
+REF-0391,Insurance Verification,2026-02-19 09:26:00,intake_clerk
+REF-0391,Prior Auth Submitted,2026-02-19 12:03:00,auth_specialist
+REF-0391,Prior Auth Approved,2026-02-23 09:03:00,auth_specialist
+REF-0391,Scheduling Call,2026-02-23 22:03:00,scheduler
+REF-0391,Appointment Scheduled,2026-02-23 22:11:00,scheduler
+REF-0391,Case Closed - No Show,2026-03-09 10:11:00,scheduler
+REF-0392,Referral Received,2026-02-26 17:00:00,intake_clerk
+REF-0392,Insurance Verification,2026-02-26 19:38:00,intake_clerk
+REF-0392,Prior Auth Submitted,2026-02-27 00:14:00,auth_specialist
+REF-0392,Prior Auth Approved,2026-03-02 16:14:00,auth_specialist
+REF-0392,Scheduling Call,2026-03-04 03:14:00,scheduler
+REF-0392,Appointment Scheduled,2026-03-04 03:27:00,scheduler
+REF-0392,Visit Completed,2026-03-18 00:27:00,clinic_ma
+REF-0393,Referral Received,2026-01-29 05:25:00,intake_clerk
+REF-0393,Insurance Verification,2026-01-29 06:58:00,intake_clerk
+REF-0393,Info Request to Referrer,2026-01-29 07:12:00,intake_clerk
+REF-0393,Info Received,2026-01-30 13:12:00,intake_clerk
+REF-0393,Insurance Verification,2026-01-30 14:00:00,intake_clerk
+REF-0393,Prior Auth Submitted,2026-01-30 18:34:00,auth_specialist
+REF-0393,Prior Auth Approved,2026-02-01 22:34:00,auth_specialist
+REF-0393,Scheduling Call,2026-02-03 10:34:00,scheduler
+REF-0393,Appointment Scheduled,2026-02-03 10:44:00,scheduler
+REF-0393,Visit Completed,2026-02-08 23:44:00,clinic_ma
+REF-0394,Referral Received,2026-03-05 22:33:00,intake_clerk
+REF-0394,Insurance Verification,2026-03-05 22:55:00,intake_clerk
+REF-0394,Case Closed - Abandoned,2026-03-11 03:55:00,intake_clerk
+REF-0395,Referral Received,2026-02-06 17:37:00,intake_clerk
+REF-0395,Insurance Verification,2026-02-06 18:43:00,intake_clerk
+REF-0395,Urgent Override,2026-02-06 19:32:00,clinic_manager
+REF-0395,Scheduling Call,2026-02-06 21:08:00,scheduler
+REF-0395,Appointment Scheduled,2026-02-06 21:18:00,scheduler
+REF-0395,Visit Completed,2026-02-10 19:18:00,clinic_ma
+REF-0396,Referral Received,2026-01-27 18:15:00,intake_clerk
+REF-0396,Insurance Verification,2026-01-27 19:53:00,intake_clerk
+REF-0396,Info Request to Referrer,2026-01-27 20:13:00,intake_clerk
+REF-0396,Info Received,2026-01-30 18:13:00,intake_clerk
+REF-0396,Insurance Verification,2026-01-30 18:39:00,intake_clerk
+REF-0396,Prior Auth Submitted,2026-01-30 20:56:00,auth_specialist
+REF-0396,Prior Auth Approved,2026-02-05 20:56:00,auth_specialist
+REF-0396,Scheduling Call,2026-02-06 23:56:00,scheduler
+REF-0396,Appointment Scheduled,2026-02-07 00:13:00,scheduler
+REF-0396,Visit Completed,2026-02-13 20:13:00,clinic_ma
+REF-0397,Referral Received,2026-02-23 02:08:00,intake_clerk
+REF-0397,Insurance Verification,2026-02-23 03:26:00,intake_clerk
+REF-0397,Prior Auth Submitted,2026-02-23 06:14:00,auth_specialist
+REF-0397,Prior Auth Approved,2026-02-28 05:14:00,auth_specialist
+REF-0397,Scheduling Call,2026-03-01 12:14:00,scheduler
+REF-0397,Appointment Scheduled,2026-03-01 12:25:00,scheduler
+REF-0397,Visit Completed,2026-03-07 16:25:00,clinic_ma
+REF-0398,Referral Received,2026-02-14 16:51:00,intake_clerk
+REF-0398,Insurance Verification,2026-02-14 18:04:00,intake_clerk
+REF-0398,Urgent Override,2026-02-14 18:45:00,clinic_manager
+REF-0398,Scheduling Call,2026-02-14 19:49:00,scheduler
+REF-0398,Appointment Scheduled,2026-02-14 20:04:00,scheduler
+REF-0398,Visit Completed,2026-02-18 10:04:00,clinic_ma
+REF-0399,Referral Received,2026-01-30 22:16:00,intake_clerk
+REF-0399,Insurance Verification,2026-01-31 01:01:00,intake_clerk
+REF-0399,Case Closed - Abandoned,2026-02-04 02:01:00,intake_clerk
+REF-0400,Referral Received,2026-03-05 06:10:00,intake_clerk
+REF-0400,Insurance Verification,2026-03-05 07:02:00,intake_clerk
+REF-0400,Urgent Override,2026-03-05 07:42:00,clinic_manager
+REF-0400,Scheduling Call,2026-03-05 10:53:00,scheduler
+REF-0400,Appointment Scheduled,2026-03-05 11:01:00,scheduler
+REF-0400,Visit Completed,2026-03-08 20:01:00,clinic_ma

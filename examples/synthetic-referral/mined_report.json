@@ -1,0 +1,493 @@
+{
+  "cases": 400,
+  "events": 3096,
+  "activities": {
+    "Referral Received": 400,
+    "Insurance Verification": 486,
+    "Urgent Override": 51,
+    "Scheduling Call": 398,
+    "Appointment Scheduled": 371,
+    "Visit Completed": 328,
+    "Prior Auth Submitted": 320,
+    "Prior Auth Denied": 89,
+    "Prior Auth Resubmitted": 89,
+    "Prior Auth Approved": 320,
+    "Case Closed - No Show": 43,
+    "Info Request to Referrer": 86,
+    "Info Received": 86,
+    "Case Closed - Abandoned": 29
+  },
+  "cycle_time_seconds": {
+    "min": 108120.0,
+    "median": 1482240.0,
+    "p90": 2075940.0,
+    "max": 3342540.0
+  },
+  "variants": [
+    {
+      "path": [
+        "Referral Received",
+        "Insurance Verification",
+        "Prior Auth Submitted",
+        "Prior Auth Approved",
+        "Scheduling Call",
+        "Appointment Scheduled",
+        "Visit Completed"
+      ],
+      "cases": 139,
+      "share": 0.3475,
+      "median_cycle_seconds": 1432500.0
+    },
+    {
+      "path": [
+        "Referral Received",
+        "Insurance Verification",
+        "Info Request to Referrer",
+        "Info Received",
+        "Insurance Verification",
+        "Prior Auth Submitted",
+        "Prior Auth Approved",
+        "Scheduling Call",
+        "Appointment Scheduled",
+        "Visit Completed"
+      ],
+      "cases": 53,
+      "share": 0.1325,
+      "median_cycle_seconds": 1733760.0
+    },
+    {
+      "path": [
+        "Referral Received",
+        "Insurance Verification",
+        "Urgent Override",
+        "Scheduling Call",
+        "Appointment Scheduled",
+        "Visit Completed"
+      ],
+      "cases": 51,
+      "share": 0.1275,
+      "median_cycle_seconds": 255600.0
+    },
+    {
+      "path": [
+        "Referral Received",
+        "Insurance Verification",
+        "Prior Auth Submitted",
+        "Prior Auth Denied",
+        "Prior Auth Resubmitted",
+        "Prior Auth Approved",
+        "Scheduling Call",
+        "Appointment Scheduled",
+        "Visit Completed"
+      ],
+      "cases": 44,
+      "share": 0.11,
+      "median_cycle_seconds": 1850520.0
+    },
+    {
+      "path": [
+        "Referral Received",
+        "Insurance Verification",
+        "Case Closed - Abandoned"
+      ],
+      "cases": 25,
+      "share": 0.0625,
+      "median_cycle_seconds": 578040.0
+    },
+    {
+      "path": [
+        "Referral Received",
+        "Insurance Verification",
+        "Prior Auth Submitted",
+        "Prior Auth Approved",
+        "Scheduling Call",
+        "Appointment Scheduled",
+        "Case Closed - No Show"
+      ],
+      "cases": 24,
+      "share": 0.06,
+      "median_cycle_seconds": 1473060.0
+    },
+    {
+      "path": [
+        "Referral Received",
+        "Insurance Verification",
+        "Prior Auth Submitted",
+        "Prior Auth Approved",
+        "Scheduling Call",
+        "Scheduling Call",
+        "Appointment Scheduled",
+        "Visit Completed"
+      ],
+      "cases": 11,
+      "share": 0.0275,
+      "median_cycle_seconds": 1874760.0
+    },
+    {
+      "path": [
+        "Referral Received",
+        "Insurance Verification",
+        "Info Request to Referrer",
+        "Info Received",
+        "Insurance Verification",
+        "Prior Auth Submitted",
+        "Prior Auth Approved",
+        "Scheduling Call",
+        "Appointment Scheduled",
+        "Case Closed - No Show"
+      ],
+      "cases": 10,
+      "share": 0.025,
+      "median_cycle_seconds": 1596060.0
+    },
+    {
+      "path": [
+        "Referral Received",
+        "Insurance Verification",
+        "Info Request to Referrer",
+        "Info Received",
+        "Insurance Verification",
+        "Prior Auth Submitted",
+        "Prior Auth Denied",
+        "Prior Auth Resubmitted",
+        "Prior Auth Approved",
+        "Scheduling Call",
+        "Appointment Scheduled",
+        "Visit Completed"
+      ],
+      "cases": 9,
+      "share": 0.0225,
+      "median_cycle_seconds": 2004240.0
+    },
+    {
+      "path": [
+        "Referral Received",
+        "Insurance Verification",
+        "Prior Auth Submitted",
+        "Prior Auth Denied",
+        "Prior Auth Resubmitted",
+        "Prior Auth Denied",
+        "Prior Auth Resubmitted",
+        "Prior Auth Approved",
+        "Scheduling Call",
+        "Appointment Scheduled",
+        "Visit Completed"
+      ],
+      "cases": 7,
+      "share": 0.0175,
+      "median_cycle_seconds": 2335500.0
+    },
+    {
+      "path": [
+        "Referral Received",
+        "Insurance Verification",
+        "Prior Auth Submitted",
+        "Prior Auth Denied",
+        "Prior Auth Resubmitted",
+        "Prior Auth Approved",
+        "Scheduling Call",
+        "Scheduling Call",
+        "Appointment Scheduled",
+        "Visit Completed"
+      ],
+      "cases": 6,
+      "share": 0.015,
+      "median_cycle_seconds": 2025240.0
+    },
+    {
+      "path": [
+        "Referral Received",
+        "Insurance Verification",
+        "Info Request to Referrer",
+        "Info Received",
+        "Insurance Verification",
+        "Case Closed - Abandoned"
+      ],
+      "cases": 4,
+      "share": 0.01,
+      "median_cycle_seconds": 840420.0
+    },
+    {
+      "path": [
+        "Referral Received",
+        "Insurance Verification",
+        "Info Request to Referrer",
+        "Info Received",
+        "Insurance Verification",
+        "Prior Auth Submitted",
+        "Prior Auth Denied",
+        "Prior Auth Resubmitted",
+        "Prior Auth Approved",
+        "Scheduling Call",
+        "Scheduling Call",
+        "Appointment Scheduled",
+        "Visit Completed"
+      ],
+      "cases": 3,
+      "share": 0.0075,
+      "median_cycle_seconds": 2531460.0
+    },
+    {
+      "path": [
+        "Referral Received",
+        "Insurance Verification",
+        "Info Request to Referrer",
+        "Info Received",
+        "Insurance Verification",
+        "Prior Auth Submitted",
+        "Prior Auth Approved",
+        "Scheduling Call",
+        "Scheduling Call",
+        "Appointment Scheduled",
+        "Visit Completed"
+      ],
+      "cases": 3,
+      "share": 0.0075,
+      "median_cycle_seconds": 1593840.0
+    },
+    {
+      "path": [
+        "Referral Received",
+        "Insurance Verification",
+        "Prior Auth Submitted",
+        "Prior Auth Denied",
+        "Prior Auth Resubmitted",
+        "Prior Auth Approved",
+        "Scheduling Call",
+        "Appointment Scheduled",
+        "Case Closed - No Show"
+      ],
+      "cases": 3,
+      "share": 0.0075,
+      "median_cycle_seconds": 2025960.0
+    },
+    {
+      "path": [
+        "Referral Received",
+        "Insurance Verification",
+        "Info Request to Referrer",
+        "Info Received",
+        "Insurance Verification",
+        "Prior Auth Submitted",
+        "Prior Auth Approved",
+        "Scheduling Call",
+        "Scheduling Call",
+        "Appointment Scheduled",
+        "Case Closed - No Show"
+      ],
+      "cases": 2,
+      "share": 0.005,
+      "median_cycle_seconds": 1825200.0
+    },
+    {
+      "path": [
+        "Referral Received",
+        "Insurance Verification",
+        "Prior Auth Submitted",
+        "Prior Auth Denied",
+        "Prior Auth Resubmitted",
+        "Prior Auth Denied",
+        "Prior Auth Resubmitted",
+        "Prior Auth Approved",
+        "Scheduling Call",
+        "Appointment Scheduled",
+        "Case Closed - No Show"
+      ],
+      "cases": 2,
+      "share": 0.005,
+      "median_cycle_seconds": 2611440.0
+    },
+    {
+      "path": [
+        "Referral Received",
+        "Insurance Verification",
+        "Prior Auth Submitted",
+        "Prior Auth Denied",
+        "Prior Auth Resubmitted",
+        "Prior Auth Approved",
+        "Scheduling Call",
+        "Scheduling Call",
+        "Appointment Scheduled",
+        "Case Closed - No Show"
+      ],
+      "cases": 1,
+      "share": 0.0025,
+      "median_cycle_seconds": 1872840.0
+    },
+    {
+      "path": [
+        "Referral Received",
+        "Insurance Verification",
+        "Info Request to Referrer",
+        "Info Received",
+        "Insurance Verification",
+        "Prior Auth Submitted",
+        "Prior Auth Denied",
+        "Prior Auth Resubmitted",
+        "Prior Auth Denied",
+        "Prior Auth Resubmitted",
+        "Prior Auth Approved",
+        "Scheduling Call",
+        "Appointment Scheduled",
+        "Visit Completed"
+      ],
+      "cases": 1,
+      "share": 0.0025,
+      "median_cycle_seconds": 2278260.0
+    },
+    {
+      "path": [
+        "Referral Received",
+        "Insurance Verification",
+        "Info Request to Referrer",
+        "Info Received",
+        "Insurance Verification",
+        "Prior Auth Submitted",
+        "Prior Auth Denied",
+        "Prior Auth Resubmitted",
+        "Prior Auth Approved",
+        "Scheduling Call",
+        "Appointment Scheduled",
+        "Case Closed - No Show"
+      ],
+      "cases": 1,
+      "share": 0.0025,
+      "median_cycle_seconds": 2260800.0
+    },
+    {
+      "path": [
+        "Referral Received",
+        "Insurance Verification",
+        "Prior Auth Submitted",
+        "Prior Auth Denied",
+        "Prior Auth Resubmitted",
+        "Prior Auth Denied",
+        "Prior Auth Resubmitted",
+        "Prior Auth Approved",
+        "Scheduling Call",
+        "Scheduling Call",
+        "Appointment Scheduled",
+        "Visit Completed"
+      ],
+      "cases": 1,
+      "share": 0.0025,
+      "median_cycle_seconds": 3342540.0
+    }
+  ],
+  "rework": {
+    "Insurance Verification": 86,
+    "Scheduling Call": 27,
+    "Prior Auth Denied": 11,
+    "Prior Auth Resubmitted": 11
+  },
+  "dfg": [
+    {
+      "from": "Referral Received",
+      "to": "Insurance Verification",
+      "count": 400,
+      "median_wait_seconds": 5460.0
+    },
+    {
+      "from": "Scheduling Call",
+      "to": "Appointment Scheduled",
+      "count": 371,
+      "median_wait_seconds": 720.0
+    },
+    {
+      "from": "Appointment Scheduled",
+      "to": "Visit Completed",
+      "count": 328,
+      "median_wait_seconds": 759600.0
+    },
+    {
+      "from": "Insurance Verification",
+      "to": "Prior Auth Submitted",
+      "count": 320,
+      "median_wait_seconds": 9480.0
+    },
+    {
+      "from": "Prior Auth Approved",
+      "to": "Scheduling Call",
+      "count": 320,
+      "median_wait_seconds": 100800.0
+    },
+    {
+      "from": "Prior Auth Submitted",
+      "to": "Prior Auth Approved",
+      "count": 242,
+      "median_wait_seconds": 406800.0
+    },
+    {
+      "from": "Prior Auth Denied",
+      "to": "Prior Auth Resubmitted",
+      "count": 89,
+      "median_wait_seconds": 136800.0
+    },
+    {
+      "from": "Insurance Verification",
+      "to": "Info Request to Referrer",
+      "count": 86,
+      "median_wait_seconds": 1560.0
+    },
+    {
+      "from": "Info Request to Referrer",
+      "to": "Info Received",
+      "count": 86,
+      "median_wait_seconds": 237600.0
+    },
+    {
+      "from": "Info Received",
+      "to": "Insurance Verification",
+      "count": 86,
+      "median_wait_seconds": 2100.0
+    },
+    {
+      "from": "Prior Auth Submitted",
+      "to": "Prior Auth Denied",
+      "count": 78,
+      "median_wait_seconds": 385200.0
+    },
+    {
+      "from": "Prior Auth Resubmitted",
+      "to": "Prior Auth Approved",
+      "count": 78,
+      "median_wait_seconds": 385200.0
+    },
+    {
+      "from": "Insurance Verification",
+      "to": "Urgent Override",
+      "count": 51,
+      "median_wait_seconds": 2400.0
+    },
+    {
+      "from": "Urgent Override",
+      "to": "Scheduling Call",
+      "count": 51,
+      "median_wait_seconds": 8220.0
+    },
+    {
+      "from": "Appointment Scheduled",
+      "to": "Case Closed - No Show",
+      "count": 43,
+      "median_wait_seconds": 846000.0
+    },
+    {
+      "from": "Insurance Verification",
+      "to": "Case Closed - Abandoned",
+      "count": 29,
+      "median_wait_seconds": 633600.0
+    },
+    {
+      "from": "Scheduling Call",
+      "to": "Scheduling Call",
+      "count": 27,
+      "median_wait_seconds": 194400.0
+    },
+    {
+      "from": "Prior Auth Resubmitted",
+      "to": "Prior Auth Denied",
+      "count": 11,
+      "median_wait_seconds": 334800.0
+    }
+  ]
+}
